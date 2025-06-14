@@ -1,6 +1,6 @@
 ---
 title: "Reconfigurable semiconductor phased-array metasurfaces"
-authors: "Prasad Piyer, N. A. Butakov, J. A. Schuller"
+authors: "Prasad P. Iyer, N. A. Butakov, J. A. Schuller"
 date: 2015-08-01
 venue: "ACS Photonics 2 (8), 1077-1084"
 type: "journals"

@@ -1,6 +1,6 @@
 ---
 title: "Terahertz pulse generation with binary phase control in nonlinear InAs metasurface"
-authors: "Hyunseung Jung, L. L. Hale, Sylvain D. Gennaro, J. Briscoe, Prasad Piyer, C. F. Doiron, C. T. Harris, Igal Brener"
+authors: "Hyunseung Jung, L. L. Hale, Sylvain D. Gennaro, J. Briscoe, Prasad P. Iyer, C. F. Doiron, C. T. Harris, Igal Brener"
 date: 2022-11-01
 venue: "Nano Letters 22 (22), 9077-9083"
 type: "journals"
@@ -16,5 +16,5 @@ citation: '@article{jung2022terahertz,
   year={2022},
   publisher={ACS Publications}
 }'
-abstract: "This work presents a method for terahertz pulse generation using binary phase control in nonlinear InAs metasurfaces, advancing the field of ultrafast terahertz photonics."
+abstract: "The effect of terahertz (THz) pulse generation has revolutionized broadband coherent spectroscopy and imaging at THz frequencies. However, THz pulses typically lack spatial structure, whereas structured beams are becoming essential for advanced spectroscopy applications. Nonlinear optical metasurfaces with nanoscale THz emitters can provide a solution by defining the beam structure at the generation stage. We develop a nonlinear InAs metasurface consisting of nanoscale optical resonators for simultaneous generation and structuring of THz beams. We find that THz pulse generation in the resonators is governed by optical rectification. It is more efficient than in ZnTe crystals, and it allows us to control the pulse polarity and amplitude, offering a platform for realizing binary-phase THz metasurfaces. To illustrate this capability, we demonstrate an InAs metalens, which simultaneously generates and focuses THz pulses. The control of spatiotemporal structure using nanoscale emitters opens doors for THz beam engineering and advanced spectroscopy and imaging applications."
 --- 

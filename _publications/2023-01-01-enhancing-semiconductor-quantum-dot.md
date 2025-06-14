@@ -1,0 +1,11 @@
+---
+title: "Enhancing semiconductor quantum dot emission with electric and magnetic dipole modes in Mie metasurfaces"
+authors: "Samuel Prescott, Prasad P. Iyer, Hyunseung Jung, Ting Shan Luk, Jacob Henshaw, Andrew Mounce, Sadhvikas J. Addamane, Igal Brener, Oleg Mitrofanov"
+date: 2023-01-01
+venue: "Metamaterials, Metadevices, and Metasystems 2023"
+type: "conference"
+paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhDYN_YAAAAJ&citation_for_view=lhDYN_YAAAAJ:NxmKEeNBbOMC"
+pdf: "/pdfs/publications/2023-enhancing-semiconductor-quantum-dot.pdf"
+citation: "Samuel Prescott, Prasad P. Iyer, Hyunseung Jung, Ting Shan Luk, Jacob Henshaw, Andrew Mounce, Sadhvikas J. Addamane, Igal Brener, Oleg Mitrofanov. Enhancing semiconductor quantum dot emission with electric and magnetic dipole modes in Mie metasurfaces. Metamaterials, Metadevices, and Metasystems 2023, PC1264615, 2023"
+abstract: "We demonstrate enhanced semiconductor quantum dot emission through the engineering of electric and magnetic dipole modes in Mie metasurfaces, achieving improved quantum efficiency and directional emission control."
+--- 

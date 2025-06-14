@@ -1,6 +1,6 @@
 ---
 title: "Light-emitting metalenses and meta-axicons for focusing and beaming of spontaneous emission"
-authors: "Y. Mohtashami, R. A. DeCrescent, L. K. Heki, Prasad Piyer, N. A. Butakov, M. S. Wong, J. A. Schuller"
+authors: "Y. Mohtashami, R. A. DeCrescent, L. K. Heki, Prasad P. Iyer, N. A. Butakov, M. S. Wong, J. A. Schuller"
 date: 2021-06-01
 venue: "Nature Communications 12 (1), 3591"
 type: "journals"

@@ -1,6 +1,6 @@
 ---
 title: "Cascaded optical nonlinearities in dielectric metasurfaces"
-authors: "Sylvain D. Gennaro, C. F. Doiron, Nicholas Karl, Prasad Piyer, D. K. Serkland, Michael B. Sinclair, Igal Brener"
+authors: "Sylvain D. Gennaro, C. F. Doiron, Nicholas Karl, Prasad P. Iyer, D. K. Serkland, Michael B. Sinclair, Igal Brener"
 date: 2022-03-01
 venue: "ACS Photonics 9 (3), 1026-1032"
 type: "journals"

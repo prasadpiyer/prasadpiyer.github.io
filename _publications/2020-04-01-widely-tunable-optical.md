@@ -1,6 +1,6 @@
 ---
 title: "Widely Tunable Optical and Thermal Properties of Dirac Semimetal Cd3As2"
-authors: "H. T. Chorsi, S. Yue, Prasad Piyer, M. Goyal, T. Schumann, S. Stemmer, B. Liao, J. A. Schuller"
+authors: "H. T. Chorsi, S. Yue, Prasad P. Iyer, M. Goyal, T. Schumann, S. Stemmer, B. Liao, J. A. Schuller"
 date: 2020-04-01
 venue: "Advanced Optical Materials 8 (8), 1901192"
 type: "journals"

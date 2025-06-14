@@ -1,6 +1,6 @@
 ---
 title: "Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces"
-authors: "Prasad Piyer, R. A. DeCrescent, Y. Mohtashami, G. Lheureux, N. A. Butakov, J. A. Schuller"
+authors: "Prasad P. Iyer, R. A. DeCrescent, Y. Mohtashami, G. Lheureux, N. A. Butakov, J. A. Schuller"
 date: 2020-09-01
 venue: "Nature Photonics 14 (9), 543-548"
 type: "journals"

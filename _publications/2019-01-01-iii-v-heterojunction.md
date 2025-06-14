@@ -1,6 +1,6 @@
 ---
 title: "III-V Heterojunction Platform for Electrically Reconfigurable Dielectric Metasurfaces"
-authors: "Prasad Piyer, M. Pendharkar, C. J. Palmstrom, J. A. Schuller"
+authors: "Prasad P. Iyer, M. Pendharkar, C. J. Palmstrom, J. A. Schuller"
 date: 2019-01-01
 venue: "ACS Photonics"
 type: "journals"

@@ -1,6 +1,6 @@
 ---
 title: "Thermally reconfigurable meta-optics"
-authors: "T. Lewi, N. A. Butakov, H. A. Evans, M. W. Knight, Prasad Piyer, D. Higgs, H. Chorsi, J. A. Schuller"
+authors: "T. Lewi, N. A. Butakov, H. A. Evans, M. W. Knight, Prasad P. Iyer, D. Higgs, H. Chorsi, J. A. Schuller"
 date: 2019-01-01
 venue: "IEEE Photonics Journal 11 (2), 1-16"
 type: "journals"

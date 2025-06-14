@@ -1,6 +1,6 @@
 ---
 title: "Widely tunable infrared antennas using free carrier refraction"
-authors: "T. Lewi, Prasad Piyer, N. A. Butakov, A. A. Mikhailovsky, J. A. Schuller"
+authors: "T. Lewi, Prasad P. Iyer, N. A. Butakov, A. A. Mikhailovsky, J. A. Schuller"
 date: 2015-12-01
 venue: "Nano Letters 15 (12), 8188-8193"
 type: "journals"
