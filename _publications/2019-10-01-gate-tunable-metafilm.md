@@ -1,10 +1,10 @@
 ---
 title: "Gate-tunable metafilm absorber based on indium silicon oxide"
 authors: "H. Zhao, R. Zhang, H. T. Chorsi, W. A. Britton, Y. Chen, Prasad P. Iyer, J. A. Schuller"
-date: 2019-01-01
+date: 2019-10-01
 venue: "Nanophotonics 8 (10), 1803-1810"
-type: "journals"
-paperurl: 'https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0205/html'
+type: "journal"
+paperurl: 'https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2019-0190/html'
 pdf: '/files/papers/2019_gate_tunable_metafilm.pdf'
 citation: '@article{zhao2019gate,
   title={Gate-tunable metafilm absorber based on indium silicon oxide},

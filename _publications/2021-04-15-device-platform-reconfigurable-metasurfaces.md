@@ -6,6 +6,6 @@ venue: "arXiv preprint arXiv:1903.10280"
 type: "preprint"
 paperurl: "https://arxiv.org/abs/1903.10280"
 pdf: "/pdfs/publications/2021-device-platform-reconfigurable-metasurfaces.pdf"
-citation: "P. P. Iyer, M. Pendharkar, C. J. Palmstrøm, J. A. Schuller. Device Platform for Electrically Reconfigurable Dielectric Metasurfaces. arXiv:1903.10280, 2021."
+citation: "Prasad P. Iyer, M. Pendharkar, C. J. Palmstrøm, J. A. Schuller. Device Platform for Electrically Reconfigurable Dielectric Metasurfaces. arXiv:1903.10280 (2021)."
 abstract: "We present a molecular-beam-epitaxy-grown In1−xAlxAs/InAs/AlyGa1−ySb heterostructure platform that enables electrically induced free-carrier tuning of high-index Mie-resonant antennas. Forward-biased p-i-n resonators exhibit >200 nm blueshift of the fundamental resonance, paving the way to solid-state, electrically reconfigurable metasurface phased arrays."
 --- 

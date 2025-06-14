@@ -1,7 +1,7 @@
 ---
 title: "A brief review of Badger–Bauer rule and its validation from a first-principles approach"
 authors: "R. S. Bhatta, Prasad P. Iyer, A. Dhinojwala, M. Tsige"
-date: 2014-01-01
+date: 2014-06-01
 venue: "Modern Physics Letters B 28 (29), 1430014"
 type: "journals"
 paperurl: 'https://www.worldscientific.com/doi/abs/10.1142/S0217984914300147'
