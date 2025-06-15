@@ -4,7 +4,7 @@ authors: "Hyunseung Jung, L. L. Hale, Sylvain D. Gennaro, J. Briscoe, Prasad P. 
 date: 2022-11-01
 venue: "Nano Letters 22 (22), 9077-9083"
 type: "journals"
-paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.2c03441'
+paperurl: 'https://pubs.acs.org/doi/10.1021/acs.nanolett.2c03456'
 pdf: '/files/papers/2022_terahertz_pulse_generation.pdf'
 citation: '@article{jung2022terahertz,
   title={Terahertz pulse generation with binary phase control in nonlinear InAs metasurface},

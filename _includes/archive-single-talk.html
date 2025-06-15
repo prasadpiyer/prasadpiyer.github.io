@@ -26,17 +26,21 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
+      {% if include.number %}<span class="archive__item-number">{{ include.number }}.&nbsp;</span>{% endif %}
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+    {% if post.authors %}<p class="archive__item-authors" itemprop="author">{{ post.authors }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.abstract %}<p class="archive__item-excerpt" itemprop="description"><strong>Abstract:</strong> {{ post.abstract | markdownify }}</p>{% endif %}
+    {% if post.paperurl %}<p><a href="{{ post.paperurl }}" target="_blank" rel="noopener">View Full Paper</a></p>{% elsif post.url contains 'http' %}<p><a href="{{ post.url }}" target="_blank" rel="noopener">View Full Paper</a></p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>

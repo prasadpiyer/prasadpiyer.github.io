@@ -1,6 +1,6 @@
 ---
 title: "Systems and methods for reducing sidelobe levels in phased-array antennas"
-authors: "G. M. Akselrod, Prasad Piyer, R. D. Uthoff"
+authors: "G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff"
 date: 2019-01-01
 venue: "US Patent 10,123,456"
 type: "patents"

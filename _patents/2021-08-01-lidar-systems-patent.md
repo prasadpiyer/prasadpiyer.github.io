@@ -1,6 +1,7 @@
 ---
+layout: single
 title: "Lidar systems based on tunable optical metasurfaces"
-authors: "G. M. Akselrod, Prasad Piyer, R. D. Uthoff"
+authors: "G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff"
 date: 2021-08-01
 venue: "US Patent 11,092,675"
 type: "patents"

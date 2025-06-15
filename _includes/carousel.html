@@ -1,0 +1,37 @@
+<div class="image-carousel" id="{{ include.id }}">
+  {% assign slide_images = include.images %}
+  {% if slide_images and slide_images.size > 0 %}
+    {% for img in slide_images %}
+      <img src="{{ img | prepend: '/images/' | prepend: base_path }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}">
+    {% endfor %}
+  {% endif %}
+</div>
+
+<style>
+  .image-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 1rem auto;
+  }
+  .image-carousel .carousel-slide {
+    display: none;
+    width: 100%;
+  }
+  .image-carousel .carousel-slide.active {
+    display: block;
+  }
+</style>
+
+<script>
+  (function(){
+    const slides=document.querySelectorAll('#{{ include.id }} .carousel-slide');
+    if(!slides.length) return;
+    let idx=0;
+    setInterval(function(){
+      slides[idx].classList.remove('active');
+      idx=(idx+1)%slides.length;
+      slides[idx].classList.add('active');
+    }, {{ include.interval | default: 4000 }});
+  })();
+</script> 

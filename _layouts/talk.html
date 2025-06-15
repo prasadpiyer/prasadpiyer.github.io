@@ -42,6 +42,12 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+        {% if page.abstract %}
+          <p><strong>Abstract:</strong> {{ page.abstract | markdownify }}</p>
+        {% endif %}
+        {% if page.paperurl %}
+          <p><a href="{{ page.paperurl }}" target="_blank" rel="noopener">View Full Paper</a></p>
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

@@ -1,6 +1,6 @@
 ---
 title: "Liquid crystal metasurfaces with cross-backplane optical reflectors"
-authors: "G. M. Akselrod, E. E. Josberger, M. C. Weidman, Prasad Piyer"
+authors: "G. M. Akselrod, E. E. Josberger, M. C. Weidman, Prasad P. Iyer"
 date: 2022-08-01
 venue: "US Patent 11,429,008"
 type: "patents"

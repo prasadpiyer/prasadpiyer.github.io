@@ -47,6 +47,11 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      {% comment %} Only show recommended citation/download section when not a publication page {% endcomment %}
+      {% unless page.collection == 'publications' or page.collection == 'talks' or page.collection == 'patents' %}
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
@@ -72,9 +77,16 @@ layout: default
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
+      {% endunless %}
 
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+      {% if page.collection == 'publications' or page.collection == 'talks' or page.collection == 'patents' %}
+        {% if page.abstract %}
+          <p><strong>Abstract:</strong> {{ page.abstract | markdownify }}</p>
+        {% endif %}
+        {% if page.paperurl %}
+          <p><a href="{{ page.paperurl }}" target="_blank" rel="noopener">View Full Paper</a></p>
+        {% endif %}
+      {% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
