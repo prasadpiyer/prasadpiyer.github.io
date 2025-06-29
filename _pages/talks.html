@@ -14,5 +14,6 @@ author_profile: true
 {% assign sorted_talks = site.talks | sort: 'date' %}
 {% assign tcount = sorted_talks | size %}
 {% for post in sorted_talks reversed %}
-  {% include archive-single-talk.html number=tcount-forloop.index0 %}
+  {% assign num = tcount | minus: forloop.index0 %}
+  {% include archive-single-talk.html number=num %}
 {% endfor %}

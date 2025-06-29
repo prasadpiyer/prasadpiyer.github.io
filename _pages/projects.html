@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign projects_sorted = site.projects | sort: "title" %}
+<div class="projects-grid">
+{% for post in projects_sorted %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div> 

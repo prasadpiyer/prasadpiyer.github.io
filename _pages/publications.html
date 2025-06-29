@@ -14,7 +14,8 @@ author_profile: true
 {% assign sorted_pubs = site.publications | sort: 'date' %}
 {% assign total = sorted_pubs | size %}
 {% for post in sorted_pubs reversed %}
-  {% include archive-single.html number=total-forloop.index0 %}
+  {% assign num = total | minus: forloop.index0 %}
+  {% include archive-single.html number=num %}
 {% endfor %}
 
 

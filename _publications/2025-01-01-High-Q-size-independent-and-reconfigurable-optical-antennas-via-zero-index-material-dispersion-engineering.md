@@ -7,7 +7,7 @@ date: '2025-01-01'
 venue: Arxiv
 collection: publications
 citation: P.P. Iyer, M. Pendharkar, A. Agrawal, H. Foronda, U.K. Mishra, S. Nakamura,
-  S. DenBaars, J.A. Schuller, M. Iza, S. Keller, C. Palmstr?m. "High-Q, size-independent,
+  S. DenBaars, J.A. Schuller, M. Iza, S. Keller, C. Palmstrom. "High-Q, size-independent,
   and reconfigurable optical antennas via zero-index material dispersion engineering."
   Arxiv, 2025.
 permalink: /publication/2025-01-01-High-Q-size-independent-and-reconfigurable-optical-antennas-via-zero-index-material-dispersion-engineering
