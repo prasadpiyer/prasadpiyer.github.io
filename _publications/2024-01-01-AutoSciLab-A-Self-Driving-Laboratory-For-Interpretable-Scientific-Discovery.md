@@ -1,12 +1,10 @@
 ---
 title: 'AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery'
-authors: S. Desai, S. Addamane, I. Brener, R. Dingreville, P.P. Iyer, J.Y. Tsao, L.P.
-  Swiler
+authors: "S Desai, S Addamane, JY Tsao, I Brener, LP Swiler, R Dingreville, Prasad P. Iyer"
 date: '2024-01-01'
 venue: Arxiv
 collection: publications
-citation: 'S. Desai, S. Addamane, I. Brener, R. Dingreville, P.P. Iyer, J.Y. Tsao,
-  L.P. Swiler. "AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific
+citation: '"S Desai, S Addamane, JY Tsao, I Brener, LP Swiler, R Dingreville, Prasad P. Iyer. AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific
   Discovery." Arxiv, 2024.'
 permalink: /publication/2024-01-01-AutoSciLab-A-Self-Driving-Laboratory-For-Interpretable-Scientific-Discovery
 abstract: 'Advances in robotic control and sensing have propelled the rise of automated
@@ -28,4 +26,6 @@ abstract: 'Advances in robotic control and sensing have propelled the rise of au
   challenge, AutoSciLab uncovers a fundamentally novel method for directing incoherent
   light emission that surpasses the current state-of-the-art (Iyer et al. 2023b, 2020).'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=AutoSciLab:+A+Self+Driving+Laboratory+For+Interpretable+Scientific+Discovery){:target="_blank"} for full citation
+
+{% include carousels/autoscilab-a-self-driving-laboratory-for-interpretable-scientific-discovery-carousel.html %}
+

@@ -17,3 +17,5 @@ abstract: We discover high efficiency (77%) steering of incoherent emission from
   and active learning.
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Self+driving+lab+discovers+high+efficiency+directional+incoherent+emission+from+reconfigurable+semiconductor+metasurfaces){:target="_blank"} for full citation
+
+{% include carousels/self-driving-lab-discovers-high-efficiency-directional-incoherent-emission-from-reconfigurable-semiconductor-metasurfaces-1-carousel.html %}

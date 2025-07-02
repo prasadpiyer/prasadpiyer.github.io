@@ -26,6 +26,5 @@ abstract: "Metasurfaces are two-dimensional nanostructures that allow unpreceden
   \ and practical reconfigurable devices. This paper paves the way to efficient high-Q\
   \ reconfigurable and active infrared metadevices."
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Thermally+Reconfigurable+Meta+Optics){:target="_blank"} for full citation
 
 {% include carousels/thermally-reconfigurable-meta-optics-carousel.html %}

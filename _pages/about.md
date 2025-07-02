@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Personnel Website"
+title: "Reverse&nbsp;Engineering&nbsp;Collective&nbsp;Dynamics"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ carousel_images:
   - about/slide3.jpg
 ---
 
-{% include carousel.html id="about-carousel" images=page.carousel_images interval=5000 %}
+<!-- {% include carousel.html id="about-carousel" images=page.carousel_images interval=5000 %} -->
 
 ![CINT Core Facility at Sandia National Laboratories](/images/banner/cint-buildings.jpg){: .align-center }
 

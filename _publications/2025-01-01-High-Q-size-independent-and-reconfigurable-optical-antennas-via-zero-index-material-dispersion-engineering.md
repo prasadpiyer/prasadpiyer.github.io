@@ -1,13 +1,13 @@
 ---
 title: High-Q, size-independent, and reconfigurable optical antennas via zero-index
   material dispersion engineering
-authors: P.P. Iyer, M. Pendharkar, A. Agrawal, H. Foronda, U.K. Mishra, S. Nakamura,
-  S. DenBaars, J.A. Schuller, M. Iza, S. Keller, C. Palmstr?m
+authors: Prasad P. Iyer, Mihir Pendharkar, Anchal Agrawal, Humberto Foronda, Mike Iza, Umesh K. Mishra, Shuji Nakamura, Steven DenBaars, Stacia Keller, Chris Palmstrøm, Jon A. Schuller
 date: '2025-01-01'
 venue: Arxiv
+paperurl: 'https://arxiv.org/abs/2502.17656'
 collection: publications
 citation: P.P. Iyer, M. Pendharkar, A. Agrawal, H. Foronda, U.K. Mishra, S. Nakamura,
-  S. DenBaars, J.A. Schuller, M. Iza, S. Keller, C. Palmstrom. "High-Q, size-independent,
+  S. DenBaars,  M. Iza, S. Keller, C. Palmstrom,J.A. Schuller. "High-Q, size-independent,
   and reconfigurable optical antennas via zero-index material dispersion engineering."
   Arxiv, 2025.
 permalink: /publication/2025-01-01-High-Q-size-independent-and-reconfigurable-optical-antennas-via-zero-index-material-dispersion-engineering
@@ -27,11 +27,10 @@ abstract: Enhancing light-matter interactions at the nanoscale is foundational t
   improvements over non-embedded resonators. Notably, an air-based Mie resonator embedded
   in AlN supports resonant Q-factors exceeding 100, with negligible geometric dispersion
   across sizes from 800 nm to 2,800 nm. Additionally, we demonstrate dynamic reconfigurability
-  of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2$\mu$m
-  range in the mid-infrared (11-16 $\mu$m) wavelength regime. These results showcase
+  of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2µm
+  range in the mid-infrared (11-16 µm) wavelength regime. These results showcase
   the potential of Mie resonators embedded in ENZ media for high-fidelity sensors,
   thermal emitters, and reconfigurable metasurfaces, bridging theoretical predictions
   with practical applications, advancing the development of dynamic, high-Q optical
   devices.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=High+Q,+size+independent,+and+reconfigurable+optical+antennas+via+zero+index+material+dispersion+engineering){:target="_blank"} for full citation

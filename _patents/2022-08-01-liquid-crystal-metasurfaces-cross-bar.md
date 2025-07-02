@@ -15,3 +15,5 @@ citation: '@patent{akselrod2022liquid,
 }'
 abstract: "This patent describes a novel design for liquid crystal metasurfaces that incorporate cross-backplane optical reflectors, enabling enhanced control over light manipulation and improved device performance for advanced photonic applications."
 --- 
+
+{% include carousels/us11429008-carousel.html %} 

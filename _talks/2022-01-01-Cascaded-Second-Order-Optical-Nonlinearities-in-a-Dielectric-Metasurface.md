@@ -9,3 +9,5 @@ citation: S.D. Gennaro, C. Doiron, N. Karl, P.P. Iyer, M.B. Sinclair, I. Brener.
   Conference Papers, 2022.
 ---
 
+{% include carousels/cascaded-second-order-optical-nonlinearities-in-a-dielectric-metasurface-carousel.html %}
+

@@ -14,3 +14,5 @@ abstract: We demonstrate non-reciprocal spin resonance evolution on picosecond t
   resonant wavelength of a frustrated Kagome-type Nickel spin-ice metasurface.
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Ultrafast+non+reciprocal+spin+resonances+in+frustrated+plasmonic+metasurfaces){:target="_blank"} for full citation
+
+{% include carousels/ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces-carousel.html %}

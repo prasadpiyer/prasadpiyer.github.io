@@ -26,4 +26,3 @@ abstract: Achieving an electrically tunable phased array optical antenna surface
   to form a truly reconfigurable Fourier optical element with the promise of arbitrary
   control of the electromagnetic wavefront at the subwavelength scale.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Device+platform+for+electrically+reconfigurable+dielectric+metasurfaces){:target="_blank"} for full citation

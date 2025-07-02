@@ -1,10 +1,10 @@
 ---
 title: Mie metasurfaces for enhancing photon outcoupling from single embedded quantum
   emitters
-authors: S. Prescott, O. Mitrofanov, P.P. Iyer, S. Addamane, H. Jung, T.S. Luk, I.
-  Brener
+authors: "Samuel Prescott , Prasad P. Iyer , Sadhvikas Addamane , Hyunseung Jung , Ting S. Luk , Igal Brener and Oleg Mitrofanov"
 date: '2024-01-01'
 venue: Nanophotonics
+paperurl: "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2024-0300/html?lang=en&srsltid=AfmBOopGbu14NSFTR-hQ1CRN2RctI34lsL3jyVG6-V8NEeKxU1e3p72d"
 collection: publications
 citation: S. Prescott, O. Mitrofanov, P.P. Iyer, S. Addamane, H. Jung, T.S. Luk, I.
   Brener. "Mie metasurfaces for enhancing photon outcoupling from single embedded
@@ -24,4 +24,3 @@ abstract: Abstract Solid-state quantum emitters (QE) can produce single photons 
   polarisation. Mie metasurfaces can provide an efficient, polarisation-selective
   and scalable platform for QEs.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Mie+metasurfaces+for+enhancing+photon+outcoupling+from+single+embedded+quantum+emitters){:target="_blank"} for full citation

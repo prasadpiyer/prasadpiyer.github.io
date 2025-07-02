@@ -15,4 +15,6 @@ citation: '@patent{akselrod2023lidar,
   country={US}
 }'
 abstract: "This patent discloses lidar systems based on tunable optical metasurfaces, enabling dynamic beam steering and improved performance for advanced remote sensing and autonomous navigation applications."
---- 
+---
+
+{% include carousels/us11644546-carousel.html %} 

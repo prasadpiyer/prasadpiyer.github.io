@@ -14,4 +14,6 @@ citation: '@patent{akselrod2019sidelobe,
   country={US}
 }'
 abstract: "A transceiver system may include first and second metasurfaces, such as radio frequency (RF) metasurfaces or optically reflective tunable liquid crystal metasurfaces (LCMs). In one specific example, a transmit LCM may be tuned by a controller to steerably reflect incident optical radiation at a target transmit steering angle. A laser or other optical radiation source may transmit optical radiation to the transmit LCM at a first angle of incidence. The controller may tune the second tunable LCM to steerably receive optical radiation at a target receive steering angle corresponding to the target transmit steering angle. The received optical radiation may be reflected at a second angle of incidence to a detector."
---- 
+---
+
+{% include carousels/us20210143555a1-carousel.html %} 

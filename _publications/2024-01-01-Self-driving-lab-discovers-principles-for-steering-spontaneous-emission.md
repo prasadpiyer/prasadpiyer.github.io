@@ -3,10 +3,10 @@ title: Self-driving lab discovers principles for steering spontaneous emission
 authors: S. Desai, S. Addamane, J.Y. Tsao, I. Brener, R. Dingreville, P.P. Iyer
 date: '2024-01-01'
 venue: Arxiv
+paperurl: 'https://arxiv.org/abs/2407.16083'
 collection: publications
 citation: S. Desai, S. Addamane, J.Y. Tsao, I. Brener, R. Dingreville, P.P. Iyer.
-  "Self-driving lab discovers principles for steering spontaneous emission." Arxiv,
-  2024.
+  "Self-driving lab discovers principles for steering spontaneous emission." Arxiv,2024.
 permalink: /publication/2024-01-01-Self-driving-lab-discovers-principles-for-steering-spontaneous-emission
 abstract: 'We developed an autonomous experimentation platform to accelerate interpretable
   scientific discovery in ultrafast nanophotonics, targeting a novel method to steer
@@ -24,9 +24,10 @@ abstract: 'We developed an autonomous experimentation platform to accelerate int
   agent for guiding experiments with real-time closed-loop feedback, and (3) a neural
   network-based equation learner to uncover structure-property relationships. The
   SDL demonstrated a four-fold enhancement in peak emission directivity (up to 77%)
-  over a 72{\deg} field of view within ~300 experiments. Our findings reveal that
+  over a 72° field of view within ~300 experiments. Our findings reveal that
   combinations of positive gratings and lenses are as effective as negative lenses
   and gratings for all emission angles, offering a novel strategy for controlling
   spontaneous emission beyond conventional Fourier optics.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Self+driving+lab+discovers+principles+for+steering+spontaneous+emission){:target="_blank"} for full citation
+
+{% include carousels/self-driving-lab-discovers-principles-for-steering-spontaneous-emission-carousel.html %}

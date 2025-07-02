@@ -28,3 +28,5 @@ abstract: Aperture near-field microscopy and spectroscopy (a-SNOM) enables the d
   signal-to-noise ratio, or more complex excitation conditions.
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Photoconductive+Metasurfaces+for+Near+Field+Terahertz+Sources+and+Detectors){:target="_blank"} for full citation
+
+{% include carousels/cleo-fs-2023-fth4d6-carousel.html %}

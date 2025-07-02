@@ -19,7 +19,13 @@ main:
 
   - title: "Projects"
     url: /projects/
-        
+
+  - title: "Lab Capabilities"
+    url: /lab-capabilities/
+
+  - title: "Lab Members"
+    url: /lab-members/
+
   - title: "About"
     url: /about/
         

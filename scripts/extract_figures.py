@@ -27,15 +27,24 @@ def clean(txt):
     return re.sub(r"\s+", " ", txt).strip()
 
 def extract_pdf(pdf_path: pathlib.Path):
-    # Derive a clean slug from the filename that is likely to match the
-    # publication markdown filename (which uses the cleaned title).
-    slug = slugify(pdf_path.stem)
+    # Try to derive a slug from the PDF title (metadata or first-page heading)
+    doc = fitz.open(pdf_path)
+
+    title_txt = (doc.metadata.get("title") or "").strip()
+    if not title_txt:
+        try:
+            # fallback: first non-empty line of first page text
+            first_page_text = doc[0].get_text().splitlines()
+            title_txt = next((l.strip() for l in first_page_text if l.strip()), "")
+        except Exception:
+            title_txt = ""
+
+    slug = slugify(title_txt) if title_txt else slugify(pdf_path.stem)
     out_dir = FIG_DIR / slug
     if out_dir.exists():
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
 
-    doc = fitz.open(pdf_path)
     fig_index = 1
     carousel_imgs = []
 

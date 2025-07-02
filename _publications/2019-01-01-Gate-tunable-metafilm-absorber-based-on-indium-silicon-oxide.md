@@ -17,4 +17,3 @@ abstract: Abstract In this work, reconfigurable metafilm absorbers based on indi
   in the reflectance of 57% and up to 620 nm shift in the resonance wavelength were
   measured.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Gate+tunable+metafilm+absorber+based+on+indium+silicon+oxide){:target="_blank"} for full citation

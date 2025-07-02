@@ -24,3 +24,5 @@ carousel_images:
 --- 
 
 {% include carousel.html id="subpicosecond" images=page.carousel_images %}
+
+{% include carousels/sub-picosecond-steering-of-ultrafast-incoherent-emission-from-semiconductor-metasurfaces-carousel.html %}

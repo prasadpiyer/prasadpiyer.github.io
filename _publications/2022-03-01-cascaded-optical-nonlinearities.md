@@ -28,4 +28,6 @@ nonlinearities by analyzing the second and third wave mixing from a highly nonli
 polarization selection rules and crystal symmetries. We find that the third wave mixing signal from a cascaded process
 can be of comparable strength to that from conventional third harmonic generation, and that surface nonlinearities are
 the dominant mechanism that contributes to cascaded second order nonlinearities in our metasurface."
---- 
+---
+
+{% include carousels/cascaded-optical-nonlinearities-in-dielectric-metasurfaces-carousel.html %} 
