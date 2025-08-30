@@ -2,7 +2,7 @@
 title: "Orchestrating Spontaneous Emission With Metasurfaces- Recent Advances in Engineering Thermal, Luminescent, and Quantum Emissions"
 authors: "Hyosim Yang, Wesley Mills, Sathwik Bharadwaj, Saaketh Desai, Tomás Santiago-Cruz, Samuel Prescott, Oleg Mitrofanov, Igal Brener, Jon Schuller, Zubin Jacob, Prasad P. Iyer"
 date: 2025-06-17
-venue: "Advanced Optical Materials"
+venue: "Advanced Optical Materials (Invited)"
 type: "journals"
 paperurl: "https://doi.org/10.1002/adom.202402755"
 citation: |

@@ -2,7 +2,7 @@
 layout: archive
 title: "Lab Members"
 permalink: /lab-members/
-author_profile: true
+author_profile: false
 ---
 
 ### Current Members
@@ -13,7 +13,7 @@ author_profile: true
 
 ```yaml
 current:
-  - name: "Dr. Jane Doe"
+  - name: "Dr. Chris Arose"
     role: "Post-doctoral Researcher"
     img: "lab/members/jane_doe.jpg"
     bio: "Ultrafast spectroscopy and machine-learning optimization of metasurfaces."

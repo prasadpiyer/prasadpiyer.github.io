@@ -1,0 +1,64 @@
+{% include base_path %}
+
+{% assign coll = page.collection %}
+{% if coll == 'publications' or coll == 'talks' or coll == 'patents' %}
+  {% assign docs = site[coll] | sort: 'date' %}
+  {% assign current_index = nil %}
+  {% for d in docs %}
+    {% if d.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if current_index != nil %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% if prev_index >= 0 %}
+      {% assign prev_doc = docs[prev_index] %}
+    {% endif %}
+    {% if next_index < docs.size %}
+      {% assign next_doc = docs[next_index] %}
+    {% endif %}
+
+    {% if include.position == 'top' %}
+      <nav class="top-nav" aria-label="{{ coll | capitalize }} navigation">
+        {% if prev_doc %}
+          <a href="{{ base_path }}{{ prev_doc.url }}" class="top-nav__btn top-nav__btn--prev" aria-label="Previous: {{ prev_doc.title | markdownify | strip_html }}">&#x2039;</a>
+        {% else %}
+          <span class="top-nav__btn is-disabled" aria-hidden="true">&#x2039;</span>
+        {% endif %}
+        {% if next_doc %}
+          <a href="{{ base_path }}{{ next_doc.url }}" class="top-nav__btn top-nav__btn--next" aria-label="Next: {{ next_doc.title | markdownify | strip_html }}">&#x203A;</a>
+        {% else %}
+          <span class="top-nav__btn is-disabled" aria-hidden="true">&#x203A;</span>
+        {% endif %}
+      </nav>
+    {% else %}
+      <nav class="side-nav-container" aria-label="{{ coll | capitalize }} navigation">
+        {% if prev_doc %}
+          <a href="{{ base_path }}{{ prev_doc.url }}" class="side-nav side-nav--left" aria-label="Previous: {{ prev_doc.title | markdownify | strip_html }}">&#x2039;</a>
+        {% else %}
+          <span class="side-nav side-nav--left is-disabled" aria-hidden="true">&#x2039;</span>
+        {% endif %}
+        {% if next_doc %}
+          <a href="{{ base_path }}{{ next_doc.url }}" class="side-nav side-nav--right" aria-label="Next: {{ next_doc.title | markdownify | strip_html }}">&#x203A;</a>
+        {% else %}
+          <span class="side-nav side-nav--right is-disabled" aria-hidden="true">&#x203A;</span>
+        {% endif %}
+      </nav>
+    {% endif %}
+
+    <script>
+      (function(){
+        var prevLink = document.querySelector('.side-nav--left[href], .top-nav__btn--prev[href]');
+        var nextLink = document.querySelector('.side-nav--right[href], .top-nav__btn--next[href]');
+        document.addEventListener('keydown', function(e){
+          if (e.key === 'ArrowLeft' && prevLink) { window.location.href = prevLink.getAttribute('href'); }
+          if (e.key === 'ArrowRight' && nextLink) { window.location.href = nextLink.getAttribute('href'); }
+        });
+      })();
+    </script>
+  {% endif %}
+{% endif %}
+
+

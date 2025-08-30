@@ -8,26 +8,48 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Home"
+    url: /
 
-  - title: "Patents"
-    url: /patents/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Projects"
+  - title: "Research Projects"
     url: /projects/
+    children:
+      - title: "Self-driving Ultrafast Nanophotonics"
+        url: /projects/nanophotonics-optical-computing/
+      - title: "Natural Ising Machines"
+        url: /projects/nickel-spin-ice-metasurfaces/
+      - title: "Structured Quantum Nanophotonics"
+        url: /projects/structured-quantum-optics/
+      - title: "Liquid Crystal Meta-optics"
+        url: /projects/liquid-crystal-meta-optics/
 
   - title: "Lab Capabilities"
     url: /lab-capabilities/
+    children:
+      - title: "Beam Steering with Liquid Crystal Metasurfaces"
+        url: /lab_capabilities/liquid-crystal-steering/
+      - title: "Photonic Ising Machine"
+        url: /lab_capabilities/photonic-ising-machine/
+      - title: "Quantum Photonics"
+        url: /lab_capabilities/quantum-photonics/
+      - title: "Ultrafast Self-Driving Lab"
+        url: /lab_capabilities/ultrafast-self-driving-lab/
 
-  - title: "Lab Members"
+  - title: "Publications"
+    url: /publications/
+    children:
+      - title: "Journal Articles"
+        url: /publications/
+      - title: "Conference Talks"
+        url: /talks/
+      - title: "Patents"
+        url: /patents/
+
+  - title: "Lab Users"
     url: /lab-members/
 
-  - title: "About"
-    url: /about/
+  - title: "Contact us"
+    url: /contact/
         
   - title: "CV"
     url: /cv/

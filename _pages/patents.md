@@ -1,7 +1,7 @@
 ---
 title: "Patents"
 permalink: /patents/
-author_profile: true
+author_profile: false
 ---
 
 ## US Patents

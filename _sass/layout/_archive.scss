@@ -84,8 +84,23 @@
   }
 }
 
-.archive .image-carousel {
-  display: none;
+/* Previously hid carousels inside archive pages; enabled globally now */
+
+/* Show carousels within Lab Capabilities section explicitly */
+.lab-projects .image-carousel {
+  display: block !important;
+  min-height: 200px;
+}
+.lab-projects .image-carousel .carousel-slide { display: none; }
+.lab-projects .image-carousel .carousel-slide.active { display: block; }
+
+/* Ensure carousels always use page background (fix transparent PNGs over black) */
+.image-carousel {
+  background-color: var(--global-bg-color) !important;
+  border-radius: $border-radius;
+}
+.image-carousel .carousel-slide {
+  background-color: var(--global-bg-color) !important;
 }
 
 /*
@@ -150,6 +165,55 @@
     .archive__item-excerpt {
       display: block;
       font-size: $type-size-6;
+    }
+  }
+}
+
+/* Card styling for grid items */
+.grid__item {
+  .archive__item {
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    box-shadow: 0 8px 16px rgba(#000, 0.06);
+    padding: 1rem;
+    height: 100%;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .archive__item:hover {
+    box-shadow: 0 12px 24px rgba(#000, 0.10);
+    transform: translateY(-2px);
+  }
+
+  .archive__item-teaser {
+    border-radius: $border-radius;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Card styling for publications list (single-column) */
+.publications-cards {
+  .list__item {
+    .archive__item {
+      background-color: var(--global-bg-color);
+      border: 1px solid var(--global-border-color);
+      border-radius: $border-radius;
+      box-shadow: 0 8px 16px rgba(#000, 0.06);
+      padding: 1rem;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .archive__item:hover {
+      box-shadow: 0 12px 24px rgba(#000, 0.10);
+      transform: translateY(-2px);
+    }
+
+    .archive__item-teaser {
+      border-radius: $border-radius;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
     }
   }
 }
@@ -245,4 +309,98 @@
       }
     }
   }
+}
+
+/* Tabs for consolidated publications page */
+/* Lab project cards */
+.lab-projects {
+  margin-bottom: 2rem;
+}
+.lab-projects__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  @include breakpoint($medium) { grid-template-columns: 1fr 1fr; }
+}
+.lab-project-card {
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(#000,0.06);
+}
+.lab-project-card__title { margin: 0 0 0.5rem; font-size: $type-size-4; }
+.lab-project-card__desc { margin: 0.5rem 0 0; font-size: $type-size-6; color: var(--global-text-color-light); }
+
+/* Promo tiles for Lab Capabilities on Projects page */
+.lab-caps-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  @include breakpoint($medium) { grid-template-columns: repeat(4, 1fr); }
+}
+.lab-caps-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  padding: 0.5rem;
+  box-shadow: 0 6px 12px rgba(#000,0.06);
+}
+.lab-caps-tile img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: $border-radius;
+}
+.lab-caps-tile span {
+  margin-top: 0.5rem;
+  color: var(--global-text-color);
+  font-size: $type-size-6;
+}
+.pubs-tabs {
+  margin-top: 1rem;
+}
+.pubs-tabs__nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+.pubs-tabs__btn {
+  border: 1px solid var(--global-border-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+.pubs-tabs__btn.is-active {
+  background: var(--global-base-color);
+  color: #fff;
+  border-color: var(--global-base-color);
+}
+.pubs-tabs__panes {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.pubs-tabs__pane {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  padding-right: 0.25rem;
+}
+.pubs-tabs__scroll {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.pubs-tabs__scroll-btn {
+  min-width: 2.5rem;
 }

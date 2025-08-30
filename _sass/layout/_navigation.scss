@@ -205,7 +205,7 @@
   .visible-links {
     display: table;
 
-    li {
+    > li {
       display: table-cell;
       vertical-align: middle;
 

@@ -2,14 +2,14 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
 {% assign projects_sorted = site.projects | sort: "title" %}
-<div class="projects-grid">
+<div class="projects-list">
 {% for post in projects_sorted %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html %}
 {% endfor %}
 </div> 

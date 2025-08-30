@@ -1,10 +1,28 @@
+{% include base_path %}
 <div class="image-carousel" id="{{ include.id }}">
   {% assign slide_images = include.images %}
   {% if slide_images and slide_images.size > 0 %}
     {% for img in slide_images %}
-      <img src="{{ img | prepend: '/images/' | prepend: base_path }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}" onerror="this.remove();">
+      {% assign lower = img | downcase %}
+      {% assign full_url = img | prepend: '/images/' | prepend: base_path %}
+      {% if lower contains '.mov' %}
+        <video class="carousel-slide{% if forloop.first %} active{% endif %}" controls preload="metadata">
+          <source src="{{ full_url }}" type="video/quicktime">
+          <a href="{{ full_url }}">Open video</a>
+        </video>
+      {% elsif lower contains '.heic' %}
+        <a href="{{ full_url }}" target="_blank" rel="noopener" class="carousel-slide heic-slide{% if forloop.first %} active{% endif %}">
+          HEIC image (open)
+        </a>
+      {% else %}
+        <a href="{{ full_url }}" target="_blank" rel="noopener">
+          <img src="{{ full_url }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}" onerror="this.remove();">
+        </a>
+      {% endif %}
     {% endfor %}
   {% endif %}
+  <button class="carousel-nav carousel-prev" aria-label="Previous">&#x2039;</button>
+  <button class="carousel-nav carousel-next" aria-label="Next">&#x203A;</button>
 </div>
 
 <style>
@@ -13,27 +31,79 @@
     width: 100%;
     max-width: 700px;
     margin: 1rem auto;
+    background-color: var(--global-bg-color);
+    border-radius: 6px;
   }
   .image-carousel .carousel-slide {
     display: none;
     width: 100%;
+    background-color: var(--global-bg-color);
+  }
+  .image-carousel video.carousel-slide {
+    max-height: 420px;
+    background-color: var(--global-bg-color);
   }
   .image-carousel .carousel-slide.active {
     display: block;
   }
+  .image-carousel .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--global-border-color);
+    background: rgba(255,255,255,0.85);
+    color: var(--global-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    z-index: 2;
+  }
+  .image-carousel .carousel-prev { left: 8px; }
+  .image-carousel .carousel-next { right: 8px; }
+  .image-carousel .heic-slide {
+    display: none;
+    width: 100%;
+    min-height: 240px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+  .image-carousel .heic-slide.active { display: flex; }
 </style>
 
 <script>
   (function(){
-    const container=document.getElementById('{{ include.id }}');
-    const slides=[...container.querySelectorAll('.carousel-slide')].filter(function(el){return el.parentNode;});
+    var container=document.getElementById('{{ include.id }}');
+    if(!container) return;
+    var slides=[].slice.call(container.querySelectorAll('.carousel-slide'));
+    slides=slides.filter(function(el){ return el && el.parentNode; });
     if(!slides.length) return;
-    let idx=0;
-    setInterval(function(){
-      if(slides.length<2) return;
-      slides[idx].classList.remove('active');
-      idx=(idx+1)%slides.length;
+    var idx=0;
+    function show(newIdx){
+      idx=(newIdx+slides.length)%slides.length;
+      for(var i=0;i<slides.length;i++){ slides[i].classList.remove('active'); }
       slides[idx].classList.add('active');
-    }, {{ include.interval | default: 4000 }});
+    }
+    function next(){ if(slides.length>1) show(idx+1); }
+    function prev(){ if(slides.length>1) show(idx-1); }
+    var prevBtn=container.querySelector('.carousel-prev');
+    var nextBtn=container.querySelector('.carousel-next');
+    if(prevBtn) prevBtn.addEventListener('click', prev);
+    if(nextBtn) nextBtn.addEventListener('click', next);
+    var intervalMs={{ include.interval | default: 4000 }};
+    var timer = slides.length>1 ? setInterval(next, intervalMs) : null;
+    container.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer=null; } });
+    container.addEventListener('mouseleave', function(){ if(!timer && slides.length>1){ timer=setInterval(next, intervalMs); } });
   })();
 </script> 

@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.author.googlescholar %}
@@ -11,12 +11,85 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign sorted_pubs = site.publications | sort: 'date' %}
-{% assign total = sorted_pubs | size %}
-{% for post in sorted_pubs reversed %}
-  {% assign num = total | minus: forloop.index0 %}
-  {% include archive-single.html number=num %}
-{% endfor %}
+<div class="pubs-tabs">
+  <div class="pubs-tabs__nav" role="tablist" aria-label="Publications sections">
+    <button class="pubs-tabs__btn is-active" role="tab" aria-selected="true" aria-controls="tab-publications" id="tabbtn-publications">Journal Articles</button>
+    <button class="pubs-tabs__btn" role="tab" aria-selected="false" aria-controls="tab-talks" id="tabbtn-talks">Talks</button>
+    <button class="pubs-tabs__btn" role="tab" aria-selected="false" aria-controls="tab-patents" id="tabbtn-patents">Patents</button>
+  </div>
+
+  <div class="pubs-tabs__panes" tabindex="0">
+    <section class="pubs-tabs__pane" id="tab-publications" role="tabpanel" aria-labelledby="tabbtn-publications">
+      {% assign sorted_pubs = site.publications | sort: 'date' %}
+      <div class="publications-cards">
+      {% for post in sorted_pubs reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+      </div>
+    </section>
+
+    <section class="pubs-tabs__pane" id="tab-talks" role="tabpanel" aria-labelledby="tabbtn-talks">
+      {% assign sorted_talks = site.talks | sort: 'date' %}
+      <div class="publications-cards">
+      {% for post in sorted_talks reversed %}
+        {% include archive-single-talk.html %}
+      {% endfor %}
+      </div>
+    </section>
+
+    <section class="pubs-tabs__pane" id="tab-patents" role="tabpanel" aria-labelledby="tabbtn-patents">
+      {% assign sorted_patents = site.patents | sort: 'date' %}
+      <div class="publications-cards">
+      {% for post in sorted_patents reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+      </div>
+    </section>
+  </div>
+
+  <div class="pubs-tabs__scroll">
+    <button class="btn pubs-tabs__scroll-btn" data-direction="prev" aria-label="Previous section">‹</button>
+    <button class="btn pubs-tabs__scroll-btn" data-direction="next" aria-label="Next section">›</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var nav = document.querySelector('.pubs-tabs__nav');
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('.pubs-tabs__btn'));
+    var panes = Array.prototype.slice.call(document.querySelectorAll('.pubs-tabs__pane'));
+    var container = document.querySelector('.pubs-tabs__panes');
+    function activate(idx) {
+      buttons.forEach(function(btn, i){
+        var active = i === idx;
+        btn.classList.toggle('is-active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      var targetLeft = idx * container.clientWidth;
+      container.scrollTo({ left: targetLeft, behavior: 'smooth' });
+    }
+    buttons.forEach(function(btn, i){
+      btn.addEventListener('click', function(){ activate(i); });
+    });
+    var scrollBtns = Array.prototype.slice.call(document.querySelectorAll('.pubs-tabs__scroll-btn'));
+    scrollBtns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var current = buttons.findIndex(function(b){ return b.classList.contains('is-active'); });
+        var dir = btn.dataset.direction === 'next' ? 1 : -1;
+        var next = (current + dir + buttons.length) % buttons.length;
+        activate(next);
+      });
+    });
+    // Ensure correct alignment on resize
+    window.addEventListener('resize', function(){
+      var current = buttons.findIndex(function(b){ return b.classList.contains('is-active'); });
+      var targetLeft = current * container.clientWidth;
+      container.scrollTo({ left: targetLeft });
+    });
+    // Initialize to first tab
+    activate(0);
+  })();
+</script>
 
 
 

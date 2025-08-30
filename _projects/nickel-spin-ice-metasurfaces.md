@@ -1,18 +1,24 @@
 ---
-title: "Artificial Spin-Ice Metasurfaces in Nickel"
-excerpt: "Plasmonic lattices that emulate frustrated magnetism, exhibit giant magneto-optic signals and reveal emergent phases through ultrafast microscopy.<br/><img src='/images/projects/spin_ice/cover.png'>"
+title: "Natural Ising Machines"
+excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation.<br/><img src='/images/projects/ising/cover.png'>"
 collection: projects
 ---
 
 ### Overview
-By patterning **Ni nano-islands** into kagome and square-ice lattices we create two-dimensional frustrated magnets that double as plasmonic metasurfaces. The metallic nature of Ni enables both strong optical resonances and tunable magnetic interactions, opening a rich playground for **magneto-plasmonic phase engineering**.
+Magnetic dipole interactions, optical interference and spin statistics naturally encode the Ising Hamiltonian. We exploit this by (i) fabricating **artificial spin-ice lattices** in nickel that manifest frustrated magnetism and (ii) building **free-space photonic Ising machines** whose diffraction patterns compute spin couplings in parallel. Together, these systems serve as *natural* analogue computers for optimisation and for exploring non-equilibrium physics.
 
 ### Key contributions
-1. **Plasmon-enhanced magneto-optics** – achieved >5× enhancement of Kerr rotation at localised surface plasmon resonances, reported in *ACS Photonics*.
-2. **Field-induced vs spontaneous phase transitions** – discovered a critical crossover near the super-paramagnetic limit where vertex populations switch behaviour without external bias (manuscript in review).
-3. **Laser-PEEM imaging of spin-ice** – developed a UV-driven photo-electron emission microscope that maps vertex configurations via plasmonic hot-spots, offering a table-top alternative to synchrotron X-PEEM.
+1. **Nickel artificial spin-ice metasurfaces** – plasmonic Ni nano-islands arranged in kagome and square-ice lattices exhibit tunable frustration and >5× magneto-optic enhancement.
+2. **Ultrafast magneto-plasmonic microscopy** – laser-PEEM movies that track vertex flipping with femtosecond temporal and 30 nm spatial resolution.
+3. **Free-space Ising machine with 2 M spins** – optical Fourier transforms implement fully-connected couplings, solving Max-Cut and spinodal decomposition in milliseconds.
+4. **Hybrid electro-optic feedback** – combining SLMs with CMOS detectors to realise reprogrammable, room-temperature Ising hardware.
 
 ### Impact
-Our Ni metasurfaces provide a compact platform to study **out-of-equilibrium frustrated magnetism** and to harness magneto-plasmonic interactions for tunable non-reciprocal optics.
+By uniting **materials-encoded spin networks** with **photonic analogue processors** we create scalable, energy-efficient platforms for solving NP-hard problems and uncover emergent magnetic phenomena.
 
-> *A carousel will showcase MOKE spectra, vertex population histograms and PEEM movies once assets are uploaded.* 
+> *Carousel to display PEEM snapshots, optimisation trajectories and Ising energy landscapes will be added soon.* 
+
+### Suggested reading
+* **Publication:** [Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces](/talk/2024-01-01-Ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces)
+* **Publication:** [Cascaded optical nonlinearities in a dielectric metasurface](/publication/2022-03-01-cascaded-optical-nonlinearities)
+* **Talk:** [Learning incoherent light emission steering from metasurfaces using generative models](/talk/2023-01-15-learning-incoherent-light-emission) 
