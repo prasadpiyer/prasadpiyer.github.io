@@ -51,12 +51,43 @@ alumni:
 ```
 {% endif %}
 
-<div class="grid__wrapper">
+<div class="grid__wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; justify-items: start;">
 {% for m in members %}
-  <div class="grid__item" style="max-width:220px;margin:1rem;text-align:center">
-    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="width:100%;border-radius:50%" />{% endif %}
+  <div class="grid__item" style="width:220px;text-align:center">
+    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="width:100%;height:220px;object-fit:cover;border-radius:50%" />{% endif %}
     <strong>{{ m.name }}</strong><br/>
     <em>{{ m.role }}</em>
+    <p style="font-size:0.9em">{{ m.bio }}</p>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+### Users/Collaborators
+
+{% assign users = site.data.lab_members.users | default: [] %}
+<div class="grid__wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; justify-items: start;">
+{% for m in users %}
+  <div class="grid__item" style="width:220px;text-align:center">
+    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="width:100%;height:220px;object-fit:cover;border-radius:50%" />{% endif %}
+    <strong>{{ m.name }}</strong><br/>
+    <em>{{ m.role }}</em>
+    <p style="font-size:0.9em">{{ m.bio }}</p>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+### Industrial Collaborators
+
+{% assign industrial = site.data.lab_members.industrial | default: [] %}
+<div class="grid__wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; justify-items: start;">
+{% for m in industrial %}
+  <div class="grid__item" style="width:220px;text-align:center">
+    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="max-width:150px;height:80px;object-fit:contain;border-radius:10px" />{% endif %}
+    <strong>{{ m.name }}</strong><br/>
     <p style="font-size:0.9em">{{ m.bio }}</p>
   </div>
 {% endfor %}
@@ -67,10 +98,10 @@ alumni:
 ### Alumni
 
 {% assign alumni = site.data.lab_members.alumni | default: [] %}
-<div class="grid__wrapper">
+<div class="grid__wrapper" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
 {% for m in alumni %}
-  <div class="grid__item" style="max-width:220px;margin:1rem;text-align:center">
-    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="width:100%;border-radius:50%" />{% endif %}
+  <div class="grid__item" style="width:220px;text-align:center">
+    {% if m.img %}<img src="{{ '/images/' | append: m.img }}" alt="{{ m.name }}" style="width:100%;height:220px;object-fit:cover;border-radius:50%" />{% endif %}
     <strong>{{ m.name }}</strong><br/>
     <em>{{ m.role }}</em><br/>
     <span style="font-size:0.9em">{{ m.now }}</span>
