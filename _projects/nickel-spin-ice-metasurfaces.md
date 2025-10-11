@@ -1,7 +1,9 @@
 ---
 title: "Natural Ising Machines"
-excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation.<br/><img src='/images/projects/ising/cover.png'>"
+excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation.<br/><img src='/images/Lab/Photonic_Ising.png'>"
 collection: projects
+images:
+  - Lab/Photonic_Ising.png
 ---
 
 ### Nature's own computer

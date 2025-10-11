@@ -4,8 +4,8 @@ excerpt: "Phase-transition and epsilon-near-zero (ENZ) platforms for dynamic wav
 slug: thermal-enz-antenna
 collection: projects
 images:
-  - papers/thermally-reconfigurable-meta-optics/figure1.png
-  - papers/ultrawide-thermal-free-carrier-tuning-of-dielectric-antennas-coupled-to-epsilon-near-zero-substrates/fig2.png
+  - papers/thermally-reconfigurable-meta-optics/fig-3.png
+  - papers/ultrawide-thermal-free-carrier-tuning-of-dielectric-antennas-coupled-to-epsilon-near-zero-substrates/fig-2.png
 ---
 
 ### Antennas that adapt in real time

@@ -1,7 +1,11 @@
 ---
 title: "Structured Quantum Nanophotonics"
-excerpt: "Metasurface-integrated semiconductor quantum dots that deliver bright, deterministic and highly correlated photon streams on a chip.<br/><img src='/images/projects/quantum_dots/cover.png'>"
+excerpt: "Metasurface-integrated semiconductor quantum dots that deliver bright, deterministic and highly correlated photon streams on a chip.<br/><img src='/images/Lab/Closed_cycle_He_cryostat.png'>"
 collection: projects
+images:
+  - Lab/Closed_cycle_He_cryostat.png
+  - Lab/Heterogenous_Integration.png
+  - Lab/Heterogenous_Integration_2.png
 ---
 
 ### Deterministic quantum light, by design

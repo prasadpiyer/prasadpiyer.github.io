@@ -1,7 +1,11 @@
 ---
 title: "Self-driving Ultrafast Nanophotonics"
-excerpt: "Autonomous metasurfaces that sense and learn in real time to steer circularly-polarised femtosecond pulses, powered by GPU-accelerated AutoSciLab.<br/><img src='/images/projects/nanophotonics/cover.png'>"
+excerpt: "Autonomous metasurfaces that sense and learn in real time to steer circularly-polarised femtosecond pulses, powered by GPU-accelerated AutoSciLab.<br/><img src='/images/Lab/self-driving_lab_2.png'>"
 collection: projects
+images:
+  - Lab/self-driving_lab_2.png
+  - Lab/ultrafast_setups.png
+  - Lab/ultrafast_Laser_Astrella.png
 ---
 
 ### What if experiments could teach themselves?

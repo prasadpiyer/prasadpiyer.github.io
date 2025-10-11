@@ -1,7 +1,10 @@
 ---
 title: "Liquid Crystal Meta-optics"
-excerpt: "Voltage-tunable liquid-crystal layers integrated with metasurfaces and micro-LEDs for agile beam steering, holography and solid-state LiDAR.<br/><img src='/images/projects/liquid_crystal/cover.png'>"
+excerpt: "Voltage-tunable liquid-crystal layers integrated with metasurfaces and micro-LEDs for agile beam steering, holography and solid-state LiDAR.<br/><img src='/images/Lab/liquid_crystal_steering.png'>"
 collection: projects
+images:
+  - Lab/liquid_crystal_steering.png
+  - Lab/Liquid_crystal_chip.png
 ---
 
 ### Programmable light at millivolt scales

@@ -4,8 +4,8 @@ excerpt: "Heterojunction III–V/VO₂ metasurfaces enabling voltage-driven beam
 slug: mir-electrical
 collection: projects
 images:
-  - papers/electrically-switchable-infrared-nanophotonic-devices-with-vo2/fig1.png
-  - papers/electrically-reconfigurable-metasurfaces-using-heterojunction-resonators/fig2.png
+  - papers/electrically-switchable-infrared-nanophotonic-devices-with-vo2/fig-1.png
+  - papers/electrically-reconfigurable-metasurfaces-using-heterojunction-resonators/fig-2.png
 ---
 
 ### Infrared control at the flip of a switch
