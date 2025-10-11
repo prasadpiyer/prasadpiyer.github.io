@@ -5,6 +5,7 @@ authors: H. Jung, S.D. Gennaro, J. Briscoe, P.P. Iyer, C.F. Doiron, C.T. Harris,
 date: '2023-01-01'
 venue: CLEO Science and Innovations CLEO S and I 2023
 collection: talks
+permalink: /talks/2023-01-01-InAs-based-Nonlinear-Dielectric-Metasurface-for-Binary-Phase-Terahertz-Generation
 citation: H. Jung, S.D. Gennaro, J. Briscoe, P.P. Iyer, C.F. Doiron, C.T. Harris,
   T.S. Luk, S.J. Addamane, J.L. Reno, I. Brener, O. Mitrofanov, L.L. Hale. "InAs based
   Nonlinear Dielectric Metasurface for Binary Phase Terahertz Generation." CLEO Science

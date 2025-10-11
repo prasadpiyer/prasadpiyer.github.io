@@ -4,7 +4,8 @@ authors: "G. M. Akselrod, E. E. Josberger, M. C. Weidman, Prasad P. Iyer"
 date: 2022-08-01
 venue: "US Patent 11,429,008"
 type: "patents"
-paperurl: 'https://patents.google.com/patent/WO2023168206A2/en'
+permalink: /patents/2022-08-01-liquid-crystal-metasurfaces-cross-bar
+paperurl: 'https://patents.google.com/patent/US11429008B2/en'
 citation: '@patent{akselrod2022liquid,
   title={Liquid crystal metasurfaces with cross-backplane optical reflectors},
   author={Akselrod, G. M. and Josberger, E. E. and Weidman, M. C. and Iyer, Prasad P.},

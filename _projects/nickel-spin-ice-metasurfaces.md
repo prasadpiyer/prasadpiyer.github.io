@@ -4,21 +4,29 @@ excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harne
 collection: projects
 ---
 
-### Overview
-Magnetic dipole interactions, optical interference and spin statistics naturally encode the Ising Hamiltonian. We exploit this by (i) fabricating **artificial spin-ice lattices** in nickel that manifest frustrated magnetism and (ii) building **free-space photonic Ising machines** whose diffraction patterns compute spin couplings in parallel. Together, these systems serve as *natural* analogue computers for optimisation and for exploring non-equilibrium physics.
+### Nature's own computer
 
-### Key contributions
-1. **Nickel artificial spin-ice metasurfaces** – plasmonic Ni nano-islands arranged in kagome and square-ice lattices exhibit tunable frustration and >5× magneto-optic enhancement.
-2. **Ultrafast magneto-plasmonic microscopy** – laser-PEEM movies that track vertex flipping with femtosecond temporal and 30 nm spatial resolution.
-3. **Free-space Ising machine with 2 M spins** – optical Fourier transforms implement fully-connected couplings, solving Max-Cut and spinodal decomposition in milliseconds.
-4. **Hybrid electro-optic feedback** – combining SLMs with CMOS detectors to realise reprogrammable, room-temperature Ising hardware.
+What if the hardest computational problems in the world—logistics, drug design, AI training—could be solved not by programming silicon, but by simply *arranging matter*? Welcome to the world of **natural Ising machines**, where physics itself performs the computation.
 
-### Impact
-By uniting **materials-encoded spin networks** with **photonic analogue processors** we create scalable, energy-efficient platforms for solving NP-hard problems and uncover emergent magnetic phenomena.
+At the heart of our approach lies a profound insight: magnetic frustration in artificial spin-ice lattices and optical interference patterns *are* the Ising Hamiltonian—no simulation needed. By fabricating nanoscale magnetic islands in exotic geometries (kagome, square ice) and coupling them to free-space optical systems, we've built computers that exploit nature's parallelism to tackle NP-hard optimization in milliseconds.
+
+### Engineering frustrated magnetism for computation
+
+**Plasmonic spin-ice metasurfaces** ― Our nickel nano-island arrays don't just look pretty—they embody tunable magnetic frustration with >5× magneto-optic enhancement. These systems let us watch computational phase transitions unfold in real magnetic materials, revealing how nature explores energy landscapes that confound classical algorithms.
+
+**Ultrafast magnetic movies** ― Using laser-illuminated photoemission electron microscopy (PEEM), we've captured the first femtosecond-resolution, 30-nanometer-precision videos of magnetic vertices flipping in frustrated lattices. It's like watching an Ising solver compute in slow motion—except it's happening at terahertz rates.
+
+**2-million-spin optical solver** ― By encoding spin couplings into spatial light patterns and reading out ground states through Fourier optics, our free-space machine tackles fully-connected Ising problems at *room temperature*. Max-Cut problems and spinodal decomposition that would take supercomputers hours? Solved optically in milliseconds, using only photons and spatial light modulators.
+
+**Deep learning meets magnetism** ― Our generative models don't just analyze spin configurations—they discover the hidden physics governing magnetic frustration, autonomously learning structure-property relationships from microscopy images alone.
+
+### Why natural computation matters
+
+We're proving that **the next revolution in computing won't come from smaller transistors—it'll come from harnessing the physics that matter naturally performs**. Energy-efficient, massively parallel, and fundamentally scalable, these natural analogue computers point toward a future where optimization happens at the speed of physics itself.
 
 > *Carousel to display PEEM snapshots, optimisation trajectories and Ising energy landscapes will be added soon.* 
 
 ### Suggested reading
-* **Publication:** [Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces](/talk/2024-01-01-Ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces)
+* **Talk:** [Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces](/talks/2024-01-01-Ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces)
 * **Publication:** [Cascaded optical nonlinearities in a dielectric metasurface](/publication/2022-03-01-cascaded-optical-nonlinearities)
-* **Talk:** [Learning incoherent light emission steering from metasurfaces using generative models](/talk/2023-01-15-learning-incoherent-light-emission) 
+* **Talk:** [Learning incoherent light emission steering from metasurfaces using generative models](/talks/2023-01-15-learning-incoherent-light-emission) 

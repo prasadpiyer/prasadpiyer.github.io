@@ -4,6 +4,8 @@ authors: "Prasad P. Iyer*, Saaketh Desai*, Sadhvikas Addamane, Remi Dingreville,
 date: 2023-01-15
 venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
 type: "conference"
+collection: talks
+permalink: /talks/2023-01-15-learning-incoherent-light-emission
 paperurl: "https://openaccess.thecvf.com/content/WACV2023/html/Iyer_Learning_Incoherent_Light_Emission_Steering_From_Metasurfaces_Using_Generative_Models_WACV_2023_paper.html"
 pdf: "/pdfs/publications/2023-learning-incoherent-light-emission.pdf"
 citation: "Prasad P. Iyer, S. Desai, S. Addamane, R. Dingreville, I. Brener. Learning Incoherent Light Emission Steering From Metasurfaces Using Generative Models. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 3770–3777 (2023)."

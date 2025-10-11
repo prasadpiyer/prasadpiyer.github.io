@@ -1,0 +1,13 @@
+---
+title: "High-Q, Size-Independent, and Reconfigurable Optical Antennas Embedded in Zero-Index Cavities"
+authors: "Prasad P. Iyer, Mihir Pendharkar, Anchal Agarwal, Humberto Foronda, Micheal Iza, Umesh K. Mishra, Shuji Nakamura, Steven DenBaars, Stacia Keller, Chris Palmstrøm, Jon A. Schuller"
+date: 2025-10-07
+venue: "ACS Nano"
+type: "journal"
+paperurl: "https://pubs.acs.org/doi/10.1021/acsnano.5c04424"
+pdf: "/files/papers/2025_high_q_enz_antennas.pdf"
+citation: "Prasad P. Iyer, Mihir Pendharkar, Anchal Agarwal, Humberto Foronda, Micheal Iza, Umesh K. Mishra, Shuji Nakamura, Steven DenBaars, Stacia Keller, Chris Palmstrøm, Jon A. Schuller. High-Q, Size-Independent, and Reconfigurable Optical Antennas Embedded in Zero-Index Cavities. ACS Nano (2025)."
+permalink: /publication/2025-10-07-high-q-optical-antennas-enz
+abstract: "Enhancing light–matter interactions at the nanoscale is foundational to nanophotonics, with epsilon-near-zero (ENZ) materials demonstrating significant potential. High-quality factor (Q) resonances that maximize these interactions are typically realized in photonic crystals requiring sub-50 nm precision nanofabrication over large areas, limiting scalability and increasing complexity. Mie resonances offer an alternative but are constrained by low Q-factors due to the scarcity of high-refractive index materials, necessitating large refractive index changes for effective resonance switching and limiting dynamic reconfigurability. We overcome these limitations by embedding Mie resonators within ENZ media, thereby enhancing Q-factors, mitigating geometric dispersion and fabrication challenges, and maximizing optical reconfigurability. We introduce three resonator-ENZ configurations: voids in AlN, Ge in SiO2, and intrinsic InSb in doped InSb─spanning from low-loss phononic to lossy plasmonic ENZ modes. Using novel epitaxial regrowth techniques, we achieve significant Q-factor improvements over nonembedded resonators. An air-based Mie resonator embedded in AlN supports resonant Q-factors exceeding 100, with negligible geometric dispersion across sizes from 800 to 2800 nm. Additionally, we demonstrate dynamic reconfigurability of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2 μm range in the mid-infrared (11–16 μm) wavelength regime. These results showcase the potential of Mie resonators embedded in ENZ media for high-fidelity sensors, thermal emitters, and reconfigurable metasurfaces, bridging theoretical predictions with practical applications and advancing the development of dynamic, high-Q optical devices."
+---
+

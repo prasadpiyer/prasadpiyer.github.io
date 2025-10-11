@@ -4,6 +4,7 @@ authors: "G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff"
 date: 2023-05-01
 venue: "US Patent 11,644,546"
 type: "patents"
+permalink: /patents/2023-05-01-lidar-systems-patent-2023
 paperurl: 'https://patents.google.com/patent/US11644546B2/en'
 pdf: '/files/papers/2023_lidar_systems_patent.pdf'
 citation: '@patent{akselrod2023lidar,

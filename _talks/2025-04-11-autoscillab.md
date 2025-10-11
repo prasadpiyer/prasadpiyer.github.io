@@ -4,6 +4,8 @@ authors: "S Desai, S Addamane, JY Tsao, I Brener, LP Swiler, R Dingreville, Pras
 date: 2025-04-11
 venue: "Proceedings of the AAAI Conference on Artificial Intelligence"
 type: "conference"
+collection: talks
+permalink: /talks/2025-04-11-autoscillab
 paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/31990"
 pdf: "/pdfs/publications/2025-autoscillab.pdf"
 citation: "S. Desai, S. Addamane, J. Y. Tsao, I. Brener, L. P. Swiler, R. Dingreville, Prasad P. Iyer. AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery. Proceedings of the AAAI Conference on Artificial Intelligence 39 (1), 146–154 (2025)."

@@ -9,7 +9,7 @@ citation: L. Hale, J. Seddon, O. Mitrofanov, H. Jung, R. Sarma, S.D. Gennaro, J.
   C.T. Harris, T.S. Luk, P. Iyer, S.J. Addamane, J.L. Reno, I. Brener. "Photoconductive
   Metasurfaces for Near-Field Terahertz Sources and Detectors." Proceedings of SPIE
   the International Society for Optical Engineering, 2023.
-permalink: /publication/2023-01-01-Photoconductive-Metasurfaces-for-Near-Field-Terahertz-Sources-and-Detectors
+permalink: /talks/2023-01-01-Photoconductive-Metasurfaces-for-Near-Field-Terahertz-Sources-and-Detectors
 abstract: Aperture near-field microscopy and spectroscopy (a-SNOM) enables the direct
   experimental investigation of subwavelength-sized resonators by sampling highly
   confined local evanescent fields on the sample surface. Despite its success, the

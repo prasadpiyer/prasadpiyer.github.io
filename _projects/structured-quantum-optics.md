@@ -4,21 +4,29 @@ excerpt: "Metasurface-integrated semiconductor quantum dots that deliver bright,
 collection: projects
 ---
 
-### Overview
-We tailor the photonic environment of **epitaxially grown GaAs quantum dots** using designer metasurfaces and dielectric nanocavities. Precise mode matching boosts extraction efficiency, controls spontaneous-emission pathways and enables multi-photon quantum correlations—all within a monolithic III–V platform.
+### Deterministic quantum light, by design
 
-### Key contributions
-1. **Metasurface-embedded quantum emitters** – our *Nano Letters* work demonstrated 15× improved collection efficiency while preserving indistinguishability.
-2. **Carrier-funnelling nanobeams** – graded-bandgap funnels yield >80 % brightness without sacrificing coherence.
-3. **Super-bunched trion cascades** – engineering XX⁺→2−X⁺ transitions to produce temporally ordered three-photon states from a single dot.
-4. **On-chip photon routing** – integrated waveguide routers and metalenses direct emitted photons to photonic circuitry with sub-dB loss.
+The promise of quantum computing hinges on a deceptively simple challenge: generating single photons on demand, with perfect indistinguishability, at room temperature, on a manufacturable chip. For decades, this has been a fundamental bottleneck. We're solving it by **engineering the quantum vacuum itself**.
 
-### Impact
-These advances push toward **wafer-scale, deterministic quantum photonic chips** where every emitter is co-designed with its photonic environment, unlocking scalable quantum networks and sensing.
+Our approach reimagines semiconductor quantum dots not as isolated atoms, but as **active components embedded within designer photonic environments**. By wrapping GaAs quantum emitters in metasurfaces, dielectric nanocavities, and carrier-funneling nanostructures, we control spontaneous emission at the most fundamental level—dictating where, when, and how photons are born.
+
+### Quantum emitters, turbocharged
+
+**Metasurface-enhanced extraction** ― Standard quantum dots lose 99% of their photons to substrate modes. We've changed the game: our *Nano Letters* metasurface integration achieves order-of-magnitude collection efficiency enhancement while preserving near-perfect indistinguishability—the holy grail for quantum communication.
+
+**Deterministic brightness without trade-offs** ― Conventional wisdom says you sacrifice coherence for brightness. Not here. Our graded-bandgap carrier funnels guide charge carriers to quantum dots with order-of-magnitude efficiency enhancement, delivering bright emission without degrading quantum properties. It's deterministic single-photon generation at scale.
+
+**Three photons from one quantum dot** ― By engineering super-bunched trion cascades (XX⁺→2X⁺ transitions), we've coaxed single quantum dots to emit *three temporally ordered photons* in a controlled sequence. This opens pathways to on-chip cluster states and photonic quantum computing.
+
+**Monolithic quantum circuits** ― Waveguide routers and integrated metalenses don't just collect photons—they direct them into on-chip photonic circuits with sub-decibel loss. For the first time, we're building quantum systems where emitters and photonic logic coexist on the same semiconductor wafer.
+
+### The quantum future, now manufacturable
+
+We're not just improving quantum emitters—we're **industrializing quantum photonics**. By co-designing emitters with their photonic environments, we're paving the way to wafer-scale quantum chips where every photon source is deterministic, every qubit is addressable, and quantum networks become as manufacturable as transistors.
 
 > *High-resolution μ-PL maps and 3D FDTD field profiles coming soon.* 
 
 ### Suggested reading
 * **Publication:** [Efficient single-photon emission via quantum-confined charge funneling to quantum dots](/publication/2025-07-22-efficient-single-photon-emission)
 * **Publication:** [Mie metasurfaces for enhancing photon out-coupling from single embedded quantum emitters](/publication/2024-01-01-Mie-metasurfaces-for-enhancing-photon-outcoupling-from-single-embedded-quantum-emitters)
-* **Talk:** [Enhancing semiconductor quantum-dot emission with dielectric metasurfaces](/talk/2023-08-23-enhancing-semiconductor-quantum-dot) 
+* **Talk:** [Enhancing semiconductor quantum-dot emission with dielectric metasurfaces](/talks/2023-08-23-enhancing-semiconductor-quantum-dot) 

@@ -34,17 +34,34 @@ carousel_titles:
 
 {% include carousel.html id="lab-carousel" images=page.carousel_images durations=page.carousel_durations titles=page.carousel_titles interval=4000 %}
 
-Our mission at the **Autonomous Nanophotonics Lab** is to uncover and harness unexplored regimes of light–matter interaction for next-generation information processing.
+## The Future of Discovery is Autonomous
 
-Machine-learning autonomy drives every aspect of our research: from orchestrating high-throughput nanophotonic experiments that reveal novel physical phenomena, to designing structured photonic systems that perform complex computations at speeds and energy-efficiencies far beyond traditional electronics.
+What if scientific experiments could design, execute, and interpret themselves—discovering physical principles faster than any human could imagine? At the **Autonomous Nanophotonics Lab**, we're making this vision a reality.
 
-In practice, we:
+We're pioneering a radical new paradigm where **artificial intelligence becomes the experimentalist**, autonomously navigating vast parameter spaces to uncover hidden physics, optimize exotic materials, and design photonic systems that harness light in ways never before possible.
 
-* deploy autonomous machine-learning framework at the intersection of structured light with ultrafast spectroscopy and structured materials thorugh nanofabrication workflows to discover novel nanoscale light-matter interactions,
-* translate these discoveries into reconfigurable photonic hardware for optical and quantum computing, and
-* make our adaptive instrumentation and data pipelines openly available to the global *Center for Integrated Nanotechnologies (CINT)* user community.
+### Our Approach: Where AI Meets Light
 
-Whether you are a new CINT user, prospective student, or industry partner, we invite you to collaborate with us and accelerate your research through autonomous experimentation.
+Machine learning doesn't just assist our research—it **drives discovery**. Our self-driving laboratories integrate:
+
+* **Autonomous experimentation** at femtosecond timescales, where AI orchestrates ultrafast spectroscopy, structured light patterns, and nanofabrication to reveal emergent light–matter interactions invisible to traditional methods
+* **Interpretable discovery engines** that don't just optimize—they extract human-readable physical laws from high-dimensional experimental data, turning black-box results into actionable scientific insight  
+* **Reconfigurable photonic hardware** spanning quantum emitters, liquid-crystal metasurfaces, and photonic Ising machines that compute at the speed of light with energy efficiencies orders of magnitude beyond electronics
+
+### From Quantum Dots to Next-Gen Computing
+
+Our discoveries are enabling transformative technologies:
+
+* **Quantum information systems** with deterministic single-photon sources precisely controlled at the nanoscale
+* **Ultrafast optical computing** performing complex optimization and AI inference entirely with photons
+* **Intelligent LiDAR and imaging** using electrically reconfigurable metasurfaces for autonomous vehicles and AR/VR
+* **Self-driving scientific instruments** openly available to the global research community through the *Center for Integrated Nanotechnologies (CINT)*
+
+### Join the Revolution
+
+Whether you're a **prospective student** seeking to shape the future of science, a **CINT user** looking to supercharge your research with autonomous tools, or an **industry partner** ready to translate breakthrough physics into transformative products—we invite you to collaborate with us.
+
+**The age of human-limited discovery is transforming into the autonomous era.**
 
 ## Highlighted Publications
 

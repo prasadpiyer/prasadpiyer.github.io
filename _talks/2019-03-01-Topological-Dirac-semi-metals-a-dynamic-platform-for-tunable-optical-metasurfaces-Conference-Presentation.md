@@ -6,11 +6,11 @@ authors: Hamid Chorsi, Prasad Iyer, Manik Goyal, Timo Schumann, Susanne Stemmer,
 date: '2019-03-01'
 venue: Optical Components and Materials XVI
 collection: talks
-paperurl: http://dx.doi.org/10.1117/12.2510408
+paperurl: https://doi.org/10.1117/12.2510408
 citation: 'Hamid Chorsi, Prasad Iyer, Manik Goyal, Timo Schumann, Susanne Stemmer,
   Jon Schuller. "Topological Dirac semi-metals: a dynamic platform for tunable optical
   metasurfaces (Conference Presentation)." Optical Components and Materials XVI, 2019.'
-permalink: /publication/2019-03-01-Topological-Dirac-semi-metals-a-dynamic-platform-for-tunable-optical-metasurfaces-Conference-Presentation
+permalink: /talks/2019-03-01-Topological-Dirac-semi-metals-a-dynamic-platform-for-tunable-optical-metasurfaces-Conference-Presentation
 abstract: Despite the significant advances made in the field of metamaterials and
   metasurfaces in recent years, many applications of such devices are hampered by
   the lack of active refractive index tuning. Here, we report on a new class of tunable

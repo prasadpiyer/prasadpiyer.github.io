@@ -9,7 +9,7 @@ citation: T. Lewi, N.A. Butakov, P.P. Iyer, H. Chorsi, J.A. Schuller, J. Trastoy
   J. Del Valle Granda, I. Valmianski, C. Urban, Y. Kalcheim, I.K. Schuller, H.A. Evans.
   "Tunable and reconfigurable high-index semiconductor meta-optics." Proceedings of
   SPIE the International Society for Optical Engineering, 2020.
-permalink: /publication/2020-01-01-Tunable-and-reconfigurable-high-index-semiconductor-meta-optics
+permalink: /talks/2020-01-01-Tunable-and-reconfigurable-high-index-semiconductor-meta-optics
 abstract: Metasurfaces manipulate light through engineering the amplitude, phase and
   polarization across arrays of meta-atom antenna resonators. Adding tunability and
   active functionality to metasurface components would boost their potential and unlock

@@ -7,7 +7,7 @@ authors: Nikita Butakov, Mark Knight, Tomer Lewi, Prasad Iyer, David Higgs, Hami
 date: '2018-09-01'
 venue: ACS Photonics
 collection: publications
-paperurl: http://dx.doi.org/10.1021/acsphotonics.8b00699
+paperurl: https://doi.org/10.1021/acsphotonics.8b00699
 citation: "Nikita Butakov, Mark Knight, Tomer Lewi, Prasad Iyer, David Higgs, Hamid\
   \ Chorsi, Juan Trastoy, Javier Del Valle Granda, Ilya Valmianski, Christian Urban,\
   \ Yoav Kalcheim, Paul Wang, Philip Hon, Ivan Schuller, Jon Schuller. \"Broadband\

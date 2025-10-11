@@ -5,6 +5,7 @@ authors: N. Karl, P. Iyer
 date: '2024-01-01'
 venue: 2024 Conference on Lasers and Electro Optics CLEO 2024
 collection: talks
+permalink: /talks/2024-01-01-Time-Domain-Phase-Engineering-of-Metasurfaces-Enables-Passive-Ultrafast-Photonic-Streaking
 citation: N. Karl, P. Iyer. "Time Domain Phase Engineering of Metasurfaces Enables
   Passive Ultrafast Photonic Streaking." 2024 Conference on Lasers and Electro Optics
   CLEO 2024, 2024.

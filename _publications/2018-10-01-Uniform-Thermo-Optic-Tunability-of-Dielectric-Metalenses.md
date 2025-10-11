@@ -4,7 +4,7 @@ authors: Prasad Iyer, Ryan DeCrescent, Tomer Lewi, Nicholas Antonellis, Jon Schu
 date: '2018-10-01'
 venue: Physical Review Applied
 collection: publications
-paperurl: http://dx.doi.org/10.1103/physrevapplied.10.044029
+paperurl: https://doi.org/10.1103/PhysRevApplied.10.044029
 citation: Prasad Iyer, Ryan DeCrescent, Tomer Lewi, Nicholas Antonellis, Jon Schuller.
   "Uniform Thermo-Optic Tunability of Dielectric Metalenses." Physical Review Applied, 2018.
 permalink: /publication/2018-10-01-Uniform-Thermo-Optic-Tunability-of-Dielectric-Metalenses

@@ -4,6 +4,7 @@ authors: "G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff"
 date: 2019-01-01
 venue: "US Patent 10,123,456"
 type: "patents"
+permalink: /patents/2019-01-01-sidelobe-level-reduction
 paperurl: 'https://patents.google.com/patent/US20210143555A1/en'
 citation: '@patent{akselrod2019sidelobe,
   title={Sidelobe suppression in metasurface devices},

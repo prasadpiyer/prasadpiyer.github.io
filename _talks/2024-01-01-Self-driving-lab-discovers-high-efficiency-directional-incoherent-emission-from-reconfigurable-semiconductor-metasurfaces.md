@@ -10,7 +10,7 @@ citation: S. Desai, S. Addamane, R. Dingreville, I. Brener, P.P. Iyer. "Self-dri
   lab discovers high-efficiency directional incoherent emission from reconfigurable
   semiconductor metasurfaces." CLEO Fundamental Science CLEO Fs 2024 in Proceedings
   CLEO 2024 Part of Conference on Lasers and Electro Optics, 2024.
-permalink: /publication/2024-01-01-Self-driving-lab-discovers-high-efficiency-directional-incoherent-emission-from-reconfigurable-semiconductor-metasurfaces
+permalink: /talks/2024-01-01-Self-driving-lab-discovers-high-efficiency-directional-incoherent-emission-from-reconfigurable-semiconductor-metasurfaces
 abstract: We discover high efficiency (77%) steering of incoherent emission from reconfigurable
   semiconductor metasurfaces by engineering the spatial refractive index profile of
   the metasurface resonators using autonomous experiments driven by generative models

@@ -10,7 +10,7 @@ citation: T. Lewi, N.A. Butakov, P.P. Iyer, D. Higgs, H. Chorsi, J.A. Schuller, 
   Trastoy, J. Del Valle Granda, I. Valmianski, C. Urban, Y. Kalcheim, P.Y. Wang, I.K.
   Schuller, H.A. Evans. "Reconfigurable semiconductor Mie-resonant meta-optics." Proceedings
   of SPIE the International Society for Optical Engineering, 2019.
-permalink: /publication/2019-01-01-Reconfigurable-semiconductor-Mie-resonant-meta-optics
+permalink: /talks/2019-01-01-Reconfigurable-semiconductor-Mie-resonant-meta-optics
 abstract: Metasurfaces allow unprecedented control of light through engineering the
   amplitude, phase and polarization across arrays of meta-atom resonators. Adding
   dynamic tunability to metasurface components would boost their potential and unlock

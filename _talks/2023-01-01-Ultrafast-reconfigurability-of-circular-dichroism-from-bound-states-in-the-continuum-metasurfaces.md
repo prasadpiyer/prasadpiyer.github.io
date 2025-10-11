@@ -6,6 +6,7 @@ authors: P.P. Iyer, C.F. Doiron, W.K. Mills, C. Boyd, T.S. Luk, P. Padmanabhan, 
 date: '2023-01-01'
 venue: CLEO Fundamental Science CLEO Fs 2023
 collection: talks
+permalink: /talks/2023-01-01-Ultrafast-reconfigurability-of-circular-dichroism-from-bound-states-in-the-continuum-metasurfaces
 citation: P.P. Iyer, C.F. Doiron, W.K. Mills, C. Boyd, T.S. Luk, P. Padmanabhan, A.
   Cerjan, I. Brener, M.B. Sinclair, L.M. Martinez. "Ultrafast reconfigurability of
   circular dichroism from bound-states-in-the-continuum metasurfaces." CLEO Fundamental
