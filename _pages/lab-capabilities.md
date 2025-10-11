@@ -7,6 +7,10 @@ author_profile: false
 
 Below is a snapshot of our experimental setups available in our lab. Click each image to enlarge.
 
+<div style="background: #e6f3ff; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid #4299e1;">
+  <p style="margin: 0;"><strong>🔬 Looking for detailed instrument specifications?</strong> Visit our <a href="/lab-instruments/">Lab Instruments</a> page for a comprehensive list of available equipment and technical specifications.</p>
+</div>
+
 <!-- Lab Capabilities collection render -->
 {% assign caps = site.lab_capabilities | sort: 'date' %}
 <div class="lab-projects">

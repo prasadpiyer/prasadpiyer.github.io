@@ -26,6 +26,7 @@ main:
   - title: "Lab Capabilities"
     url: /lab-capabilities/
     children:
+      
       - title: "Liquid Crystal Meta-optics"
         url: /lab_capabilities/liquid-crystal-steering/
       - title: "Photonic Ising Machine"
@@ -34,6 +35,8 @@ main:
         url: /lab_capabilities/quantum-photonics/
       - title: "Ultrafast Self-Driving Lab"
         url: /lab_capabilities/ultrafast-self-driving-lab/
+      - title: "Available Instruments"
+        url: /lab-instruments/
 
   - title: "Publications"
     url: /publications/
