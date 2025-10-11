@@ -13,9 +13,9 @@ title                    : "Prasad P. Iyer"
 title_separator          : "-"
 name                     : &name "Prasad P. Iyer"
 description              : &description "Research Scientist specializing in Nanophotonics, Scientific Machine Learning, and Quantum Optics"
-url                      : https://prasadpiyer.science
+url                      : https://prasadpiyer.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "prasadpiyer/prasadpiyer.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
