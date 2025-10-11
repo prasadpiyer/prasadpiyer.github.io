@@ -3,7 +3,7 @@ title: "Quantum Photonics"
 slug: quantum-photonics
 date: 2025-08-16
 images:
-  - Lab/Quantum_Dot.png
+  - Lab/Closed_cycle_He_cryostat.png
   - Lab/Heterogenous_Integration.png
   - Lab/Heterogenous_Integration_2.png
 summary: "Integrated platforms for quantum light control."
