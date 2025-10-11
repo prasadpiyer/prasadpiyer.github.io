@@ -34,7 +34,7 @@ carousel_titles:
 
 {% include carousel.html id="lab-carousel" images=page.carousel_images durations=page.carousel_durations titles=page.carousel_titles interval=4000 %}
 
-## The Future of Discovery is Autonomous
+## Autonomy of Scientific Discovery
 
 What if scientific experiments could design, execute, and interpret themselves—discovering physical principles faster than any human could imagine? At the **Autonomous Nanophotonics Lab**, we're making this vision a reality.
 
@@ -57,7 +57,9 @@ Our discoveries are enabling transformative technologies:
 * **Intelligent LiDAR and imaging** using electrically reconfigurable metasurfaces for autonomous vehicles and AR/VR
 * **Self-driving scientific instruments** openly available to the global research community through the *Center for Integrated Nanotechnologies (CINT)*
 
-### Join the Revolution
+### Come work with us !
+
+We are part of the [Center for Integrated Nanotechnologies (CINT)](https://cint.lanl.gov), a DOE Nanoscale Science Research Center. Interested in using our facilities? [Submit a new user proposal here](https://cint.sandia.gov).
 
 Whether you're a **prospective student** seeking to shape the future of science, a **CINT user** looking to supercharge your research with autonomous tools, or an **industry partner** ready to translate breakthrough physics into transformative products—we invite you to collaborate with us.
 

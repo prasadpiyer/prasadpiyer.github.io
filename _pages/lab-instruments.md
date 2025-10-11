@@ -124,6 +124,15 @@ Our laboratory is equipped with state-of-the-art instrumentation for nanophotoni
 
 <img src="/images/Lab/Ultrafast_steering.png" alt="SLM Setup" class="instrument-image">
 
+#### Exulus SLM
+<img src="/images/Lab/Exulus_SLM.jpeg" alt="Exulus SLM" class="instrument-image">
+
+#### Holoeye SLM
+<img src="/images/Lab/SLm_Holoeye.jpeg" alt="Holoeye SLM" class="instrument-image">
+
+#### Meadowlark SLM
+<img src="/images/Lab/slm_meadowlark.jpeg" alt="Meadowlark SLM" class="instrument-image">
+
 <div class="instrument-specs">
 <h4>Specifications:</h4>
 <ul>
@@ -138,17 +147,32 @@ Our laboratory is equipped with state-of-the-art instrumentation for nanophotoni
 
 ## Detection and Imaging
 
-### Camera Systems
+### Liquid Nitrogen cooled Spectrometers from Visible to NIR
 
 <img src="/images/Lab/Teledyne_spectrometers.avif" alt="Teledyne Spectrometers and Cameras" class="instrument-image">
 
 <div class="instrument-specs">
-<h4>Available Cameras:</h4>
+<h4>Specifications:</h4>
 <ul>
-  <li><strong>Visible Camera:</strong> High-sensitivity detection for visible spectrum imaging</li>
-  <li><strong>Near-Infrared (NIR) Camera:</strong> InGaAs-based detection covering 900-1700 nm</li>
-  <li><strong>Mid-Infrared (MIR) Camera:</strong> Thermal and mid-infrared imaging capabilities</li>
-  <li><strong>Applications:</strong> Spectroscopy, thermal imaging, photoluminescence detection</li>
+  <li><strong>Manufacturer:</strong> Teledyne Princeton Instruments</li>
+  <li><strong>Type:</strong> Liquid nitrogen cooled spectrometers</li>
+  <li><strong>Spectral Range:</strong> Visible to Near-Infrared</li>
+  <li><strong>Applications:</strong> High-sensitivity spectroscopy, photoluminescence detection, Raman spectroscopy</li>
+</ul>
+</div>
+
+---
+
+### InGaAs Camera System
+
+<img src="/images/Lab/InGaAs_camera.jpeg" alt="InGaAs Camera" class="instrument-image">
+
+<div class="instrument-specs">
+<h4>Specifications:</h4>
+<ul>
+  <li><strong>Detector Type:</strong> InGaAs array</li>
+  <li><strong>Wavelength Range:</strong> 900-1700 nm (Near-Infrared)</li>
+  <li><strong>Applications:</strong> NIR imaging, telecommunications wavelength detection, infrared spectroscopy</li>
 </ul>
 </div>
 

@@ -25,12 +25,14 @@
           HEIC image (open)
         </a>
       {% else %}
-        <a href="{{ full_url }}" target="_blank" rel="noopener" style="position:relative; display:block;">
-          <img src="{{ full_url }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}" onerror="this.remove();" {% if duration != '' %}data-duration="{{ duration }}"{% endif %}>
-          {% if caption != '' %}
-            <span class="carousel-caption">{{ caption }}</span>
-          {% endif %}
-        </a>
+        <div class="carousel-slide{% if forloop.first %} active{% endif %}" {% if duration != '' %}data-duration="{{ duration }}"{% endif %}>
+          <a href="{{ full_url }}" target="_blank" rel="noopener" style="position:relative; display:block;">
+            <img src="{{ full_url }}" alt="slide {{ forloop.index }}" onerror="this.remove();">
+            {% if caption != '' %}
+              <span class="carousel-caption">{{ caption }}</span>
+            {% endif %}
+          </a>
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
@@ -51,6 +53,10 @@
     display: none;
     width: 100%;
     background-color: var(--global-bg-color);
+  }
+  .image-carousel .carousel-slide img {
+    width: 100%;
+    display: block;
   }
   .image-carousel video.carousel-slide {
     max-height: 420px;
@@ -106,8 +112,6 @@
     line-height:1.2;
     pointer-events: none;
   }
-  .image-carousel .carousel-slide + .carousel-caption { display:none; }
-  .image-carousel .carousel-slide.active + .carousel-caption { display:block; }
 </style>
 
 <script>
