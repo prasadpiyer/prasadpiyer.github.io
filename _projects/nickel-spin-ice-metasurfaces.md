@@ -2,11 +2,12 @@
 title: "Natural Ising Machines"
 excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation."
 header:
-  teaser: Lab/Photonic_Ising.png
+  teaser: photonic_ising_machine_setup.png
 slug: nickel-spin-ice-metasurfaces
 date: 2024-11-01
 collection: projects
 images:
+  - photonic_ising_machine_setup.png
   - Lab/Photonic_Ising.png
 ---
 

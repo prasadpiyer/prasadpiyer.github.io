@@ -69,4 +69,8 @@ industrial:
     img: "SNOChip_logo.avif"
     bio: "Mid-IR metalenses"
     url: ""
+  - name: "Denovicon TX"
+    img: "Denovicon_logo.jpg"
+    bio: "Computational Drug Discovery"
+    url: "https://www.denovicontx.com/"
     

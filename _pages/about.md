@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 carousel_images:
   - banner/cint-buildings.jpg
-  - Lab/liquid_crystal_steering.png
+  - lumotive_lidar_metasurface.png
   - Lab/Photonic_Ising.png
+  - photonic_ising_machine_setup.png
   - Lab/Closed_cycle_He_cryostat.png
-  - Lab/ultrafast_setups.png
-  - Lab/self-driving_lab_2.png
+  - thermal-enz-antenna-no-pcm.png
+  - self_driving_lab_pulses.png
 
 carousel_durations:
   - 12000
@@ -20,13 +21,15 @@ carousel_durations:
   - 4000
   - 4000
   - 4000
+  - 4000
 
 carousel_titles:
   - "CINT Facility"
-  - "Liquid Crystal Steering"
+  - "Lumotive Solid-State LiDAR"
   - "Photonic Ising Machine"
-  - "Closed-cycle He Cryostat"
-  - "Ultrafast Spectroscopy Setups"
+  - "Natural Ising Machine"
+  - "Structured Quantum Nanophotonics"
+  - "Thermally Reconfigurable Antennas"
   - "Self-Driving Lab"
 ---
 

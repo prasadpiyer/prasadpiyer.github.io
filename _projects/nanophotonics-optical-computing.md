@@ -2,14 +2,13 @@
 title: "Self-driving Ultrafast Nanophotonics"
 excerpt: "Autonomous metasurfaces that sense and learn in real time to steer circularly-polarised femtosecond pulses, powered by GPU-accelerated AutoSciLab."
 header:
-  teaser: Lab/self-driving_lab_2.png
+  teaser: self_driving_lab_pulses.png
 slug: nanophotonics-optical-computing
 date: 2024-08-01
 collection: projects
 images:
-  - Lab/self-driving_lab_2.png
-  - photonic_ising_machine_setup.png
   - self_driving_lab_pulses.png
+  - Lab/self-driving_lab_2.png
   - Lab/ultrafast_setups.png
   - Lab/ultrafast_Laser_Astrella.png
 ---
