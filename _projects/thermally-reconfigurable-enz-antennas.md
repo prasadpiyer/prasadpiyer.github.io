@@ -4,7 +4,7 @@ excerpt: "Phase-transition and epsilon-near-zero (ENZ) platforms for dynamic wav
 header:
   teaser: thermal-enz-antenna-no-pcm.png
 slug: thermally-reconfigurable-enz-antennas
-date: 2024-08-01
+date: 2025-01-01
 collection: projects
 images:
   - thermal-enz-antenna-no-pcm.png

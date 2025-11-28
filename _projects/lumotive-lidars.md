@@ -4,7 +4,7 @@ excerpt: "Row/column-addressable liquid-crystal metasurface phased arrays poweri
 header:
   teaser: lumotive_lidar_metasurface.png
 slug: lumotive-lidars
-date: 2024-09-01
+date: 2024-12-01
 collection: projects
 images:
   - lumotive_lidar_metasurface.png

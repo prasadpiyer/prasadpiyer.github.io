@@ -4,7 +4,7 @@ excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harne
 header:
   teaser: Lab/Photonic_Ising.png
 slug: nickel-spin-ice-metasurfaces
-date: 2024-10-01
+date: 2024-11-01
 collection: projects
 images:
   - Lab/Photonic_Ising.png

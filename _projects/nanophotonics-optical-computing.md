@@ -4,7 +4,7 @@ excerpt: "Autonomous metasurfaces that sense and learn in real time to steer cir
 header:
   teaser: Lab/self-driving_lab_2.png
 slug: nanophotonics-optical-computing
-date: 2025-01-01
+date: 2024-08-01
 collection: projects
 images:
   - Lab/self-driving_lab_2.png

@@ -4,7 +4,7 @@ excerpt: "Voltage-tunable metasurfaces spanning VO₂ phase transitions, liquid-
 header:
   teaser: mir-metasurface-concept.png
 slug: electrically-reconfigurable-meta-optics
-date: 2024-11-01
+date: 2024-10-01
 collection: projects
 images:
   - Lab/liquid_crystal_steering.png
