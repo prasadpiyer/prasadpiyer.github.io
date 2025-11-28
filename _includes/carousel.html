@@ -144,7 +144,5 @@
     scheduleNext();
     container.addEventListener('mouseenter', function(){ if(timer){ clearTimeout(timer); timer=null; } });
     container.addEventListener('mouseleave', function(){ if(!timer){ scheduleNext(); } });
-    container.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer=null; } });
-    container.addEventListener('mouseleave', function(){ if(!timer && slides.length>1){ timer=setInterval(next, intervalMs); } });
   })();
 </script> 

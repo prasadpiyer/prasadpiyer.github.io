@@ -1,9 +1,15 @@
 ---
 title: "Self-driving Ultrafast Nanophotonics"
-excerpt: "Autonomous metasurfaces that sense and learn in real time to steer circularly-polarised femtosecond pulses, powered by GPU-accelerated AutoSciLab.<br/><img src='/images/Lab/self-driving_lab_2.png'>"
+excerpt: "Autonomous metasurfaces that sense and learn in real time to steer circularly-polarised femtosecond pulses, powered by GPU-accelerated AutoSciLab."
+header:
+  teaser: Lab/self-driving_lab_2.png
+slug: nanophotonics-optical-computing
+date: 2025-01-01
 collection: projects
 images:
   - Lab/self-driving_lab_2.png
+  - photonic_ising_machine_setup.png
+  - self_driving_lab_pulses.png
   - Lab/ultrafast_setups.png
   - Lab/ultrafast_Laser_Astrella.png
 ---
@@ -27,8 +33,6 @@ Our flagship platform, **AutoSciLab**, transforms laboratories into autonomous d
 ### Why this matters
 
 We're engineering a future where **photonic processors think, adapt, and compute at light speed**—where terahertz-bandwidth decision-making enables real-time sensing, ultrafast communication, and computational paradigms impossible with electrons. The age of programmable light has arrived.
-
-> *Interactive carousels featuring beam-steering movies, AutoSciLab dashboards and streak-camera images forthcoming.* 
 
 ### Suggested reading
 * **Publication:** [AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery](/publication/2024-01-01-AutoSciLab-A-Self-Driving-Laboratory-For-Interpretable-Scientific-Discovery)

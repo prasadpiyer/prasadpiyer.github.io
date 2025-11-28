@@ -1,6 +1,10 @@
 ---
 title: "Natural Ising Machines"
-excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation.<br/><img src='/images/Lab/Photonic_Ising.png'>"
+excerpt: "Artificial spin-ice metasurfaces and photonic Ising solvers that harness native optical interactions to tackle large-scale combinatorial optimisation."
+header:
+  teaser: Lab/Photonic_Ising.png
+slug: nickel-spin-ice-metasurfaces
+date: 2024-10-01
 collection: projects
 images:
   - Lab/Photonic_Ising.png
@@ -25,8 +29,6 @@ At the heart of our approach lies a profound insight: magnetic frustration in ar
 ### Why natural computation matters
 
 We're proving that **the next revolution in computing won't come from smaller transistors—it'll come from harnessing the physics that matter naturally performs**. Energy-efficient, massively parallel, and fundamentally scalable, these natural analogue computers point toward a future where optimization happens at the speed of physics itself.
-
-> *Carousel to display PEEM snapshots, optimisation trajectories and Ising energy landscapes will be added soon.* 
 
 ### Suggested reading
 * **Talk:** [Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces](/talks/2024-01-01-Ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces)

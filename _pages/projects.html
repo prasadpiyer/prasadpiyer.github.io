@@ -13,23 +13,27 @@ author_profile: false
 <div class="lab-projects">
   <div class="lab-projects__grid">
     {% for p in projs %}
-      <article class="lab-project-card">
-        <header class="lab-project-card__header">
-          <h2 id="{{ p.slug }}" class="lab-project-card__title">{{ p.title }}</h2>
-        </header>
-        {% if p.images %}
-          {% include carousel.html id=p.slug images=p.images interval=5000 %}
+    <article class="lab-project-card">
+      <header class="lab-project-card__header">
+        <h2 id="{{ p.slug }}" class="lab-project-card__title">{{ p.title }}</h2>
+      </header>
+      {% if p.header.teaser %}
+      <div class="lab-project-card__teaser">
+        <a href="{{ p.url }}">
+          <img src="{{ p.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ p.title }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="lab-project-card__body">
+        {% if p.excerpt %}
+        <p class="lab-project-card__desc">{{ p.excerpt | markdownify }}</p>
+        {% elsif p.summary %}
+        <p class="lab-project-card__desc">{{ p.summary }}</p>
         {% endif %}
-        <div class="lab-project-card__body">
-          {% if p.excerpt %}
-            <p class="lab-project-card__desc">{{ p.excerpt | markdownify }}</p>
-          {% elsif p.summary %}
-            <p class="lab-project-card__desc">{{ p.summary }}</p>
-          {% endif %}
 
-          <p><a href="{{ p.url }}" class="btn btn--primary">Read More →</a></p>
-        </div>
-      </article>
+        <p><a href="{{ p.url }}" class="btn btn--primary">Read More →</a></p>
+      </div>
+    </article>
     {% endfor %}
   </div>
-</div> 
+</div>

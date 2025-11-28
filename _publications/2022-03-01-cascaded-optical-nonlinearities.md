@@ -6,6 +6,7 @@ venue: "ACS Photonics 9 (3), 1026-1032"
 type: "journals"
 paperurl: 'https://pubs.acs.org/doi/10.1021/acsphotonics.1c01937'
 pdf: '/files/papers/2022_cascaded_optical_nonlinearities.pdf'
+permalink: /publication/2022-03-01-cascaded-optical-nonlinearities
 citation: '@article{gennaro2022cascaded,
   title={Cascaded optical nonlinearities in dielectric metasurfaces},
   author={Gennaro, Sylvain D. and Doiron, C. F. and Karl, Nicholas and Iyer, Prasad P. and Serkland, D. K. and Sinclair, Michael B. and Brener, Igal},

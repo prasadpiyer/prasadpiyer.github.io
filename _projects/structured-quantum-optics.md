@@ -1,6 +1,10 @@
 ---
 title: "Structured Quantum Nanophotonics"
-excerpt: "Metasurface-integrated semiconductor quantum dots that deliver bright, deterministic and highly correlated photon streams on a chip.<br/><img src='/images/Lab/Closed_cycle_He_cryostat.png'>"
+excerpt: "Metasurface-integrated semiconductor quantum dots that deliver bright, deterministic and highly correlated photon streams on a chip."
+header:
+  teaser: Lab/Closed_cycle_He_cryostat.png
+slug: structured-quantum-optics
+date: 2024-12-01
 collection: projects
 images:
   - Lab/Closed_cycle_He_cryostat.png
@@ -27,8 +31,6 @@ Our approach reimagines semiconductor quantum dots not as isolated atoms, but as
 ### The quantum future, now manufacturable
 
 We're not just improving quantum emitters—we're **industrializing quantum photonics**. By co-designing emitters with their photonic environments, we're paving the way to wafer-scale quantum chips where every photon source is deterministic, every qubit is addressable, and quantum networks become as manufacturable as transistors.
-
-> *High-resolution μ-PL maps and 3D FDTD field profiles coming soon.* 
 
 ### Suggested reading
 * **Publication:** [Efficient single-photon emission via quantum-confined charge funneling to quantum dots](/publication/2025-07-22-efficient-single-photon-emission)

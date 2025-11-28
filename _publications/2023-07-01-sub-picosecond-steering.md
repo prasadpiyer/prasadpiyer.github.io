@@ -6,6 +6,7 @@ venue: "Nature Photonics 17 (7), 588-593"
 type: "journals"
 paperurl: 'https://www.nature.com/articles/s41566-023-01172-6'
 pdf: '/files/papers/2023_sub_picosecond_steering.pdf'
+permalink: /publication/2023-07-01-sub-picosecond-steering
 citation: '@article{iyer2023sub,
   title={Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces},
   author={Iyer, Prasad P and Karl, Nicholas and Addamane, Sadhvikas and Gennaro, Sylvain D and Sinclair, Michael B and Brener, Igal},

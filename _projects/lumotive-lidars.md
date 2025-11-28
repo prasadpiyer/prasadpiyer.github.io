@@ -1,9 +1,13 @@
 ---
 title: "Lumotive Solid-State LiDAR"
-excerpt: "Row/column-addressable liquid-crystal metasurface phased arrays powering next-generation LiDAR modules for automotive and XR.<br/><img src='/images/500x300.png'>"
+excerpt: "Row/column-addressable liquid-crystal metasurface phased arrays powering next-generation LiDAR modules for automotive and XR."
+header:
+  teaser: lumotive_lidar_metasurface.png
 slug: lumotive-lidars
+date: 2024-09-01
 collection: projects
 images:
+  - lumotive_lidar_metasurface.png
   - Lab/liquid_crystal_steering.png
   - Lab/Liquid_crystal_chip.png
 ---
@@ -27,8 +31,6 @@ This is what we built at Lumotive. By engineering **row/column-addressable liqui
 ### From research to roads
 
 We didn't just publish papers—we **built a product**. Lumotive's LC-metasurface LiDAR is rugged (no moving parts to break), low-power (milliwatts, not watts), and cost-effective (wafer-scale production). It's the beam-steering technology that will enable the next generation of autonomous vehicles, mobile robots, and immersive AR/VR experiences.
-
-> *A carousel with scanning videos and phased-array far-field profiles is coming soon.*
 
 ### Suggested reading
 * **Patent:** [Row/Column Addressable Metasurface for Beam Steering (US 11,487,183)](/patents/2022-08-01-liquid-crystal-metasurfaces-cross-bar)

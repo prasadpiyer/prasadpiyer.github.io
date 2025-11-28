@@ -20,8 +20,12 @@ main:
         url: /projects/nickel-spin-ice-metasurfaces/
       - title: "Structured Quantum Nanophotonics"
         url: /projects/structured-quantum-optics/
-      - title: "Liquid Crystal Meta-optics"
-        url: /projects/liquid-crystal-meta-optics/
+      - title: "Electrically Reconfigurable Meta-Optics"
+        url: /projects/electrically-reconfigurable-meta-optics/
+      - title: "Thermally Reconfigurable Antennas & ENZ Media"
+        url: /projects/thermally-reconfigurable-enz-antennas/
+      - title: "Lumotive Solid-State LiDAR"
+        url: /projects/lumotive-lidars/
 
   - title: "Lab Capabilities"
     url: /lab-capabilities/
