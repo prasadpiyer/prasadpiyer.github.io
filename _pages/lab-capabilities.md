@@ -33,18 +33,3 @@ Below is a snapshot of our experimental setups available in our lab. Click each 
     {% endfor %}
   </div>
 </div>
-
-{% assign setups = site.data.lab_capabilities | default: [] %}
-{% if setups != empty %}
-<div class="grid__wrapper">
-{% for s in setups %}
-  <div class="grid__item" style="max-width:320px;margin:1rem">
-    <a href="{{ '/images/' | append: s.img }}" target="_blank">
-      <img src="{{ '/images/' | append: s.img }}" alt="{{ s.title }}" style="width:100%" />
-    </a>
-    <h4 style="margin:0.5rem 0 0">{{ s.title }}</h4>
-    <p>{{ s.description }}</p>
-  </div>
-{% endfor %}
-</div>
-{% endif %}
