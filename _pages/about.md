@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Autonomous&nbsp;Nanophotonics&nbsp;Lab&nbsp;@&nbsp;CINT"
+title: "Autonomous&nbsp;Nanophotonics&nbsp;Lab"
 author_profile: true
 redirect_from: 
   - /about/
