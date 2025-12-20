@@ -5,7 +5,7 @@
   border: 1px solid var(--global-border-color);
   border-radius: 6px;
   padding: 0.5rem 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   h3 {
     margin-top: 0;
@@ -36,7 +36,7 @@
 
   /* Hide on screens smaller than x-large (approx 1280px) where overlap occurs */
   @media (max-width: 1280px) {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -49,6 +49,6 @@
 
   /* Show on screens smaller than x-large */
   @media (max-width: 1280px) {
-    display: block;
+    display: block !important;
   }
 }
