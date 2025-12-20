@@ -1,16 +1,14 @@
-<div style="width:223px; position:fixed; right:20px; top:180px; z-index:10; background:var(--global-bg-color); border:1px solid var(--global-border-color); border-radius:6px; padding:0.5rem 1rem; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-  <h3 style="margin-top:0;">Lab News</h3>
-  <div style="max-height:320px; overflow-y:auto;">
-    <ul style="list-style-type:none; padding-left:0; font-size:0.9rem; line-height:1.35;">
-      {% for item in site.data.lab_news %}
-        <li style="margin-bottom:0.4rem;"><strong>{{ item.date }}</strong> —
-          {% if item.url %}
-            <a href="{{ item.url }}" {% unless item.url contains site.url %}target="_blank" rel="noopener"{% endunless %}>{{ item.text }}</a>
-          {% else %}
-            {{ item.text }}
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="lab-news-card">
+  <h3>Lab News</h3>
+  <ul class="lab-news-list">
+    {% for item in site.data.lab_news %}
+      <li><strong>{{ item.date }}</strong> —
+        {% if item.url %}
+          <a href="{{ item.url }}" {% unless item.url contains site.url %}target="_blank" rel="noopener"{% endunless %}>{{ item.text }}</a>
+        {% else %}
+          {{ item.text }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
