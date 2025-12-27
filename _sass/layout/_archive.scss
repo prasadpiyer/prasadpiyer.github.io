@@ -34,7 +34,7 @@
   color: var(--global-text-color-light);
   border-bottom: 1px solid var(--global-border-color);
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -43,7 +43,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -61,7 +61,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 }
@@ -69,6 +69,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
@@ -91,14 +92,21 @@
   display: block !important;
   min-height: 200px;
 }
-.lab-projects .image-carousel .carousel-slide { display: none; }
-.lab-projects .image-carousel .carousel-slide.active { display: block; }
+
+.lab-projects .image-carousel .carousel-slide {
+  display: none;
+}
+
+.lab-projects .image-carousel .carousel-slide.active {
+  display: block;
+}
 
 /* Ensure carousels always use page background (fix transparent PNGs over black) */
 .image-carousel {
   background-color: var(--global-bg-color) !important;
   border-radius: $border-radius;
 }
+
 .image-carousel .carousel-slide {
   background-color: var(--global-bg-color) !important;
 }
@@ -148,14 +156,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -316,21 +327,35 @@
 .lab-projects {
   margin-bottom: 2rem;
 }
+
 .lab-projects__grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  @include breakpoint($medium) { grid-template-columns: 1fr 1fr; }
+
+  @include breakpoint($medium) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
 .lab-project-card {
   background: var(--global-bg-color);
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   padding: 1rem;
-  box-shadow: 0 8px 16px rgba(#000,0.06);
+  box-shadow: 0 8px 16px rgba(#000, 0.06);
 }
-.lab-project-card__title { margin: 0 0 0.5rem; font-size: $type-size-4; }
-.lab-project-card__desc { margin: 0.5rem 0 0; font-size: $type-size-6; color: var(--global-text-color-light); }
+
+.lab-project-card__title {
+  margin: 0 0 0.5rem;
+  font-size: $type-size-4;
+}
+
+.lab-project-card__desc {
+  margin: 0.5rem 0 0;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
 
 /* Promo tiles for Lab Capabilities on Projects page */
 .lab-caps-tiles {
@@ -338,8 +363,12 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 1rem;
-  @include breakpoint($medium) { grid-template-columns: repeat(4, 1fr); }
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
+
 .lab-caps-tile {
   display: flex;
   flex-direction: column;
@@ -349,28 +378,33 @@
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   padding: 0.5rem;
-  box-shadow: 0 6px 12px rgba(#000,0.06);
+  box-shadow: 0 6px 12px rgba(#000, 0.06);
 }
+
 .lab-caps-tile img {
   width: 100%;
   height: 140px;
   object-fit: cover;
   border-radius: $border-radius;
 }
+
 .lab-caps-tile span {
   margin-top: 0.5rem;
   color: var(--global-text-color);
   font-size: $type-size-6;
 }
+
 .pubs-tabs {
   margin-top: 1rem;
 }
+
 .pubs-tabs__nav {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1rem;
   overflow-x: auto;
 }
+
 .pubs-tabs__btn {
   border: 1px solid var(--global-border-color);
   background: var(--global-bg-color);
@@ -379,28 +413,26 @@
   border-radius: $border-radius;
   cursor: pointer;
 }
+
 .pubs-tabs__btn.is-active {
   background: var(--global-base-color);
   color: #fff;
   border-color: var(--global-base-color);
 }
+
 .pubs-tabs__panes {
   position: relative;
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
 }
+
 .pubs-tabs__pane {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
+  display: none;
   padding-right: 0.25rem;
 }
-.pubs-tabs__scroll {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1rem;
+
+.pubs-tabs__pane.is-active {
+  display: block;
 }
-.pubs-tabs__scroll-btn {
-  min-width: 2.5rem;
+
+.pubs-tabs__scroll {
+  display: none;
 }
