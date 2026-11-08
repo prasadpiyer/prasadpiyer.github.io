@@ -163,11 +163,12 @@
   kind: paper
   url: https://pubs.acs.org/doi/10.1021/acsnano.5c04424
 - title: Multicoated tunable optical devices
-  authors: GM Akselrod, EE Josberger, PP Iyer
-  venue: US Patent Application 19/303,287
-  date: '2025-09-01'
+  authors: Gleb M. Akselrod, Lie Zhao, Erik E. Josberger, Prasad P. Iyer
+  venue: 'US Patent 12,392,967 (continuation: US Application 19/303,287)'
+  date: '2025-08-19'
   year: 2025
   kind: patent
+  url: https://patents.google.com/patent/US12392967B2
 - title: Is Computing with Light All You Need? A Perspective on
   authors: Prasad P. Iyer, Gaurang R. Bhatt, Saaketh Desai, Elliot J. Fuller, Corinne M. Teeter,
   venue: Advanced Intelligent Systems
@@ -175,13 +176,6 @@
   year: 2025
   kind: paper
   url: https://doi.org/10.1002/aisy.202500371
-- title: Multicoated tunable optical devices
-  authors: Gleb M. Akselrod, Lie "Larry" Zhao, Erik Edward Josberger, Prasad Padmanabha Iyer
-  venue: US Patent 12,392,967
-  date: '2025-08-01'
-  year: 2025
-  kind: patent
-  url: https://patents.google.com/patent/US20240353624A1
 - title: Efficient single-photon emission via quantum-confined charge funneling to quantum dots
   authors: Sanghyeok Park, K. M. Azizur-Rahman, D. Shima, G. Balakrishnan, J. Yu, H. Jung, Prasad P. Iyer, I. Brener, O. Mitrofanov
   venue: Communications Materials
@@ -216,10 +210,10 @@
   kind: paper
   url: https://ojs.aaai.org/index.php/AAAI/article/view/31990
   selected: true
-- title: Tunable optical devices with extended-depth tunable dielectric cavities
-  authors: GM Akselrod, EE Josberger, LMP Mancera, LG Conway, PP Iyer
-  venue: US Patent Application 18/586,991
-  date: '2025-02-01'
+- title: All-optical non-reciprocal spin resonances reconfigurable with metasurfaces
+  authors: Prasad P. Iyer, Tzu-Ming Lu
+  venue: US Provisional Patent Application 63/788,529 · Sandia National Laboratories
+  date: '2025-04-01'
   year: 2025
   kind: patent
 - title: Mie metasurfaces for enhancing photon outcoupling from single embedded quantum
@@ -257,12 +251,12 @@
   kind: paper
   url: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.3c04846
 - title: Tunable optical devices with extended-depth tunable dielectric cavities
-  authors: Gleb M. Akselrod, Lie "Larry" Zhao, Erik Edward Josberger, Laura Maria Pulido Mancera, Linda Gail Conway, Prasad Padmanabha Iyer
-  venue: US Patent 11,914,266
-  date: '2024-02-01'
+  authors: Gleb M. Akselrod, Erik E. Josberger, Laura M. P. Mancera, Lie Zhao, Prasad P. Iyer
+  venue: 'US Patent 11,914,266 (continuation: US Application 18/586,991)'
+  date: '2024-02-27'
   year: 2024
   kind: patent
-  url: https://patents.google.com/patent/US11914266
+  url: https://patents.google.com/patent/US11914266B2
 - title: 'Controlling spontaneous emission from semiconductor metasurfaces: from reconfigurability to single photon sources'
   authors: PP Iyer
   venue: SPIE High Contrast Metastructures XIII, PC128970W
@@ -310,12 +304,18 @@
   url: https://www.nature.com/articles/s41566-023-01172-6
   selected: true
 - title: Lidar systems based on tunable optical metasurfaces
-  authors: G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff
-  venue: US Patent 11,644,546
-  date: '2023-05-01'
+  authors: Gleb M. Akselrod, Prasad P. Iyer, Ross D. Uthoff
+  venue: US Patents 11,092,675 (2021) and 11,644,546 (2023)
+  date: '2023-05-09'
   year: 2023
   kind: patent
-  url: https://patents.google.com/patent/US11644546B2/en
+  url: https://patents.google.com/patent/US11092675B2
+- title: Reconfigurable light-emitting holographic metasurfaces
+  authors: Prasad P. Iyer, Igal Brener, Michael B. Sinclair, Nicholas J. Karl
+  venue: US Patent Application 18/103,595 · Sandia National Laboratories
+  date: '2023-01-31'
+  year: 2023
+  kind: patent
 - title: Learning Incoherent Light Emission Steering From Metasurfaces Using Generative Models
   authors: Prasad P. Iyer*, Saaketh Desai*, Sadhvikas Addamane, Remi Dingreville, Igal Brener
   venue: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2023
@@ -348,26 +348,26 @@
   year: 2022
   kind: paper
   url: https://pubs.acs.org/doi/10.1021/acs.nanolett.2c03456
+- title: Tunable optical device configurations and packaging
+  authors: Gleb M. Akselrod, Erik E. Josberger, Mark C. Weidman, Prasad P. Iyer
+  venue: US Patent 11,487,183
+  date: '2022-11-01'
+  year: 2022
+  kind: patent
+  url: https://patents.google.com/patent/US11487183B2
 - title: Chirality control with dielectric metasurfaces
   authors: WK Mills, P Iyer, I Brener
   venue: APS Four Corners Section Meeting 2022
   date: '2022-10-01'
   year: 2022
   kind: talk
-- title: Tunable optical device configurations and packaging
-  authors: Gleb M. Akselrod, Erik Edward Josberger, Mark C. Weidman, Prasad Padmanabha Iyer
-  venue: US Patent 11,487,183
-  date: '2022-09-01'
-  year: 2022
-  kind: patent
-  url: https://patents.google.com/patent/US11487183
 - title: Liquid crystal metasurfaces with cross-backplane optical reflectors
-  authors: G. M. Akselrod, E. E. Josberger, M. C. Weidman, Prasad P. Iyer
+  authors: Gleb M. Akselrod, Erik E. Josberger, Mark C. Weidman, Prasad P. Iyer
   venue: US Patent 11,429,008
-  date: '2022-08-01'
+  date: '2022-08-30'
   year: 2022
   kind: patent
-  url: https://patents.google.com/patent/US11429008B2/en
+  url: https://patents.google.com/patent/US11429008B2
 - title: Cascaded optical nonlinearities in dielectric metasurfaces
   authors: Sylvain D. Gennaro, C. F. Doiron, Nicholas Karl, Prasad P. Iyer, D. K. Serkland, Michael B. Sinclair, Igal Brener
   venue: ACS Photonics 9 (3), 1026-1032
@@ -395,12 +395,6 @@
   date: '2021-09-01'
   year: 2021
   kind: talk
-- title: Lidar systems based on tunable optical metasurfaces
-  authors: GM Akselrod, PP Iyer, RD Uthoff
-  venue: US Patent 11,092,675
-  date: '2021-08-17'
-  year: 2021
-  kind: patent
 - title: Light-emitting metalenses and meta-axicons for focusing and beaming of spontaneous emission
   authors: Y. Mohtashami, R. A. DeCrescent, L. K. Heki, Prasad P. Iyer, N. A. Butakov, M. S. Wong, J. A. Schuller
   venue: Nature Communications 12 (1), 3591
@@ -423,12 +417,12 @@
   url: https://www.nature.com/articles/s41566-020-0641-x
   selected: true
 - title: Sidelobe suppression in metasurface devices
-  authors: G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff
+  authors: Gleb M. Akselrod, Prasad P. Iyer
   venue: US Patent 10,727,601
   date: '2020-07-28'
   year: 2020
   kind: patent
-  url: https://patents.google.com/patent/US20210143555A1/en
+  url: https://patents.google.com/patent/US10727601B2
 - title: Widely Tunable Optical and Thermal Properties of Dirac Semimetal Cd3As2
   authors: H. T. Chorsi, S. Yue, Prasad P. Iyer, M. Goyal, T. Schumann, S. Stemmer, B. Liao, J. A. Schuller
   venue: Advanced Optical Materials 8 (8), 1901192
