@@ -1,5 +1,38 @@
 # Latest news and activities, newest first.
-# tag is one of: Group, Paper, Preprint, Talk, Award. url is optional.
+# tag is one of: Group, Hiring, Paper, Preprint, Talk, Award. url is optional.
+# pinned: true keeps an item at the top regardless of date.
+- date: 2026-11
+  tag: Hiring
+  pinned: true
+  text: "We're hiring: two postdocs (quantum and ultrafast optics; nanomagnetics and nanofabrication) and two PhD students through the CUNY Graduate Center, to join the lab when it opens in January 2027. See the open positions."
+  url: "#openings"
+- date: 2026-10
+  tag: Preprint
+  text: "Interpretable neural equation learning for high-dimensional materials data is on arXiv."
+  url: https://arxiv.org/abs/2610.37880
+- date: 2026-10
+  tag: Preprint
+  text: "Epitaxial displacement-etched GaAsSb quantum dots emitting at telecom wavelengths is on arXiv."
+  url: https://arxiv.org/abs/2610.24768
+- date: 2026-07
+  tag: Preprint
+  text: "Materials behavior as mechanism ensembles: a probabilistic framework for emergent behaviors is on arXiv."
+  url: https://arxiv.org/abs/2607.27163
+- date: 2026-05
+  tag: Paper
+  text: "Deep generative learning of magnetic frustration in artificial spin ice from magnetic force microscopy images is published in npj Computational Materials."
+  url: https://doi.org/10.1038/s41524-026-02124-8
+- date: 2026-05
+  tag: Talk
+  text: "Three presentations at CLEO 2026 on quantum-dot metasurfaces: wavelength-aligned emission, charge-carrier funneling and engineered photon statistics."
+- date: 2026-03
+  tag: Preprint
+  text: "Simultaneous anti-bunched and super-bunched photons from a GaAs quantum dot in a dielectric metasurface is on arXiv."
+  url: https://arxiv.org/abs/2603.03186
+- date: 2026-02
+  tag: Paper
+  text: "Learning interpretable surface elasticity properties from bulk properties via neural network equation learners is published in the International Journal of Mechanical Sciences."
+  url: https://doi.org/10.1016/j.ijmecsci.2026.111218
 - date: 2026-11
   tag: Group
   text: The Light–Matter Information Lab will open in January 2027 at the Photonics Initiative of the CUNY Advanced Science Research Center in New York.

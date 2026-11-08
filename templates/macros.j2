@@ -1,5 +1,5 @@
 {%- macro news_item(n) -%}
-<div class="item"><span class="date">{{ n.date | month }}</span><p><span class="tag t-{{ n.tag | lower }}">{{ n.tag }}</span>{% if n.url %}<a href="{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</p></div>
+<div class="item{% if n.pinned %} pinned{% endif %}"><span class="date">{{ n.date | month }}</span><p><span class="tag t-{{ n.tag | lower }}">{{ n.tag }}</span>{% if n.url %}<a href="{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</p></div>
 {%- endmacro -%}
 {%- macro avatar(p, cls) -%}
 {% if p.photo %}<img class="{{ cls }}" src="{{ p.photo }}" alt="{{ p.name }}" loading="lazy">{% else %}<div class="{{ cls }} initials" aria-hidden="true">{{ p.name | initials }}</div>{% endif %}

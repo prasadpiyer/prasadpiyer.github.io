@@ -52,7 +52,8 @@ def check_publications():
 
 def main():
     site, people, research = load("site"), load("people"), load("research")
-    news = sorted(load("news"), key=lambda n: str(n["date"]), reverse=True)
+    # newest first; items marked `pinned: true` stay at the top
+    news = sorted(load("news"), key=lambda n: (bool(n.get("pinned")), str(n["date"])), reverse=True)
     scholar = next((l["url"] for l in site["links"] if "Scholar" in l["label"]), "#")
     site.setdefault("selected_publications", [])
 
@@ -67,6 +68,7 @@ def main():
     people["pi"].setdefault("cv_url", "")
     for n in news:
         n.setdefault("url", "")
+        n.setdefault("pinned", False)
     for r in research:
         r.setdefault("image", ""); r.setdefault("alt", "")
 

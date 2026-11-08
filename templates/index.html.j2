@@ -39,7 +39,15 @@
       <p class="lead">{{ site.lead }}</p>
       <div class="btns"><a class="btn gold" href="#research">Our research</a><a class="btn ghost" href="#people">Join the lab</a></div>
     </div>
-    {% if site.hero_image %}<img class="photo" src="{{ site.hero_image }}" alt="{{ site.hero_alt }}">{% endif %}
+    {% if site.hero_image %}
+    <figure class="photo-wrap">
+      <picture>
+        {% if site.hero_image_wide %}<source media="(max-width: 680px)" srcset="{{ site.hero_image_wide }}">{% endif %}
+        <img class="photo" src="{{ site.hero_image }}" alt="{{ site.hero_alt }}" fetchpriority="high"{% if site.hero_aspect %} style="--hero-aspect:{{ site.hero_aspect }}"{% endif %}>
+      </picture>
+      {% if site.hero_credit %}<figcaption>{{ site.hero_credit }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
   </div>
 </header>
 
@@ -57,7 +65,6 @@
       <div class="news">{% for n in news[site.news_on_home:] %}{{ news_item(n) }}{% endfor %}</div>
     </details>
     {% endif %}
-    <div class="hiring"><p><b>We're hiring.</b> {{ site.hiring }}</p><a href="#openings">See openings →</a></div>
   </div>
 </section>
 
