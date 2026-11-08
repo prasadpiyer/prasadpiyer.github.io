@@ -1,4 +1,4 @@
-{% from "macros.j2" import news_item, pub, avatar, person %}
+{% from "macros.j2" import news_item, avatar, person %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -68,7 +68,7 @@
     <p class="intro">Each program combines nanofabrication, ultrafast and quantum spectroscopy, and experiments run by machine learning.</p>
     {% for r in research %}
     <article class="proj">
-      {% if r.image %}<img class="thumb" src="{{ r.image }}" alt="">{% else %}<div class="thumb th{{ loop.index }}" aria-hidden="true"></div>{% endif %}
+      {% if r.image %}<img class="thumb" src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy">{% else %}<div class="thumb th{{ loop.index }}" aria-hidden="true"></div>{% endif %}
       <div><h3>{{ r.title }}</h3><p>{{ r.text }}</p></div>
     </article>
     {% endfor %}
@@ -78,37 +78,16 @@
 <section class="s gut" id="publications" aria-labelledby="pub-h">
   <div class="col">
     <span class="kicker">Publications</span>
-    <h2 id="pub-h">Selected publications</h2>
-    <p class="intro">This list is kept in step with <a href="{{ scholar_url }}">Google Scholar</a>. Expand the lists below for all publications, talks and conference proceedings, and patents.</p>
-    {% for year, items in selected %}
-      <div class="yr">{{ year }}</div>
-      {% for p in items %}{{ pub(p, False) }}{% endfor %}
-    {% endfor %}
-
-    <details class="more">
-      <summary>Publications: journal papers, conference papers and preprints ({{ papers_count }})</summary>
-      {% for year, items in papers %}
-        <div class="yr">{{ year }}</div>
-        {% for p in items %}{{ pub(p, True) }}{% endfor %}
-      {% endfor %}
-    </details>
-    <details class="more">
-      <summary>Talks and conference proceedings ({{ talks_count }})</summary>
-      {% for year, items in talks %}
-        <div class="yr">{{ year }}</div>
-        {% for p in items %}{{ pub(p, False) }}{% endfor %}
-      {% endfor %}
-    </details>
-    <details class="more">
-      <summary>Patents ({{ patents_count }})</summary>
-      {% for year, items in patents %}
-        <div class="yr">{{ year }}</div>
-        {% for p in items %}{{ pub(p, True) }}{% endfor %}
-      {% endfor %}
-    </details>
+    <h2 id="pub-h">Publications</h2>
+    <p class="intro">Papers, conference contributions, patents and talks, from my <a href="{{ scholar_url }}">Google Scholar</a> profile. Choose a category to filter the list.</p>
+    <div id="pubs" data-src="data/publications.json" data-extra="data/publications_extra.json"
+         data-scholar="{{ scholar_url }}" data-selected='{{ site.selected_publications | tojson }}'>
+      <p class="pub-count">Loading publications…</p>
+      <noscript><p class="pub-count">The publication list needs JavaScript. See the full list on <a href="{{ scholar_url }}">Google Scholar</a>.</p></noscript>
+    </div>
 
     <div class="pubfoot">
-      <a href="assets/publications.bib" download="Iyer_publications.bib">Download all as BibTeX (.bib) ↓</a>
+      <button type="button" id="bib-dl" class="linkbtn" hidden>Download all as BibTeX (.bib) ↓</button>
       {% for l in site.links if l.label in ("Google Scholar", "ORCID") %}<a href="{{ l.url }}">{{ l.label }} →</a>{% endfor %}
     </div>
   </div>
@@ -174,5 +153,6 @@
     <span>Updated {{ updated }}</span>
   </div>
 </footer>
+<script src="assets/publications.js?v={{ build_id }}" defer></script>
 </body>
 </html>

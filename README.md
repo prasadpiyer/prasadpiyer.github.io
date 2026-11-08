@@ -5,39 +5,51 @@ A single-page site for the lab at the Photonics Initiative, CUNY Advanced Scienc
 
 ## Edit content
 
-| To change | Edit |
-|---|---|
-| Headline, intro, address, links, hiring line, headline photo | `data/site.yml` |
-| Latest news and activities | `data/news.yml` (newest first) |
-| Research programs | `data/research.yml` |
-| PI, members, openings, former postdocs, collaborators | `data/people.yml` |
-| Papers, talks, patents (and which are "selected") | `data/publications.yml` |
+| To change | Edit | Rebuild? |
+|---|---|---|
+| Headline, intro, address, links, hiring line, headline photo, featured papers | `data/site.yml` | yes |
+| Latest news and activities | `data/news.yml` (newest first) | yes |
+| Research programs | `data/research.yml` | yes |
+| PI, members, openings, former postdocs, collaborators | `data/people.yml` | yes |
+| **Publications, conference papers, patents, reports, thesis, talks** | **`data/publications.json`** | **no** |
+| Corrections and entries Scholar doesn't have | `data/publications_extra.json` | no |
 
-Then rebuild and commit:
+Rebuild after editing YAML:
 
 ```bash
 pip install -r requirements.txt   # first time only
 python build.py
 ```
 
-## Update publications from Google Scholar
+## Publications
 
-1. On your Google Scholar profile, tick the box above the article list to select all, then choose **Export → BibTeX** and save the file as `scholar.bib`.
-2. Merge it, check the summary, then rebuild:
+The Publications section is rendered in the browser by `assets/publications.js` from
+**`data/publications.json`**. To update it, replace that file with a new export from your Scholar
+updater (same fields) and commit. No rebuild and no code changes are needed.
 
-```bash
-python tools/import_scholar.py scholar.bib --dry-run
-python tools/import_scholar.py scholar.bib
-python build.py
-```
+Fields per entry: `title`, `auth` (full author list), `venue`, `year`, `typ`
+(`journal` | `conference` | `preprint` | `patent` | `report` | `thesis` | `talk`),
+and optionally `url`, `doi`, `pdf`, `arxiv`, `abstract`.
 
-New papers are added, preprints are upgraded when the published version appears, and anything you edited by hand is kept.
-Author lists cut short with "et al." are filled in automatically; add `--refresh-authors` to replace every author list with the export's full names.
-Sandia/Los Alamos technical reports (`@techreport`) are skipped.
+What the page does with it:
+- groups entries by year (newest first), with filter tabs by type and a "Selected" tab;
+- shows the full author list and bolds Prasad P Iyer / Prasad Iyer / Prasad Padmanabha Iyer / PP Iyer / P Iyer;
+- links the title to `url`, and adds DOI, PDF and arXiv buttons when those fields exist
+  (a PDF link identical to the DOI link is not repeated);
+- puts each abstract in a collapsible toggle, rendering simple inline LaTeX and `<sup>/<sub>`;
+- keeps near-duplicates (e.g. conference and journal versions); only byte-for-byte duplicate
+  records (same title, venue, year and type) are shown once;
+- offers "Download all as BibTeX", generated from the same data.
 
-`python build.py` also writes `assets/publications.bib` from `data/publications.yml`; the page links to it as
-"Download all as BibTeX", so the download always matches what the site shows.
-Set `selected: true` on a paper in `data/publications.yml` to feature it under "Selected publications".
+**`data/publications_extra.json`** survives every Scholar update:
+- entries with `"patch": true` change fields of the entry with the same title (for example a
+  missing link, or a preprint that has since been accepted at a conference);
+- entries with `"fill": true` only fill fields that are empty in `publications.json` (used for
+  abstracts recovered from the previous website), so anything Scholar later provides wins;
+- other entries are added as new rows (e.g. Sandia patent filings that aren't on Scholar).
+
+**Featured papers** for the "Selected" tab are listed by title under `selected_publications`
+in `data/site.yml` (rebuild after changing it).
 
 ## Images
 

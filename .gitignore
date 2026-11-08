@@ -1,5 +1,4 @@
 .DS_Store
 __pycache__/
 *.bib
-!assets/publications.bib
 .venv/

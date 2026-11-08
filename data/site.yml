@@ -32,3 +32,11 @@ links:
     url: https://www.linkedin.com/in/prasadpiyer
   - label: GitHub
     url: https://github.com/prasadpiyer
+
+# Featured under the "Selected" tab of Publications. Titles must match data/publications.json
+# (case and punctuation are ignored; the journal version wins when a title appears twice).
+selected_publications:
+  - Self-driving lab discovers principles for steering spontaneous emission beyond conventional Fourier optics
+  - "AutoSciLab: a self-driving laboratory for interpretable scientific discovery"
+  - Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces
+  - Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces

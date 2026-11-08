@@ -1,21 +1,21 @@
 # Research programs, in the order they appear.
 # image is optional (for example assets/img/research/quantum.jpg); without one a sunset color tile is shown.
 - title: Structured quantum light sources
-  text: >-
-    Engineered metasurfaces that shape quantum light. Single semiconductor quantum dots give bright,
-    directional single photons. ScAlGaN/InGaN quantum-well metasurfaces generate entangled photon pairs
-    through intersubband SPDC in films only nanometers thick.
-  image: ""
+  text: Engineered metasurfaces that shape quantum light. Single semiconductor quantum dots give bright, directional
+    single photons. ScAlGaN/InGaN quantum-well metasurfaces generate entangled photon pairs through intersubband
+    SPDC in films only nanometers thick.
+  image: assets/img/research/structured-quantum-light.jpg
+  alt: Single quantum dot in a Huygens metasurface emitting single photons
 - title: Accelerating physical AI
-  text: >-
-    Hardware whose physics does the computing. Thermally active, plasmonically resonant nanomagnets perform
-    analog in-memory computing, and spatial photonic Ising machines solve optimization problems in parallel with light.
-  image: ""
+  text: Hardware whose physics does the computing. Thermally active, plasmonically resonant nanomagnets perform
+    analog in-memory computing, and spatial photonic Ising machines solve optimization problems in parallel with
+    light.
+  image: assets/img/research/physical-ai.jpg
+  alt: Spatial photonic Ising machine on the optical bench
 - title: AI-driven materials science and nanophotonics
-  text: >-
-    Self-driving experiments that discover and control ultrafast, reconfigurable metasurfaces, from
-    sub-picosecond beam steering to visible-wavelength meta-optics that are switched on demand.
-    This program includes MIRAGE (Microstructure Insights through Reliable/Interpretable AI and Guided Experiments),
-    a Sandia-led DOE Office of Science project that combines AI, high-performance computing and guided experiments
-    to understand how fatigue starts in materials.
-  image: ""
+  text: Self-driving experiments that discover and control ultrafast, reconfigurable metasurfaces, from sub-picosecond
+    beam steering to visible-wavelength meta-optics that are switched on demand. This program includes MIRAGE (Microstructure
+    Insights through Reliable/Interpretable AI and Guided Experiments), a Sandia-led DOE Office of Science project
+    that combines AI, high-performance computing and guided experiments to understand how fatigue starts in materials.
+  image: assets/img/research/ai-driven-nanophotonics.jpg
+  alt: Ultrafast steering of emission from a metasurface, measured by the self-driving lab

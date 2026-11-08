@@ -100,7 +100,30 @@ details.more .yr:first-of-type{margin-top:4px}
 .pub span{color:var(--muted);font-size:.93rem}
 .pub i{color:var(--ink);font-style:italic}
 .pub .au strong{color:var(--ink);font-weight:600}
-.pubfoot{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:18px;font-size:.95rem}
+.pubfoot{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:18px;font-size:.95rem;align-items:center}
+.linkbtn{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.linkbtn:focus-visible,.tabs button:focus-visible,.chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* publication filters */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.tabs button{font:inherit;font-size:.88rem;font-weight:600;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.tabs button .n{font-family:var(--f-mono);font-size:.74rem;color:var(--muted);margin-left:2px}
+.tabs button:hover{border-color:var(--orange)}
+.tabs button.on{background:var(--dusk);border-color:var(--dusk);color:var(--on-sky)}
+.tabs button.on .n{color:var(--gold)}
+.pub-count{font-size:.88rem;color:var(--muted);margin:4px 0 0}
+.pub .ven .typ{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.pub-actions{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px;margin-top:4px}
+.chip{font-family:var(--f-mono);font-size:.72rem;font-weight:500;letter-spacing:.03em;padding:2px 8px;border:1px solid var(--line);border-radius:4px;text-decoration:none;color:var(--accent);background:var(--surface)}
+.chip:hover{border-color:var(--orange)}
+details.abs{flex-basis:100%}
+details.abs summary{display:inline-block;cursor:pointer;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.03em;padding:2px 8px;border:1px solid var(--line);border-radius:4px;color:var(--muted);list-style:none;background:var(--surface)}
+details.abs summary::-webkit-details-marker{display:none}
+details.abs summary::before{content:"+ "}
+details.abs[open] summary::before{content:"– "}
+details.abs p{margin:8px 0 4px;font-size:.92rem;line-height:1.55;color:var(--ink);max-width:68ch}
+.pub-actions details.abs{flex-basis:auto}
+.pub-actions details.abs[open]{flex-basis:100%}
 
 /* people */
 .pi{display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:center;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
