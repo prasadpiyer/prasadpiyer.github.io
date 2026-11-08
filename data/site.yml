@@ -1,0 +1,34 @@
+# Site-wide text. Edit, then run `python build.py`.
+name: Light–Matter Information Lab
+short_name: LMI Lab
+pi: Prasad P. Iyer
+affiliation: Photonics Initiative · Advanced Science Research Center · CUNY
+headline: Discovering light–matter interactions driving quantum optical information processing
+lead: We build metasurfaces whose optical response is reconfigured to guide structured transformations of information encoded in light.
+description: The Light–Matter Information Lab at the CUNY Advanced Science Research Center studies metasurfaces, structured quantum light and physical AI.
+
+# Headline photo shown beside the headline. Leave empty to show the headline alone.
+# Example: assets/img/asrc-building.jpg (use a photo you have permission to publish).
+hero_image: ""
+hero_alt: The Advanced Science Research Center building at CUNY, New York
+
+hiring: Two postdocs and two PhD students.
+news_on_home: 6   # how many news items show before "Earlier news"
+
+contact:
+  address:
+    - Advanced Science Research Center
+    - 85 St. Nicholas Terrace
+    - New York, NY 10031
+  map_url: https://www.google.com/maps/search/?api=1&query=CUNY+Advanced+Science+Research+Center
+  email: prasadpiyer@gmail.com
+
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=lhDYN_YAAAAJ&hl=en
+  - label: ORCID
+    url: https://orcid.org/0000-0002-6898-3619
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/prasadpiyer
+  - label: GitHub
+    url: https://github.com/prasadpiyer

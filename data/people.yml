@@ -1,0 +1,51 @@
+# People. photo is optional (a path under assets/img/people/); without one, initials are shown.
+pi:
+  name: Prasad P. Iyer
+  role: Associate Professor, Photonics Initiative, Advanced Science Research Center, CUNY
+  photo: assets/img/people/prasad-iyer.jpg
+  bio: >-
+    Before CUNY, Prasad was a Senior Member of Technical Staff at the Center for Integrated Nanotechnologies,
+    Sandia National Laboratories, and a LiDAR systems engineer at Lumotive. He received his PhD from UC Santa Barbara.
+  cv_url: ""   # add a link to the CV PDF when it is ready
+
+current:
+  - name: Dr. Vivek Chawla
+    role: Postdoctoral researcher, MIRAGE
+    note: Agentic AI workflows for tracking fatigue in nanometals · co-advised with Brad Boyce (Sandia)
+    photo: assets/img/people/vivek-chawla.jpg
+
+openings:
+  - title: "Postdoc: quantum and ultrafast optics"
+    text: Quantum dots, SPDC, pump-probe and single-photon measurements.
+  - title: "Postdoc: nanomagnetics and nanofabrication"
+    text: E-beam lithography, plasmonic nanomagnets, magneto-optics.
+  - title: Two PhD students
+    text: Through the CUNY Graduate Center. Send a CV and a short statement of interest.
+
+former:
+  - name: Dr. Chris Arose
+    note: Liquid-crystal meta-optics · now at CVI Optics, Albuquerque
+    photo: assets/img/people/chris-arose.jpg
+  - name: Dr. Aditya Choudhary
+    note: Photonic Ising machines · now in India
+    photo: assets/img/people/aditya-choudhary.jpg
+
+collaborators:
+  - name: Rémi Dingreville
+    note: Sandia National Laboratories · MIRAGE lead
+    photo: assets/img/people/remi-dingreville.jpg
+  - name: Cristiano Nisoli
+    note: Los Alamos National Laboratory
+    photo: assets/img/people/cristiano-nisoli.jpg
+  - name: Laura McCaslin
+    note: Sandia National Laboratories
+    photo: assets/img/people/laura-mccaslin.jpg
+  - name: Sadhvikas Addamane
+    note: Sandia National Laboratories · CINT
+    photo: assets/img/people/sadhvikas-addamane.jpg
+  - name: Jon Schuller
+    note: UC Santa Barbara
+    photo: assets/img/people/jon-schuller.jpg
+  - name: Paolo Pintus
+    note: University of Cagliari
+    photo: assets/img/people/paolo-pintus.jpg

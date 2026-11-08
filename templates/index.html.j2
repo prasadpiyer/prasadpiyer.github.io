@@ -1,0 +1,177 @@
+{% from "macros.j2" import news_item, pub, avatar, person %}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ site.name }} · {{ site.pi }} · ASRC, CUNY</title>
+<meta name="description" content="{{ site.description }}">
+<meta property="og:title" content="{{ site.name }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2b2350">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f2b257'/%3E%3Cstop offset='1' stop-color='%23e9793a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='7' fill='%232b2350'/%3E%3Ccircle cx='16' cy='16' r='8' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css?v={{ build_id }}">
+</head>
+<body>
+
+<nav class="top gut" aria-label="Main">
+  <div class="col">
+    <a class="brand" href="#home"><span class="sun" aria-hidden="true"></span>{{ site.name }}</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#people">People</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero gut{% if not site.hero_image %} solo{% endif %}" id="home">
+  <div class="col">
+    <div>
+      <span class="aff">{{ site.affiliation }}</span>
+      <h1>{{ site.headline }}</h1>
+      <p class="lead">{{ site.lead }}</p>
+      <div class="btns"><a class="btn gold" href="#research">Our research</a><a class="btn ghost" href="#people">Join the lab</a></div>
+    </div>
+    {% if site.hero_image %}<img class="photo" src="{{ site.hero_image }}" alt="{{ site.hero_alt }}">{% endif %}
+  </div>
+</header>
+
+<main>
+<section class="s gut" aria-labelledby="news-h">
+  <div class="col">
+    <span class="kicker">Home</span>
+    <h2 id="news-h">Latest news and activities</h2>
+    <div class="news">
+      {% for n in news[:site.news_on_home] %}{{ news_item(n) }}{% endfor %}
+    </div>
+    {% if news|length > site.news_on_home %}
+    <details class="more">
+      <summary>Earlier news ({{ news|length - site.news_on_home }})</summary>
+      <div class="news">{% for n in news[site.news_on_home:] %}{{ news_item(n) }}{% endfor %}</div>
+    </details>
+    {% endif %}
+    <div class="hiring"><p><b>We're hiring.</b> {{ site.hiring }}</p><a href="#openings">See openings →</a></div>
+  </div>
+</section>
+
+<section class="s gut" id="research" aria-labelledby="res-h">
+  <div class="col">
+    <span class="kicker">Research</span>
+    <h2 id="res-h">{{ research|length }} research programs</h2>
+    <p class="intro">Each program combines nanofabrication, ultrafast and quantum spectroscopy, and experiments run by machine learning.</p>
+    {% for r in research %}
+    <article class="proj">
+      {% if r.image %}<img class="thumb" src="{{ r.image }}" alt="">{% else %}<div class="thumb th{{ loop.index }}" aria-hidden="true"></div>{% endif %}
+      <div><h3>{{ r.title }}</h3><p>{{ r.text }}</p></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="s gut" id="publications" aria-labelledby="pub-h">
+  <div class="col">
+    <span class="kicker">Publications</span>
+    <h2 id="pub-h">Selected publications</h2>
+    <p class="intro">This list is kept in step with <a href="{{ scholar_url }}">Google Scholar</a>. Expand the lists below for all publications, talks and conference proceedings, and patents.</p>
+    {% for year, items in selected %}
+      <div class="yr">{{ year }}</div>
+      {% for p in items %}{{ pub(p, False) }}{% endfor %}
+    {% endfor %}
+
+    <details class="more">
+      <summary>Publications: journal papers, conference papers and preprints ({{ papers_count }})</summary>
+      {% for year, items in papers %}
+        <div class="yr">{{ year }}</div>
+        {% for p in items %}{{ pub(p, True) }}{% endfor %}
+      {% endfor %}
+    </details>
+    <details class="more">
+      <summary>Talks and conference proceedings ({{ talks_count }})</summary>
+      {% for year, items in talks %}
+        <div class="yr">{{ year }}</div>
+        {% for p in items %}{{ pub(p, False) }}{% endfor %}
+      {% endfor %}
+    </details>
+    <details class="more">
+      <summary>Patents ({{ patents_count }})</summary>
+      {% for year, items in patents %}
+        <div class="yr">{{ year }}</div>
+        {% for p in items %}{{ pub(p, True) }}{% endfor %}
+      {% endfor %}
+    </details>
+
+    <div class="pubfoot">
+      {% for l in site.links if l.label in ("Google Scholar", "ORCID") %}<a href="{{ l.url }}">{{ l.label }} →</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="s gut" id="people" aria-labelledby="ppl-h">
+  <div class="col">
+    <span class="kicker">People</span>
+    <h2 id="ppl-h">The lab</h2>
+    <div class="pi">
+      {{ avatar(people.pi, "portrait") }}
+      <div>
+        <h3>{{ people.pi.name }}</h3>
+        <p class="role">{{ people.pi.role }}</p>
+        <p class="bio">{{ people.pi.bio }}</p>
+        {% if people.pi.cv_url %}<p class="cv"><a href="{{ people.pi.cv_url }}">Curriculum vitae →</a></p>{% endif %}
+      </div>
+    </div>
+
+    {% if people.current %}
+    <h3 class="sub">Current members</h3>
+    <div class="grid">{% for p in people.current %}{{ person(p) }}{% endfor %}</div>
+    {% endif %}
+
+    <h3 class="sub" id="openings">Open positions</h3>
+    <div class="openings">
+      {% for o in people.openings %}<div class="open"><b>{{ o.title }}</b><span>{{ o.text }}</span></div>{% endfor %}
+    </div>
+    <p class="apply">To apply, email <span class="sel">{{ site.contact.email }}</span> with your CV and the position you are interested in.</p>
+
+    {% if people.former %}
+    <h3 class="sub">Former postdocs</h3>
+    <div class="grid">{% for p in people.former %}{{ person(p) }}{% endfor %}</div>
+    {% endif %}
+
+    {% if people.collaborators %}
+    <h3 class="sub">Collaborators</h3>
+    <div class="grid">{% for p in people.collaborators %}{{ person(p) }}{% endfor %}</div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="s gut" id="contact" aria-labelledby="con-h">
+  <div class="col">
+    <span class="kicker">Contact</span>
+    <h2 id="con-h">Get in touch</h2>
+    <div class="contact">
+      <div class="card"><span class="lab">Visit</span>
+        <p>{% for line in site.contact.address %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+        <a href="{{ site.contact.map_url }}">Open in Google Maps →</a></div>
+      <div class="card"><span class="lab">Email</span>
+        <p><a class="sel" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+        <span class="lab gap">Elsewhere</span>
+        <p>{% for l in site.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="gut">
+  <div class="col">
+    <span>© {{ year }} {{ site.name }} · led by {{ site.pi }} · {{ site.affiliation }}</span>
+    <span>Updated {{ updated }}</span>
+  </div>
+</footer>
+</body>
+</html>
