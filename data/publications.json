@@ -7,7 +7,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2610.37880",
   "abstract": "Equation learning seeks to discover compact, interpretable equations from data using various machine-learning techniques. However, few workflows discover and interpret learned equations in sparse, high-dimensional materials datasets. We present nn-EQL, an equation-learning framework that generates candidate equations through iterative training, pruning, and retraining of a neural network with customizable, user-specified neuron-level activation functions. Candidate equations are ranked using a minimum description length (MDL)-inspired score, balancing error and sparsity, and diagnosed to assess term-wise contributions, input-scaled sensitivities, and uncertainties. We demonstrate nn-EQL on standard AI-Feynman benchmarks as well as multiscale high-dimensional materials datasets such as finite-element simulations of heterogeneous materials, and high-throughput experimental thin-film deposition data. nn-EQL integrates with tabular data and high-dimensional data via standard encoder models, learning equations and providing insight into learned terms. Looking forward, integrating physically interpretable representations, multimodal and multi-fidelity data, and adaptive data acquisition could enable equation learning to formulate and test mechanistic hypotheses.",
-  "arxiv": "2610.37880"
+  "arxiv": "2610.37880",
+  "doi": "10.48550/arXiv.2610.37880"
  },
  {
   "title": "Epitaxial Displacement-etched GaAsSb Quantum Dots Emitting at Telecom Wavelengths",
@@ -17,14 +18,19 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2610.24768",
   "abstract": "Semiconductor quantum dots (QDs) are essential components for integrated photonic and quantum information systems, yet current epitaxial growth techniques face significant limitations in complexity of growth, material selection, and density tunability. Here we report a displacement etch technique that enables controlled formation of GaAsSb QDs with emission at telecommunications wavelengths. Our approach uses arsenic molecular flux (As$_2$) to react with antimonide surfaces through thermodynamically favorable displacement reactions, creating three-dimensional quantum confined nanostructures without requiring strain-driven growth or complex droplet-based processes. Density functional theory shows the two competing As-for-Sb exchange pathways to be nearly equivalent in both reaction energy and activation barrier, which places morphological control in the subsequent adatom kinetics rather than in the surface reaction itself. A single process parameter, the As$_2$ exposure, sets the QD areal density across three orders of magnitude, from 10$^2$ to 10$^5$ $μm^{-2}$, covering both isolated emitters and dense gain media. Structural analysis reveals well-defined GaAsSb QDs with a mixed GaAs/GaSb composition and no extended defects. Temperature-dependent photoluminescence measurements confirm emission at 1550 nm (0.8 eV) within the telecommunications C-band, with characteristic QD-like temperature dependence. Because the QDs form on a lattice-matched GaSb surface in a single growth step, the technique offers a practical route to C-band emitters built into the GaSb/AlGaSb device family already used for mid-infrared sources and detectors.",
-  "arxiv": "2610.24768"
+  "arxiv": "2610.24768",
+  "doi": "10.48550/arXiv.2610.24768"
  },
  {
   "title": "Ultrafast steering with metasurfaces",
   "auth": "Nicholas Karl, Ganesh Subramania, Igal Brener, Prasad Iyer",
-  "venue": "Active Photonic Platforms (APP) 2026, PC141920B",
+  "venue": "Proc. SPIE PC14192, Active Photonic Platforms (APP) 2026, PC141920B",
   "year": 2026,
-  "typ": "conference"
+  "typ": "conference",
+  "doi": "10.1117/12.3113652",
+  "url": "https://doi.org/10.1117/12.3113652",
+  "abstract": "Rapid advancements in ultrafast photonics have revolutionized our understanding and manipulation of light-matter interactions on femtosecond timescales. Metasurfaces, two-dimensional arrays of subwavelength scatterers, have emerged as a powerful platform for manipulating light at the nanoscale. Despite advancements in beam steering, focusing, and holography, the ultimate potential of metasurfaces for ultrafast imaging remains untapped. I will discuss our recent work in this area.",
+  "abstract_src": "SPIE Digital Library"
  },
  {
   "title": "Electric field-induced charge transfer in molecular materials for gigahertz optical modulation: a data-driven and machine learning approach",
@@ -55,7 +61,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2607.27163",
   "abstract": "Materials behavior is often treated as a deterministic mapping from structure to properties, yet many important phenomena emerge from the conditional activation of multiple mechanisms across scales. This is especially evident in fatigue of metals, where crack growth is typically modeled as monotonic and irreversible process, despite evidence that local microstructure, loading history, and competing unit processes can shift the balance among propagation, arrest, and self-healing. Here we present a probabilistic framework that describes materials behavior as an ensemble of constituent mechanisms whose activation, interaction, and evolution determine emergent outcomes. The framework connects mechanism activation, state evolution, and macroscopic observables in a probabilistic way. In the case of fatigue crack propagation, it reframes damage tolerance as an inference problem over mechanism competition and provides a basis for integrating multiscale simulation, multimodal characterization, and machine learning. The same logic extends to other physical and chemical systems suggesting a portable framework for any system in which emergent behavior reflects mechanism competition under changing conditions. The broader ambition of this perspective review is a shift from correlating structure and performance after the fact to identifying, in advance, the conditions that make desired emergent behavior probable.",
-  "arxiv": "2607.27163"
+  "arxiv": "2607.27163",
+  "doi": "10.48550/arXiv.2607.27163"
  },
  {
   "title": "Nonlinear terahertz pulse generation and beam structuring with semiconductor metasurfaces",
@@ -75,7 +82,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2605.24043",
   "abstract": "Scientific discovery is a closed-loop process in which hypotheses guide data acquisition and observations refine the hypothesis space. Yet most approaches reduce discovery to supervised learning over fixed datasets, where limited observations can support multiple plausible mechanisms that fit locally but fail to generalize. Thus, the key challenge is selecting informative observations to resolve uncertainty, shifting the focus from static inference to adaptive data acquisition. To address this, we propose LLM-AutoSciLab, a closed-loop framework that couples hypothesis generation with hypothesis-conditioned experiment selection and mechanism refinement. Rather than fitting models to passively collected data, LLM-AutoSciLab iteratively proposes plausible hypotheses, selects informative experiments to distinguish or refine them, and updates its state using the resulting evidence. To evaluate dynamic, closed-loop scientific discovery with active data acquisition, we introduce ActiveSciBench, comprising two datasets: ActiveSciBench-Chem with 57 enzyme-kinetics tasks and ActiveSciBench-GRN with 45 gene-regulatory-network tasks. These datasets model discovery as a budget-constrained process requiring adaptive experiment design, variable selection, and recovery of true mechanisms. Across NewtonBench, ActiveSciBench-Chem, and ActiveSciBench-GRN, LLM-AutoSciLab outperforms prior methods, achieving 67.6% and 35.1% symbolic accuracy on NewtonBench and ActiveSciBench-Chem, respectively, and 31.1% exact graph recovery on ActiveSciBench-GRN. Moreover, hypothesis-guided experimentation is 2-5x more sample-efficient than the strongest competing baselines. Code and data are available at: https://github.com/scientific-discovery/LLM-AutoSciLab",
-  "arxiv": "2605.24043"
+  "arxiv": "2605.24043",
+  "doi": "10.48550/arXiv.2605.24043"
  },
  {
   "title": "Deep generative learning of magnetic frustration in artificial spin ice from magnetic force microscopy images",
@@ -125,7 +133,9 @@
   "year": 2026,
   "typ": "conference",
   "doi": "10.1117/12.3081420",
-  "url": "https://doi.org/10.1117/12.3081420"
+  "url": "https://doi.org/10.1117/12.3081420",
+  "abstract": "We present a high-sensitivity method to investigate the ultrafast spin dynamics of artificial spin ice (ASI) systems. ASI metasurfaces, comprising coupled nanomagnets in frustrated lattices, offer immense potential for low-energy information processing through non-reciprocal information flow, which is crucial for next generation in-memory microelectronic computing architectures like probabilistic and neuromorphic computing. Using magneto-optic Kerr effect (MOKE) measurements at the plasmonic wavelength (900 nm), we reveal non-reciprocal spin resonances in both longitudinal (L-MOKE) and polar (P-MOKE) configurations. We demonstrate the efficacy of the metal-insulator-metal plasmonic resonance, which amplifies the MOKE response by two orders of magnitude allowing us to achieve unparalleled sensitivity in detecting magnetic phase transitions in the Kagome nanomagnetic lattice matching micromagnetic simulations and magnetic force microscopy measurements. Our findings demonstrate the potential for all-optical reconfiguration and readout in spin ice systems, laying the groundwork for applications in stochastic learning architectures such as directional graph networks and deep reservoirs.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Self-driving lab discovers principles for steering spontaneous emission from metasurfaces",
@@ -134,7 +144,9 @@
   "year": 2026,
   "typ": "conference",
   "doi": "10.1117/12.3081374",
-  "url": "https://doi.org/10.1117/12.3081374"
+  "url": "https://doi.org/10.1117/12.3081374",
+  "abstract": "We present ultrafast (<1 ps) dynamic steering of spontaneous emission from InAs quantum dots in GaAs metasurface-resonators using structured optical pumping. A self-driving lab (SDL) platform accelerates discovery by combining: (1) variational autoencoder for generating spatial refractive index profiles (through structured optical pumping), (2) active learning for real-time, noisy experimental feedback, and (3) neural networks for uncovering structure-property relationships. The SDL achieved 4× enhancement in peak emission directivity (77%) over 74° field of view in ~300 experiments. We discovered that emission steering requires matching combinations on the spatial refractive index imposed on the light-emitting metasurface as positive lens+positive grating or negative lens+negative grating, while mixed combinations do not steer the incoherent light emission. This autonomous framework enables interpretable scientific discovery beyond conventional Fourier-based meta-optical design principles, with applications in remote sensing, quantum information processing, and AR/VR displays.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "High speed beam steering with liquid-crystal semiconductor metasurface at visible wavelengths",
@@ -143,7 +155,9 @@
   "year": 2026,
   "typ": "conference",
   "doi": "10.1117/12.3081128",
-  "url": "https://doi.org/10.1117/12.3081128"
+  "url": "https://doi.org/10.1117/12.3081128",
+  "abstract": "Liquid crystal (LC) devices are essential for optical technologies but suffer from slow switching speeds. We present doped Al₀.₃₂Ga₀.₆₈As metasurfaces integrated with liquid crystals that achieve switching speeds an order of magnitude faster than conventional LC devices. Our approach uses interdigitated sub-wavelength grating resonators to manipulate LC molecules within nanoscale regions. The n-Al₀.₃₂Ga₀.₆₈As metasurface is monolithically grown and nano-fabricated with a top n-AlGaAs layer separated from an Al₀.₃₂Ga₀.₆₈As/AlAs distributed Bragg reflector by an oxidized AlGaO layer. E7 liquid crystals are capillary-filled and packaged with indium-tin-oxide (ITO)//glass contacts. Characterization shows 2× larger relative reflection changes compared to traditional LC cells across 1-100 kHz frequencies. The 4-prong interdigitated contact enables steering of 686 nm polarized light across 60° field of view with <20 Vₚₚ. These semiconductor nanograting metasurfaces enhance LC performance, enabling high-speed optical technologies.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Spatial photonic Ising machines for tracking material phase transformations",
@@ -152,7 +166,9 @@
   "year": 2026,
   "typ": "conference",
   "doi": "10.1117/12.3079565",
-  "url": "https://doi.org/10.1117/12.3079565"
+  "url": "https://doi.org/10.1117/12.3079565",
+  "abstract": "We demonstrate the first application of spatial photonic Ising machines (SPIMs) for tracking material phase transformations, specifically spinodal decomposition in binary mixtures. Our optical system uses spatial light modulators to encode spin configurations as electromagnetic wavefront phase profiles, enabling direct computation of Ising Hamiltonian energies through Fourier transforms. Validation against phase-field simulations shows excellent agreement in capturing free energy evolution during microstructure development. The SPIM achieves 48× lower energy consumption and 8× performance improvement compared to conventional methods. This work establishes photonic Ising machine as a fast, energy-efficient platform for modeling complex material phenomena and demonstrates the potential for real-time monitoring of microstructure evolution during phase transformations.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Pulse-driven photonic transitions and nonreciprocity in space-time modulated metasurfaces",
@@ -173,7 +189,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2603.03186",
   "abstract": "Semiconductor quantum dots host a rich manifold of excitonic complexes, including neutral excitons that emit anti-bunched single photons and charged exciton complexes capable of producing super-bunched photons via cascade emission. Accessing both emission regimes from a single emitter would open routes to novel quantum protocols, including advanced quantum imaging. In practice, however, emission from charged exciton complexes is intrinsically weak, often orders of magnitude dimmer than neutral excitons, placing simultaneous dual-mode operation out of reach. Here, we overcome this limitation by embedding the quantum dot in a dielectric Mie-resonant metasurface that provides order-of-magnitude photoluminescence enhancement across both neutral and charged exciton transitions of a single GaAs quantum dot. Under identical non-resonant pumping conditions, the emission from the neutral exciton yields anti-bunched emission ($g^{(2)}(0) 3.5$) with comparable count rates (~12 kHz). Crucially, super-bunching emerges only when charged exciton emission spectrally overlaps with the Mie resonances and vanishes in un-patterned slabs, demonstrating that photonic engineering, is essential for accessing these weak quantum light states. These results demonstrate a scalable, position-tolerant platform for harnessing the full excitonic structure of solid-state emitters.",
-  "arxiv": "2603.03186"
+  "arxiv": "2603.03186",
+  "doi": "10.48550/arXiv.2603.03186"
  },
  {
   "title": "Boltzmann Reinforcement Learning for Noise resilience in Analog Ising Machines",
@@ -183,7 +200,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2602.09162",
   "abstract": "Analog Ising machines (AIMs) have emerged as a promising paradigm for combinatorial optimization, utilizing physical dynamics to solve Ising problems with high energy efficiency. However, the performance of traditional optimization and sampling algorithms on these platforms is often limited by inherent measurement noise. We introduce BRAIN (Boltzmann Reinforcement for Analog Ising Networks), a distribution learning framework that utilizes variational reinforcement learning to approximate the Boltzmann distribution. By shifting from state-by-state sampling to aggregating information across multiple noisy measurements, BRAIN is resilient to Gaussian noise characteristic of AIMs. We evaluate BRAIN across diverse combinatorial topologies, including the Curie-Weiss and 2D nearest-neighbor Ising systems. We find that under realistic 3\\% Gaussian measurement noise, BRAIN maintains 98\\% ground state fidelity, whereas Markov Chain Monte Carlo (MCMC) methods degrade to 51\\% fidelity. Furthermore, BRAIN reaches the MCMC-equivalent solution up to 192x faster under these conditions. BRAIN exhibits $\\mathcal{O}(N^{1.55})$ scaling up to 65,536 spins and maintains robustness against severe measurement uncertainty up to 40\\%. Beyond ground state optimization, BRAIN accurately captures thermodynamic phase transitions and metastable states, providing a scalable and noise-resilient method for utilizing analog computing architectures in complex optimizations.",
-  "arxiv": "2602.09162"
+  "arxiv": "2602.09162",
+  "doi": "10.48550/arXiv.2602.09162"
  },
  {
   "title": "Voltage-Tunable Nonlocal Metasurface for Enhanced Outcoupling of Emission from Quantum Dots",
@@ -204,7 +222,9 @@
   "typ": "journal",
   "doi": "10.1016/j.ijmecsci.2026.111218",
   "url": "https://doi.org/10.1016/j.ijmecsci.2026.111218",
-  "pdf": "https://doi.org/10.1016/j.ijmecsci.2026.111218"
+  "pdf": "https://doi.org/10.1016/j.ijmecsci.2026.111218",
+  "abstract": "Surface elasticity is central to understanding the mechanics and stability of surfaces and interfaces. It is characterized by quantities such as surface tension, residual surface stress, and surface stiffness, however their analytical expressions are typically difficult to derive from atomistic data, and depend strongly on modeling choices. This work presents a neural network-based equation learner which combines customized activation functions and connection-based pruning to discover parsimonious, closed-form equations for surface elasticity from atomistic simulations. Applying the method to seven face centered cubic (FCC) metals, our equation learner uncovers interpretable equations that describe both low-Miller index and high-Miller index surface properties, capturing long-tail property distributions accurately. The discovered expressions are decoupled into two components: a universal, geometry-driven orientation function, and material-specific baseline coefficients. We find that lower-order properties such as surface tension are fundamentally geometry dependent, while higher-order properties such as surface stress and elasticity show more complex geometry and material dependence. We also relate material dependent coefficients to bulk properties, forming a clear map from bulk material properties to surface elasticity. Overall, this approach demonstrates that interpretable neurosymbolic machine learning can bridge the gap between atomistic simulations and physical laws, enabling the discovery of generalizable structure-property relationships for materials science phenomena such as surface elasticity.",
+  "abstract_src": "arXiv preprint 2512.02985"
  },
  {
   "title": "Is computing with light all you need? A perspective on codesign for optical artificial intelligence and scientific computing",
@@ -224,14 +244,16 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2605.24043",
   "abstract": "Scientific discovery is a closed-loop process in which hypotheses guide data acquisition and observations refine the hypothesis space. Yet most approaches reduce discovery to supervised learning over fixed datasets, where limited observations can support multiple plausible mechanisms that fit locally but fail to generalize. Thus, the key challenge is selecting informative observations to resolve uncertainty, shifting the focus from static inference to adaptive data acquisition. To address this, we propose LLM-AutoSciLab, a closed-loop framework that couples hypothesis generation with hypothesis-conditioned experiment selection and mechanism refinement. Rather than fitting models to passively collected data, LLM-AutoSciLab iteratively proposes plausible hypotheses, selects informative experiments to distinguish or refine them, and updates its state using the resulting evidence. To evaluate dynamic, closed-loop scientific discovery with active data acquisition, we introduce ActiveSciBench, comprising two datasets: ActiveSciBench-Chem with 57 enzyme-kinetics tasks and ActiveSciBench-GRN with 45 gene-regulatory-network tasks. These datasets model discovery as a budget-constrained process requiring adaptive experiment design, variable selection, and recovery of true mechanisms. Across NewtonBench, ActiveSciBench-Chem, and ActiveSciBench-GRN, LLM-AutoSciLab outperforms prior methods, achieving 67.6% and 35.1% symbolic accuracy on NewtonBench and ActiveSciBench-Chem, respectively, and 31.1% exact graph recovery on ActiveSciBench-GRN. Moreover, hypothesis-guided experimentation is 2-5x more sample-efficient than the strongest competing baselines. Code and data are available at: https://github.com/scientific-discovery/LLM-AutoSciLab",
-  "arxiv": "2605.24043"
+  "arxiv": "2605.24043",
+  "doi": "10.48550/arXiv.2605.24043"
  },
  {
   "title": "Multicoated Tunable Optical Devices",
   "auth": "Gleb M Akselrod, Erik Edward Josberger, Prasad Padmanabha Iyer",
   "venue": "US Patent App. 19/303,287",
   "year": 2025,
-  "typ": "patent"
+  "typ": "patent",
+  "url": "https://patents.google.com/?q=%22Multicoated+Tunable+Optical+Devices%22&inventor=Iyer"
  },
  {
   "title": "Self-driving lab discovers principles for steering spontaneous emission beyond conventional Fourier optics",
@@ -251,7 +273,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2512.02985",
   "abstract": "Surface elasticity is central to understanding the mechanics and stability of surfaces and interfaces. It is characterized by quantities such as surface tension, residual surface stress, and surface stiffness, however their analytical expressions are typically difficult to derive from atomistic data, and depend strongly on modeling choices. This work presents a neural network-based equation learner which combines customized activation functions and connection-based pruning to discover parsimonious, closed-form equations for surface elasticity from atomistic simulations. Applying the method to seven face centered cubic (FCC) metals, our equation learner uncovers interpretable equations that describe both low-Miller index and high-Miller index surface properties, capturing long-tail property distributions accurately. The discovered expressions are decoupled into two components: a universal, geometry-driven orientation function, and material-specific baseline coefficients. We find that lower-order properties such as surface tension are fundamentally geometry dependent, while higher-order properties such as surface stress and elasticity show more complex geometry and material dependence. We also relate material dependent coefficients to bulk properties, forming a clear map from bulk material properties to surface elasticity. Overall, this approach demonstrates that interpretable neurosymbolic machine learning can bridge the gap between atomistic simulations and physical laws, enabling the discovery of generalizable structure-property relationships for materials science phenomena such as surface elasticity.",
-  "arxiv": "2512.02985"
+  "arxiv": "2512.02985",
+  "doi": "10.48550/arXiv.2512.02985"
  },
  {
   "title": "Advancing microelectronics through nanoscale science: A perspective on needs and opportunities from the nanoscale science research centers",
@@ -290,7 +313,9 @@
   "year": 2025,
   "typ": "journal",
   "doi": "10.1021/acsnano.5c04424",
-  "url": "https://doi.org/10.1021/acsnano.5c04424"
+  "url": "https://doi.org/10.1021/acsnano.5c04424",
+  "abstract": "Enhancing light-matter interactions at the nanoscale is foundational to nanophotonics, with epsilon-near-zero (ENZ) materials demonstrating significant potential. High-quality factor (Q) resonances that maximize these interactions are typically realized in photonic crystals requiring sub-50 nm precision nanofabrication over large areas, limiting scalability and increasing complexity. Mie resonances offer an alternative but are constrained by low Q-factors due to the scarcity of high-refractive index materials, necessitating large refractive index changes for effective resonance switching and limiting dynamic reconfigurability. We overcome these limitations by embedding Mie resonators within ENZ media, thereby enhancing Q-factors, mitigating geometric dispersion and fabrication challenges, and maximizing optical reconfigurability. We introduce three resonator-ENZ configurations: voids in AlN, Ge in SiO2, and intrinsic InSb in doped InSb─spanning from low-loss phononic to lossy plasmonic ENZ modes. Using novel epitaxial regrowth techniques, we achieve significant Q-factor improvements over nonembedded resonators. An air-based Mie resonator embedded in AlN supports resonant Q-factors exceeding 100, with negligible geometric dispersion across sizes from 800 to 2800 nm. Additionally, we demonstrate dynamic reconfigurability of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2 μm range in the mid-infrared (11-16 μm) wavelength regime. These results showcase the potential of Mie reonators embedded in ENZ media for high-fidelity sensors, thermal emitters, and reconfigurable metasurfaces, bridging theoretical predictions with practical applications and advancing the development of dynamic, high-Q optical devices.",
+  "pdf": "https://arxiv.org/pdf/2502.17656"
  },
  {
   "title": "Multicoated tunable optical devices",
@@ -298,7 +323,8 @@
   "venue": "US Patent 12,392,967",
   "year": 2025,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US12392967"
+  "url": "https://patents.google.com/patent/US12392967B2/en",
+  "abstract": "A device may include a dielectric substrate layer with an array of multicoated elongated metal rails extending from the dielectric substrate parallel to one another and spaced from one another to form channels therebetween. The dimensions of the multicoated elongated metal rails and the channels therebetween may be subwavelength with respect to an operational bandwidth. In some examples, each multicoated elongated metal rail is formed with a copper core coated with an optically reflective silver coating followed by a passivation coating. In various examples, a conductive barrier material separates each multicoated elongated metal rail from an underlying dielectric substrate layer. A tunable dielectric material that has a tunable refractive index, such as liquid crystal, is positioned within the channels between adjacent multicoated elongated metal rails."
  },
  {
   "title": "Orchestrating spontaneous emission with metasurfaces: recent advances in engineering thermal, luminescent, and quantum emissions",
@@ -317,7 +343,9 @@
   "year": 2025,
   "typ": "conference",
   "doi": "10.1109/cleo/europe-eqec65582.2025.11111413",
-  "url": "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111413"
+  "url": "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111413",
+  "abstract": "Solid state quantum emitters (QEs), such as epitaxial quantum dots (QDs), tend to exhibit low overall efficiencies due to low outcoupling and poor emission directivity. Various methods have been developed to mitigate these issues, however they often rely on high levels of precision in nanofabrication combined with multiple aligned lithography rounds, severely limiting scalability. Alternatively, Mie metasurfaces have been demonstrated as a promising platform for enhancing emission from QEs, while providing resilience against uncertainty in QE locations and reducing the need for high-precision alignment. Here we discuss the effect of Mie metasurface design on the efficiency of photon outcoupling from solid-state QEs. We focus on the fundamental electric dipole modes, with the first metasurface design (MS1) employing a mode with the in-plane dipole orientation (for QEs with in-plane dipole moments) and the second design (MS2) with the out-of-plane dipole orientation. We also discuss tuning of QDs embedded in dielectric metasurfaces.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Mie metasurfaces for enhancing photon outcoupling from single embedded quantum emitters",
@@ -344,7 +372,9 @@
   "auth": "Nicholas Jason Karl, Ganapathi Subramanian Subramania, Igal Brener, Prasad Iyer",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2025,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/3362894",
+  "url": "https://doi.org/10.2172/3362894"
  },
  {
   "title": "AutoSciLab: a self-driving laboratory for interpretable scientific discovery",
@@ -371,7 +401,8 @@
   "auth": "Gleb M Akselrod, Erik Edward Josberger, Laura Maria Pulido Mancera, Linda Gail Conway, Prasad Padmanabha Iyer",
   "venue": "US Patent App. 18/586,991",
   "year": 2025,
-  "typ": "patent"
+  "typ": "patent",
+  "url": "https://patents.google.com/?q=%22Tunable+optical+devices+with+extended-depth+tunable+dielectric+cavities%22&inventor=Iyer"
  },
  {
   "title": "High-speed electrical reconfigurability of liquid-crystal semiconductor metasurfaces at visible wavelengths",
@@ -410,7 +441,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/2407.16083",
   "abstract": "We developed an autonomous experimentation platform to accelerate interpretable scientific discovery in ultrafast nanophotonics, targeting a novel method to steer spontaneous emission from reconfigurable semiconductor metasurfaces. Controlling spontaneous emission is crucial for clean-energy solutions in illumination, thermal radiation engineering, and remote sensing. Despite the potential of reconfigurable semiconductor metasurfaces with embedded sources for spatiotemporal control, achieving arbitrary far-field control remains challenging. Here, we present a self-driving lab (SDL) platform that addresses this challenge by discovering the governing equations for predicting the far-field emission profile from light-emitting metasurfaces. We discover that both the spatial gradient (grating-like) and the curvature (lens-like) of the local refractive index are key factors in steering spontaneous emission. The SDL employs a machine-learning framework comprising: (1) a variational autoencoder for generating complex spatial refractive index profiles, (2) an active learning agent for guiding experiments with real-time closed-loop feedback, and (3) a neural network-based equation learner to uncover structure-property relationships. The SDL demonstrated a four-fold enhancement in peak emission directivity (up to 77%) over a 72° field of view within ~300 experiments. Our findings reveal that combinations of positive gratings and lenses are as effective as negative lenses and gratings for all emission angles, offering a novel strategy for controlling spontaneous emission beyond conventional Fourier optics.",
-  "arxiv": "2407.16083"
+  "arxiv": "2407.16083",
+  "doi": "10.48550/arXiv.2407.16083"
  },
  {
   "title": "Local droplet etched quantum dots as quantum light sources",
@@ -427,7 +459,8 @@
   "auth": "Luis Miguel Martinez Milian, Ryan Khan, Remi Dingreville, Ezra Bussman, Tzu-Ming Lu, Prashant Padmanabhan, Prasad Iyer",
   "venue": "Los Alamos National Laboratory (LANL)",
   "year": 2024,
-  "typ": "report"
+  "typ": "report",
+  "url": "https://www.osti.gov/biblio/2346032"
  },
  {
   "title": "Self-driving lab discovers high-efficiency directional incoherent emission from reconfigurable semiconductor metasurfaces",
@@ -474,7 +507,9 @@
   "auth": "Prasad Iyer, Nicholas Jason Karl",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2024,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/2565152",
+  "url": "https://doi.org/10.2172/2565152"
  },
  {
   "title": "Control of quantized spontaneous emission from single GaAs quantum dots embedded in Huygens’ metasurfaces",
@@ -494,7 +529,9 @@
   "year": 2024,
   "typ": "conference",
   "doi": "10.1117/12.3001922",
-  "url": "https://doi.org/10.1117/12.3001922"
+  "url": "https://doi.org/10.1117/12.3001922",
+  "abstract": "The ability to achieve spatiotemporal control of incoherent (thermal and quantum) light emission has been a critical challenge in the field of optics with far ranging applications from remote sensing, holographic displays and quantum information processing. Here we present our results on two light emitting metasurfaces systems: 1) Ultrafast dynamic steering of spontaneous light emission from high-density InAs quantum dots (QDs) embedded inside GaAs resonators under structured optical pumping and 2) Enhancement of single-photon emission from single GaAs local-droplet epitaxial QDs from within AlGaAs Huygens’ metasurfaces.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Tunable optical devices with extended-depth tunable dielectric cavities",
@@ -502,14 +539,16 @@
   "venue": "US Patent 11,914,266",
   "year": 2024,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US11914266"
+  "url": "https://patents.google.com/patent/US11914266B1/en",
+  "abstract": "In various embodiments, a tunable optical surface includes a dielectric substrate layer with an array of elongated metal rails extending from the dielectric substrate parallel to one another and spaced from one another to form channels therebetween. The channels are etched deeper into the dielectric substrate to form extended-depth channels. The depth of each extended-depth channel is greater than the height of adjacent elongated metal rails. The dimensions of the elongated metal rails and the extended-depth channels therebetween may be subwavelength with respect to an operational bandwidth. A tunable dielectric material that has a tunable refractive index, such as liquid crystal, is positioned within the extended-depth channels between adjacent elongated metal rails."
  },
  {
   "title": "Self-driving lab framework for interpretable scientific discovery",
   "auth": "Remi Philippe Michel Dingreville, Igal Brener, Sadhvikas Jayachandra Addamane, Prasad Iyer, Saaketh Desai",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2024,
-  "typ": "report"
+  "typ": "report",
+  "url": "https://www.osti.gov/biblio/2584956"
  },
  {
   "title": "Photoconductive metasurfaces for near-field terahertz sources and detectors",
@@ -529,7 +568,9 @@
   "year": 2023,
   "typ": "conference",
   "doi": "10.1117/12.2677377",
-  "url": "https://doi.org/10.1117/12.2677377"
+  "url": "https://doi.org/10.1117/12.2677377",
+  "abstract": "Placing a GaAs quantum dot (QD) within a Mie metasurface permits fine tailoring of the dot emission properties. We aligned the electric and magnetic dipole modes with the QD's emission wavelength to enhance the emission in comparison to an unstructured layer. This enhancement is analyzed using numerical simulations of modes supported by the metasurface and the effects QD position and polarization. We will discuss the comparison between the numerical results and experimental photoluminescence measurements.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces",
@@ -548,7 +589,8 @@
   "venue": "US Patent 11,644,546",
   "year": 2023,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US11644546"
+  "url": "https://patents.google.com/patent/US11644546B2/en",
+  "abstract": "An example optical transceiver system, such as a solid-state light detection and ranging (lidar) system, includes a tunable, optically reflective metasurface to selectively reflect incident optical radiation as transmit scan lines at transmit steering angles between a first steering angle and a second steering angle. In some embodiments, a feedback element, such as a volume Bragg grating element, may lock a laser to narrow the band of optical radiation. A receiver may include a tunable, optically reflective metasurface for receiver line-scanning or a two-dimensional array of detector elements forming a set of discrete receive scan lines. In embodiments incorporating a two-dimensional array of detector elements, receiver optics may direct optical radiation incident at each of a plurality of discrete receive steering angles to a unique subset of the discrete receive scan lines of detector elements."
  },
  {
   "title": "Ultrafast reconfigurability of circular dichroism from bound-states-in-the-continuum metasurfaces",
@@ -565,7 +607,9 @@
   "auth": "Hyunseung Jung, Lucy Hale, Sylvain Gennaro, Jayson Briscoe, Prasad Iyer, Chloe Florence Doiron, Charles Thomas Harris, Ting S Luk, Sadhvikas Jayachandra Addamane, John L Reno, Igal Brener, Oleg Mitrofanov",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2023,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/2431317",
+  "url": "https://doi.org/10.2172/2431317"
  },
  {
   "title": "Learning incoherent light emission steering from metasurfaces using generative models",
@@ -582,7 +626,10 @@
   "auth": "Saaketh Desai, Prasad Iyer, Remi Philippe Michel Dingreville, Igal Brener",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2023,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/2431549",
+  "url": "https://doi.org/10.2172/2431549",
+  "pdf": "http://dx.doi.org/10.2172/2431549"
  },
  {
   "title": "Terahertz pulse generation with binary phase control in nonlinear InAs metasurface",
@@ -601,7 +648,8 @@
   "venue": "US Patent 11,487,183",
   "year": 2022,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US11487183"
+  "url": "https://patents.google.com/patent/US11487183B1/en",
+  "abstract": "According to various embodiments, a cover is sealed over a metasurface on a substrate to create a sealed chamber. Liquid crystal, or another tunable refractive index dielectric material, is positioned within the sealed chamber around optical structures of the metasurface before or after the cover is sealed. For example, the liquid crystal may be injected through small vias or holes to fill a sealed chamber. In some embodiments, a glass cover is shaped or patterned with photoresist to protrude into the sealed chamber to reduce the thickness of the liquid crystal used to fill the sealed chamber. A driver to control the metasurface may be, for example, integrated within the substrate, be attached to exposed bond pads of the metasurface, and/or be embodied as a control layer connected to the metasurface through the substrate by through-substrate vias (TSVs)."
  },
  {
   "title": "Chirality control with dielectric metasurfaces",
@@ -616,14 +664,18 @@
   "venue": "US Patent 11,429,008",
   "year": 2022,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US11429008"
+  "url": "https://patents.google.com/patent/US11429008B1/en",
+  "abstract": "According to various embodiments, a tunable optical metasurface includes an array of elongated resonator rails arranged parallel to one another. Liquid crystal is positioned within an optical field region between adjacent resonator rails. A controller can selectively apply a voltage differential pattern to the elongated resonator rails to adjust a phase response thereof. According to various embodiments, a cross-backplane reflector is utilized that allows for mid-array routing or edge-array routing of electrical connections between the controller and the resonator rails. The cross-backplane reflector comprises a plurality of elongated optical reflectors extending parallel to one another and perpendicular to the array of resonator rails. An optically transmissive (e.g., transparent) dielectric may electrically separate the resonator rails from the optical reflectors. A pattern of vias formed therein facilitates electrical connections between the optical reflectors and the resonator rails."
  },
  {
   "title": "GaAs(Sb) nanostructures formed by arsenic-induced in-situ etching of III-Sb surfaces",
   "auth": "Sadhvikas Addamane, Alexander Hendrickson, Thomas Rotter, Prasad Padmanabha Iyer, Paul Kotula, Julia Deitz, John Klem, Igal Brener, Ganesh Balakrishnan",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2022,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/2003892",
+  "url": "https://doi.org/10.2172/2003892",
+  "pdf": "http://dx.doi.org/10.2172/2003892"
  },
  {
   "title": "Ultrafast beam steering of photoluminescence from dielectric metasurfaces",
@@ -640,14 +692,18 @@
   "auth": "Prasad Padmanabha Iyer, Nicholas Karl, Sylvain Gennaro, Sadhvikas Addamane, Micheal Sinclair, Igal Brener",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2022,
-  "typ": "report"
+  "typ": "report",
+  "doi": "10.2172/2003250",
+  "url": "https://doi.org/10.2172/2003250",
+  "pdf": "http://dx.doi.org/10.2172/2003250"
  },
  {
   "title": "Machine learning driven autonomous control of incoherent light matter interactions",
   "auth": "Prasad Padmanabha Iyer, Saaketh Desai, Sadhvikas Addamane, Remi Dingreville, Igal Brener",
   "venue": "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
   "year": 2022,
-  "typ": "report"
+  "typ": "report",
+  "url": "https://www.osti.gov/biblio/2002354"
  },
  {
   "title": "Cascaded optical nonlinearities in dielectric metasurfaces",
@@ -686,7 +742,8 @@
   "venue": "US Patent 11,092,675",
   "year": 2021,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US11092675"
+  "url": "https://patents.google.com/patent/US11092675B2/en",
+  "abstract": "An example optical transceiver system, such as a solid-state light detection and ranging (lidar) system, includes a tunable, optically reflective metasurface to selectively reflect incident optical radiation as transmit scan lines at transmit steering angles between a first steering angle and a second steering angle. In some embodiments, a feedback element, such as a volume Bragg grating element, may lock a laser to narrow the band of optical radiation. A receiver may include a tunable, optically reflective metasurface for receiver line-scanning or a two-dimensional array of detector elements forming a set of discrete receive scan lines. In embodiments incorporating a two-dimensional array of detector elements, receiver optics may direct optical radiation incident at each of a plurality of discrete receive steering angles to a unique subset of the discrete receive scan lines of detector elements."
  },
  {
   "title": "Light-emitting metalenses and meta-axicons for focusing and beaming of spontaneous emission",
@@ -713,7 +770,9 @@
   "typ": "journal",
   "doi": "10.1038/s41566-020-0641-x",
   "url": "https://doi.org/10.1038/s41566-020-0641-x",
-  "pdf": "https://arxiv.org/pdf/1905.01816"
+  "pdf": "https://arxiv.org/pdf/1905.01816",
+  "abstract": "III–nitride light-emitting diodes (LEDs) are the backbone of ubiquitous lighting and display applications. Imparting directional emission is an essential requirement for many LED implementations. Although optical packaging, nanopatterning and surface roughening techniques can enhance LED extraction, directing the emitted light requires bulky optical components. Optical metasurfaces provide precise control over transmitted and reflected waveforms, suggesting a new route for directing light emission. However, it is difficult to adapt metasurface concepts for incoherent light emission, due to the lack of a phase-locking incident wave. Here, we demonstrate a metasurface-based design of InGaN/GaN quantum-well structures that generate narrow, unidirectional transmission and emission lobes at arbitrary engineered angles. We further demonstrate 7-fold and 100-fold enhancements of total and air-coupled external quantum efficiencies, respectively. The results present a new strategy for exploiting metasurface functionality in light-emitting devices.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Sidelobe suppression in metasurface devices",
@@ -721,7 +780,8 @@
   "venue": "US Patent 10,727,601",
   "year": 2020,
   "typ": "patent",
-  "url": "https://patents.google.com/patent/US10727601"
+  "url": "https://patents.google.com/patent/US10727601B1/en",
+  "abstract": "A transceiver system may include first and second metasurfaces, such as radio frequency (RF) metasurfaces or optically reflective tunable liquid crystal metasurfaces (LCMs). In one specific example, a transmit LCM may be tuned by a controller to steerably reflect incident optical radiation at a target transmit steering angle. A laser or other optical radiation source may transmit optical radiation to the transmit LCM at a first angle of incidence. The controller may tune the second tunable LCM to steerably receive optical radiation at a target receive steering angle corresponding to the target transmit steering angle. The received optical radiation may be reflected at a second angle of incidence to a detector."
  },
  {
   "title": "Light-emitting metasurfaces: A metalens approach for focusing spontaneous emission",
@@ -796,13 +856,14 @@
  {
   "title": "III-V Heterojunction Platform for Electrically Reconfigurable Dielectric Metasurfaces",
   "auth": "Prasad Padmanabha Iyer, Mihir Pendharkar, Chris J Palmstrom, Jon A Schuller",
-  "venue": "ACS Photonics",
+  "venue": "ACS Photonics 6 (6), 1345-1350",
   "year": 2019,
   "typ": "journal",
   "doi": "10.1021/acsphotonics.9b00178",
   "url": "https://doi.org/10.1021/acsphotonics.9b00178",
   "pdf": "https://arxiv.org/pdf/1903.10280",
-  "abstract": "Achieving an electrically tunable phased array optical antenna surface has been a principal challenge in the field of metasurfaces. In this Letter, we demonstrate a device platform for achieving reconfigurable control over the resonant wavelength of a subwavelength optical antenna through free-carrier injection. We engineer and grow, using molecular beam epitaxy, a heterostructure of In1–xAlxAs/InAs/AlyGa1–ySb layers designed to achieve large amplitude and phase modulation of light by maximizing the refractive index change in regions of resonant field enhancement The p-i-n layers are grown on a heavily doped n-InAs layer which forms a reflecting substrate to confine the Mie resonances within the nanowires of the index tunable layers. We outline the fabrication process developed to form such tunable metasurface elements using a four-step projection lithography process and a self-aligned vertical dry etch. We experimentally demonstrate the operation of an electrically reconfigurable optical antenna element ..."
+  "abstract": "Achieving an electrically tunable phased array optical antenna surface has been a principal challenge in the field of metasurfaces. In this Letter, we demonstrate a device platform for achieving reconfigurable control over the resonant wavelength of a subwavelength optical antenna through free-carrier injection. We engineer and grow, using molecular beam epitaxy, a heterostructure of In1–xAlxAs/InAs/AlyGa1–ySb layers designed to achieve large amplitude and phase modulation of light by maximizing the refractive index change in regions of resonant field enhancement. The p-i-n layers are grown on a heavily doped n-InAs layer which forms a reflecting substrate to confine the Mie resonances within the nanowires of the index tunable layers. We outline the fabrication process developed to form such tunable metasurface elements using a four-step projection lithography process and a self-aligned vertical dry etch. We experimentally demonstrate the operation of an electrically reconfigurable optical antenna element where the resonant wavelength blue shifts by 200 nm only during carrier-injection. We extrapolate the experimentally measured InAs refractive index shifts to show we can achieve a nearly π-phase shift in a metasurface array. This solid-state device platform enables us to contact each resonant element independently to form a truly reconfigurable Fourier optical element with the promise of arbitrary control of the electromagnetic wavefront at the subwavelength scale.",
+  "abstract_src": "ACS Publications"
  },
  {
   "title": "Thermally reconfigurable meta-optics",
@@ -833,7 +894,8 @@
   "typ": "preprint",
   "url": "https://arxiv.org/abs/1903.10280",
   "abstract": "Achieving an electrically tunable phased array optical antenna surface has been a principal challenge in the field of metasurfaces. In this letter, we demonstrate a device platform for achieving reconfigurable control over the resonant wavelength of a subwavelength optical antenna through free-carrier injection. We engineer and grow, using molecular beam epitaxy, a heterostructure of In1-xAlxAs/InAs/AlyGa1-ySb layers designed to achieve large amplitude and phase modulation of light by maximizing the refractive index change in regions of resonant field enhancement The p-i-n layers are grown on a heavily doped n-InAs layer which forms a reflecting substrate to confine the Mie resonances within the nanowires of the index tunable layers. We outline the fabrication process developed to form such tunable metasurface elements using a four-step projection lithography process and a self-aligned vertical dry etch. We experimentally demonstrate the operation of an electrically reconfigurable optical antenna element where the resonant wavelength blue shifts by 200nm only during carrier-injection. We extrapolate the experimentally measured InAs refractive index shifts to show we can achieve nearly π phase shift in a metasurface array. This solid-state device platform enables us to contact each resonant element independently to form a truly reconfigurable Fourier optical element with the promise of arbitrary control of the electromagnetic wavefront at the subwavelength scale.",
-  "arxiv": "1903.10280"
+  "arxiv": "1903.10280",
+  "doi": "10.48550/arXiv.1903.10280"
  },
  {
   "title": "Broadband electrically tunable dielectric resonators using metal–insulator transitions",
@@ -843,7 +905,8 @@
   "typ": "journal",
   "doi": "10.1021/acsphotonics.8b00699",
   "url": "https://doi.org/10.1021/acsphotonics.8b00699",
-  "abstract": "Dielectric-resonator-based nanophotonic devices show promise owing to their low intrinsic losses, support of multipolar resonances, and efficient operation in both reflection and transmission configurations. A key challenge is to make such devices dynamically switchable, such that optical behavior can be instantaneously reconfigured. In this work we experimentally demonstrate large, broadband, and continuous electrical tuning of reflection resonances in hybrid dielectric–VO2 devices. Our calculations, in strong agreement with experimental reflectance measurements, also indicate the presence of large transmission and absorption modulation. We additionally demonstrate independent modulation of both reflection amplitude and phase at Fabry–Perot anti-nodes and nodes, respectively, a key requirement for metasurface design. We conclude with a temporal characterization, in which we achieve rapid electronic modulation rates of approximately 3 kHz, substantially faster than other recent approaches. These findings ..."
+  "abstract": "Dielectric-resonator-based nanophotonic devices show promise owing to their low intrinsic losses, support of multipolar resonances, and efficient operation in both reflection and transmission configurations. A key challenge is to make such devices dynamically switchable, such that optical behavior can be instantaneously reconfigured. In this work we experimentally demonstrate large, broadband, and continuous electrical tuning of reflection resonances in hybrid dielectric–VO2 devices. Our calculations, in strong agreement with experimental reflectance measurements, also indicate the presence of large transmission and absorption modulation. We additionally demonstrate independent modulation of both reflection amplitude and phase at Fabry–Pérot anti-nodes and nodes, respectively, a key requirement for metasurface design. We conclude with a temporal characterization, in which we achieve rapid electronic modulation rates of approximately 3 kHz, substantially faster than other recent approaches. These findings greatly expand the potential of designing nanophotonic devices that exploit the tunable behavior of hybrid dielectric–VO2 resonators.",
+  "abstract_src": "ACS Publications"
  },
  {
   "title": "Uniform thermo-optic tunability of dielectric metalenses",
@@ -860,7 +923,10 @@
   "auth": "Nikita A Butakov, Mark Knight, Tomer Lewi, Prasad P Iyer, Hamid Chorsi, Javier Del Valle Granda, Yoav Kalchheim, Phillip Hon, Ivan K Schuller, Jon A Schuller",
   "venue": "2018 76th Device Research Conference (DRC), 1-2",
   "year": 2018,
-  "typ": "conference"
+  "typ": "conference",
+  "doi": "10.1109/drc.2018.8442148",
+  "url": "https://doi.org/10.1109/drc.2018.8442148",
+  "abstract": "We experimentally demonstrate thermally and electronically tunable nanophotonic devices utilizing metal-insulator phase transitions in VO2. We show that VO2 resonators support switching between dielectric and plasmonic resonances, and that by placing Germanium resonators on VO2 we can achieve a broadband, continuous electronic tuning on reflection, transmission, and absorption resonances."
  },
  {
   "title": "Reconfigurable Optical Metasurfaces",
@@ -876,7 +942,9 @@
   "year": 2017,
   "typ": "conference",
   "doi": "10.1117/12.2274548",
-  "url": "https://doi.org/10.1117/12.2274548"
+  "url": "https://doi.org/10.1117/12.2274548",
+  "abstract": "Reconfigurable Mie resonator metasurfaces may give rise to new classes of programmable optical devices. Large phase and amplitude modulations can be achieved with high-Q resonances that are tunable by at least one line-width. We experimentally demonstrate narrow linewidth, reconfigurable Mie resonators comprising undoped InSb wires embedded inside a highly doped InSb Epsilon-Near-Zero (ENZ) cavity. We demonstrate a Q-factor increase of 400% by embedding a high index resonator within, instead of atop, an ENZ substrate. Systematic studies of varying width resonators reveal significant differences in coupling to the ENZ media for TM and TE resonators. A large refractive index modulation (Δn ≥1.5) is achieved with heating (80-575K), stemming from variations in the effective mass of free-carriers. Thermally tuning the ENZ wavelength of the cavity by >2μm (13-15.5μm) emables reconfigurable tuning by multiple line-widths. This ultra-wide thermal tunability of high-Q embedded resonators may enable new class of active metadevices in the mid-infrared wavelength regime.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Ultrawide thermal free-carrier tuning of dielectric antennas coupled to epsilon-near-zero substrates",
@@ -895,7 +963,9 @@
   "year": 2016,
   "typ": "conference",
   "doi": "10.1117/12.2237905",
-  "url": "https://doi.org/10.1117/12.2237905"
+  "url": "https://doi.org/10.1117/12.2237905",
+  "abstract": "Optical antenna metasurfaces have attracted substantial attention in recent years, as they may enable new classes of planar optical elements. However, actively tuning nanoantenna resonances, whether dielectric or plasmonic, remains an unresolved challenge. In this work, we investigate tuning mid-infrared (MIR) Mie resonances in semiconductor subwavelength particles by directly modulating the permittivity with free charge carriers. Using femtosecond laser ablation, we fabricate spherical silicon and germanium particles of varying sizes and doping concentrations. Single-particle infrared spectra reveal electric and magnetic dipole, quadrupole, and hexapole resonances. We first demonstrate size-dependent Si and Ge Mie resonances spanning the entire mid-infrared (2-16 μm) spectral range. We subsequently show doping-dependent resonance frequency shifts that follow simple Drude models. Taking advantage of the large doping dependence of Si and Ge MIR permittivities, we demonstrate a huge tunability of Mie resonance wavelengths (up to ~ 9 μm) over a broad 2-16 μm MIR range. This tuning range corresponds to changes of permittivity as large as 30 within a single material system, culminating in the emergence of plasmonic modes at high carrier densities and long wavelengths. We also demonstrate dynamic tuning of intrinsic semiconductor antennas using thermo-optic effects. These findings demonstrate the potential for actively tuning infrared Mie resonances, thus providing an excellent platform for tunable metamaterials.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Electrically reconfigurable metasurfaces using heterojunction resonators",
@@ -925,7 +995,9 @@
   "year": 2015,
   "typ": "journal",
   "doi": "10.1021/acs.nanolett.5b03679",
-  "url": "https://doi.org/10.1021/acs.nanolett.5b03679"
+  "url": "https://doi.org/10.1021/acs.nanolett.5b03679",
+  "abstract": "We demonstrate tuning of infrared Mie resonances by varying the carrier concentration in doped semiconductor antennas. We fabricate spherical silicon and germanium particles of varying sizes and doping concentrations. Single-particle infrared spectra reveal electric and magnetic dipole, quadrupole, and hexapole resonances. We subsequently demonstrate doping-dependent frequency shifts that follow simple Drude models, culminating in the emergence of plasmonic resonances at high doping levels and long wavelengths. These findings demonstrate the potential for actively tuning infrared Mie resonances by optically or electrically modulating charge carrier densities, thus providing an excellent platform for tunable metamaterials.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Properties of infrared doped semiconductor Mie resonators (Presentation Recording)",
@@ -934,7 +1006,9 @@
   "year": 2015,
   "typ": "conference",
   "doi": "10.1117/12.2187292",
-  "url": "https://doi.org/10.1117/12.2187292"
+  "url": "https://doi.org/10.1117/12.2187292",
+  "abstract": "Dielectric optical antenna resonators have recently emerged as a viable alternative to plasmonic resonators for metamaterials and nanophotonic devices, due to their ability to support multipolar Mie resonances with low losses. In this work, we experimentally investigate the mid-infrared Mie resonances in Si and Ge subwavelength spherical particles. In particular, we leverage the electronic and optical properties of these semiconductors in the mid-infrared range to design and tune Mie resonators through free-carrier refraction. Si and Ge semiconductor spheres of varying sizes of 0.5-4 μm were fabricated using femtosecond laser ablation. Using single particle infrared spectroscopy, we first demonstrate size-dependent Si and Ge Mie resonances spanning the entire mid-infrared (2-16 μm) spectral range. Subsequently we show that the Mie resonances can be tuned by varying material properties rather than size or geometry. We experimentally demonstrate doping-dependent resonance frequency shifts that follow simple Drude models of free-carrier refraction. We show that Ge particles exhibit a stronger doping dependence than Si due to the smaller effective mass of the free carriers. Using the unique size and doping dispersion of the electric and magnetic dipole modes, we identify and demonstrate a size regime where these modes are spectrally overlapping. We also demonstrate the emergence of plasmonic resonances for high doping levels and long wavelengths. These findings demonstrate the potential for tuning infrared semiconductor Mie resonances by optically or electrically modulating charge carrier densities, thus providing an excellent platform for tunable electromagnetic metamaterials.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Dynamically reconfigurable metasurfaces (Presentation Recording)",
@@ -943,7 +1017,9 @@
   "year": 2015,
   "typ": "conference",
   "doi": "10.1117/12.2187811",
-  "url": "https://doi.org/10.1117/12.2187811"
+  "url": "https://doi.org/10.1117/12.2187811",
+  "abstract": "Recently, the use of phased array metasurfaces to control the phase and amplitude of electromagnetic waves at subwavelength dimensions have led to large number of devices ranging from flat optical elements to holographic projections. Here we analytically (and numerically using FDTD techniques) develop a design principle to form reconfigurable metasurfaces that control the phase of transmitted beam between 0 and 2π in a lossless manner. For a linearly polarized plane wave incident on a sub-wavelength array of dielectric resonators, we engineer the size of the individual resonators and the array periodicity such that the fundamental Electric and Magnetic dipole resonances of the device cross each other. This mode crossing caused by coupling of individual resonator modes with the surface lattice resonances, constructively interferes with the incident plane wave enabling us to form lossless metasurfaces. By optically pumping charge carriers into the resonators, we can tune the refractive index of the individual resonators leading to arbitrary control over the phase of the transmitted beam between 0 and 2π with less than 3dB loss in intensity. Further, we extend these strategies by redesigning the resonator elements by forming core-shell (metal-dielectric) resonators to cause the resonance matching within each resonator. This enables the mode crossing to be independent of the periodicity of the resonator elements while preserving the arbitrary control over the phase through charge carrier modulation. Such metasurfaces with spectrally overlapping electric and magnetic dipole modes may form the basis for a range of metadevices with unprecedented control over the Electromagnetic wave front.",
+  "abstract_src": "publisher page"
  },
  {
   "title": "Reconfigurable semiconductor phased-array metasurfaces",

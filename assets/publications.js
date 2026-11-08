@@ -10,12 +10,18 @@
   var root = document.getElementById("pubs");
   if (!root) return;
 
-  var TYPES = [
-    ["journal", "Journal"], ["conference", "Conference"], ["preprint", "Preprint"],
-    ["patent", "Patent"], ["report", "Report"], ["thesis", "Thesis"], ["talk", "Talk"]
+  // Label shown on each entry, per typ in the data file.
+  var LABEL = { journal: "Journal", preprint: "Preprint", conference: "Conference", talk: "Conference",
+    patent: "Patent", report: "Report", thesis: "Thesis" };
+  // Filter tabs (after "Selected" and "All"). Each tab collects one or more typ values;
+  // types not listed here (report, thesis) appear only under "All".
+  var TABS = [
+    ["journal", "Journal Articles", ["journal", "preprint"]],
+    ["conference", "Conference Proceedings", ["conference", "talk"]],
+    ["patent", "Patent", ["patent"]]
   ];
-  var LABEL = {};
-  TYPES.forEach(function (t) { LABEL[t[0]] = t[1]; });
+  var TAB_TYPES = {};
+  TABS.forEach(function (t) { TAB_TYPES[t[0]] = t[2]; });
 
   // Every form of the PI's name: Prasad P Iyer, Prasad P. Iyer, Prasad Iyer,
   // Prasad Padmanabha Iyer, PP Iyer, P. P. Iyer, P Iyer, P. Iyer, Iyer, P. P.
@@ -118,13 +124,15 @@
 
   function render(all) {
     var selected = pickSelected(all);
-    var counts = {};
-    all.forEach(function (p) { counts[p.typ] = (counts[p.typ] || 0) + 1; });
+    function inTab(p, tab) { return (TAB_TYPES[tab] || []).indexOf(p.typ) >= 0; }
 
     var tabs = [];
     if (selected.length) tabs.push(["selected", "Selected", selected.length]);
     tabs.push(["all", "All", all.length]);
-    TYPES.forEach(function (t) { if (counts[t[0]]) tabs.push([t[0], t[1], counts[t[0]]]); });
+    TABS.forEach(function (t) {
+      var n = all.filter(function (p) { return inTab(p, t[0]); }).length;
+      if (n) tabs.push([t[0], t[1], n]);
+    });
 
     var current = selected.length ? "selected" : "all";
     try {
@@ -154,7 +162,7 @@
       });
       var items = tab === "selected" ? selected
         : tab === "all" ? all
-        : all.filter(function (p) { return p.typ === tab; });
+        : all.filter(function (p) { return inTab(p, tab); });
       countEl.textContent = tab === "selected"
         ? "Selected publications"
         : "Showing " + items.length + " of " + all.length + " entries";
@@ -224,11 +232,12 @@
       var extras = Array.isArray(res[1]) ? res[1] : [];
       // 1) "patch" entries overwrite fields on matching entries (same title; same typ if given);
       //    "fill" entries only fill fields that are empty in publications.json.
-      var CONTROL = ["patch", "fill", "title", "match_typ", "note", "source"];
+      var CONTROL = ["patch", "fill", "title", "match_typ", "match_venue", "note", "source"];
       extras.filter(function (x) { return x.patch || x.fill; }).forEach(function (x) {
         main.forEach(function (p) {
           if (norm(cleanTitle(p.title)) !== norm(cleanTitle(x.title))) return;
           if (x.match_typ && p.typ !== x.match_typ) return;
+          if (x.match_venue && norm(p.venue) !== norm(x.match_venue)) return;
           Object.keys(x).forEach(function (k) {
             if (CONTROL.indexOf(k) >= 0) return;
             if (x.patch || p[k] == null || String(p[k]).trim() === "") p[k] = x[k];

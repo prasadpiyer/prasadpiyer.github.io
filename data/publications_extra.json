@@ -18,16 +18,26 @@
  },
  {
   "patch": true,
-  "title": "Electrically Switchable Infrared Nanophotonic Devices with VO2",
-  "doi": "10.1109/drc.2018.8442148",
-  "url": "https://doi.org/10.1109/drc.2018.8442148"
- },
- {
-  "patch": true,
   "title": "Cascaded optical nonlinearities in dielectric metasurfaces",
   "match_typ": "journal",
   "abstract": "Since the discovery of the laser, optical nonlinearities have been at the core of efficient light conversion sources. Typically, thick transparent crystals or quasi-phase matched waveguides, are utilized in conjunction with phase-matching techniques to select a single parametric process. In recent years, due to the rapid developments in artificially structured materials, optical frequency mixing has been achieved at the nanoscale in subwavelength resonators arrayed as metasurfaces. Phase matching becomes relaxed for these wavelength-scale structures, and all allowed nonlinear processes can, in principle, occur on an equal footing. This could promote harmonic generation via a cascaded (consisting of several frequency mixing steps) process. However, so far, all reported work on dielectric metasurfaces have assumed frequency mixing from a direct (single step) nonlinear process. In this work, we prove the existence of cascaded second-order optical nonlinearities by analyzing the second and third wave mixing from a highly nonlinear metasurface in conjunction with polarization selection rules and crystal symmetries. We find that the third wave mixing signal from a cascaded process can be of comparable strength to that from conventional third harmonic generation, and that surface nonlinearities are the dominant mechanism that contributes to cascaded second order nonlinearities in our metasurface.",
   "source": "previous lab website (Scholar's copy ends mid-sentence)"
+ },
+ {
+  "patch": true,
+  "title": "Tunable optical devices with extended-depth tunable dielectric cavities",
+  "match_typ": "patent",
+  "match_venue": "US Patent App. 18/586,991",
+  "url": "https://patents.google.com/patent/US20250044661A1/en",
+  "source": "Published application of 18/586,991 (replaces a Google Patents search link)"
+ },
+ {
+  "patch": true,
+  "title": "Multicoated Tunable Optical Devices",
+  "match_typ": "patent",
+  "match_venue": "US Patent App. 19/303,287",
+  "url": "",
+  "source": "Application filed Aug 2025, not yet published; removes a Google Patents search link"
  },
  {
   "note": "Sandia filings that are not on Google Scholar; these add new rows.",
@@ -52,26 +62,12 @@
   "typ": "patent"
  },
  {
-  "note": "Abstracts from the previous lab website, used only where publications.json has none. Entries with \"fill\": true never overwrite a field that already has a value.",
-  "fill": true,
-  "title": "Learning interpretable surface elasticity properties from bulk properties via neural network equation learners",
-  "match_typ": "journal",
-  "abstract": "This work introduces a neural network-based equation learner designed to discover closed-form expressions for surface elasticity properties, combining customized activation functions and connection-based pruning to discover parsimonious, closed-form equations. When applied to seven face-centered cubic metals, the approach reveals interpretable relationships describing both low and high Miller index surfaces. The researchers found that surface elasticity properties decompose into a universal, geometry-driven orientation function, and material-specific baseline coefficients. A key finding is the differential behavior across property hierarchies: lower-order properties like surface tension demonstrate primarily geometric dependence, while higher-order properties such as surface stress exhibit more intricate geometry-material interactions. The work demonstrates how neurosymbolic machine learning can effectively bridge atomistic simulations with physical laws, enabling discovery of generalizable structure-property relationships in materials science.",
-  "source": "previous lab website, _publications/2026-01-09-learning-interpretable-surface-elasticity.md"
- },
- {
   "fill": true,
   "title": "Multicoated Tunable Optical Devices",
   "match_typ": "patent",
   "abstract": "A device may include a dielectric substrate layer with an array of multicoated elongated metal rails extending from the dielectric substrate parallel to one another and spaced from one another to form channels therebetween. The dimensions of the multicoated elongated metal rails and the channels therebetween may be subwavelength with respect to an operational bandwidth. In some examples, each multicoated elongated metal rail is formed with a copper core coated with an optically reflective silver coating followed by a passivation coating. In various examples, a conductive barrier material separates each multicoated elongated metal rail from an underlying dielectric substrate layer. A tunable dielectric material that has a tunable refractive index, such as liquid crystal, is positioned within the channels between adjacent multicoated elongated metal rails.",
-  "source": "previous lab website, _patents/2024-03-01-patent-us20240353624a1.md"
- },
- {
-  "fill": true,
-  "title": "High-Q, Size-Independent, and Reconfigurable Optical Antennas Embedded in Zero-Index Cavities",
-  "match_typ": "journal",
-  "abstract": "Enhancing light–matter interactions at the nanoscale is foundational to nanophotonics, with epsilon-near-zero (ENZ) materials demonstrating significant potential. High-quality factor (Q) resonances that maximize these interactions are typically realized in photonic crystals requiring sub-50 nm precision nanofabrication over large areas, limiting scalability and increasing complexity. Mie resonances offer an alternative but are constrained by low Q-factors due to the scarcity of high-refractive index materials, necessitating large refractive index changes for effective resonance switching and limiting dynamic reconfigurability. We overcome these limitations by embedding Mie resonators within ENZ media, thereby enhancing Q-factors, mitigating geometric dispersion and fabrication challenges, and maximizing optical reconfigurability. We introduce three resonator-ENZ configurations: voids in AlN, Ge in SiO2, and intrinsic InSb in doped InSb─spanning from low-loss phononic to lossy plasmonic ENZ modes. Using novel epitaxial regrowth techniques, we achieve significant Q-factor improvements over nonembedded resonators. An air-based Mie resonator embedded in AlN supports resonant Q-factors exceeding 100, with negligible geometric dispersion across sizes from 800 to 2800 nm. Additionally, we demonstrate dynamic reconfigurability of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2 μm range in the mid-infrared (11–16 μm) wavelength regime. These results showcase the potential of Mie resonators embedded in ENZ media for high-fidelity sensors, thermal emitters, and reconfigurable metasurfaces, bridging theoretical predictions with practical applications and advancing the development of dynamic, high-Q optical devices.",
-  "source": "previous lab website, _publications/2025-10-07-high-q-optical-antennas-enz.md"
+  "source": "previous lab website, _patents/2024-03-01-patent-us20240353624a1.md",
+  "note": "Abstracts from the previous lab website, used only where publications.json has none. Entries with \"fill\": true never overwrite a field that already has a value."
  },
  {
   "fill": true,
@@ -86,27 +82,6 @@
   "match_typ": "journal",
   "abstract": "We present a high-level architecture for how artificial intelligences might advance and accumulate scientific and technological knowledge, inspired by emerging perspectives on how human intelligences advance and accumulate such knowledge. Agents advance knowledge by exercising a technoscientific method—an interacting combination of scientific and engineering methods. The technoscientific method maximizes a quantity we call “useful learning” via more-creative implausible utility (including the “aha!” moments of discovery), as well as via less-creative plausible utility. Society accumulates the knowledge advanced by agents so that other agents can incorporate and build on to make further advances. The proposed architecture is challenging but potentially complete: its execution might in principle enable artificial intelligences to advance and accumulate an equivalent of the full range of human scientific and technological knowledge.",
   "source": "previous lab website, _publications/2024-01-01-AI-for-Technoscientific-Discovery-A-Human-Inspired-Architecture.md"
- },
- {
-  "fill": true,
-  "title": "Tunable optical device configurations and packaging",
-  "match_typ": "patent",
-  "abstract": "According to various embodiments, a cover is sealed over a metasurface on a substrate to create a sealed chamber. Liquid crystal, or another tunable refractive index dielectric material, is positioned within the sealed chamber around optical structures of the metasurface before or after the cover is sealed. For example, the liquid crystal may be injected through small vias or holes to fill a sealed chamber. In some embodiments, a glass cover is shaped or patterned with photoresist to protrude into the sealed chamber to reduce the thickness of the liquid crystal used to fill the sealed chamber. A driver to control the metasurface may be, for example, integrated within the substrate, be attached to exposed bond pads of the metasurface, and/or be embodied as a control layer connected to the metasurface through the substrate by through-substrate vias (TSVs).",
-  "source": "previous lab website, _patents/2022-09-01-patent-us11487183.md"
- },
- {
-  "fill": true,
-  "title": "Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces",
-  "match_typ": "journal",
-  "abstract": "III–nitride light-emitting diodes (LEDs) are the backbone of ubiquitous lighting and display applications. Imparting directional emission is an essential requirement for many LED implementations. Although optical packaging, nanopatterning,3 and surface roughening4 techniques can enhance LED extraction, directing the emitted light requires bulky optical components. Optical metasurfaces provide precise control over transmitted and reflected waveforms, suggesting a new route for directing light emission. However, it is difficult to adapt metasurface concepts for incoherent light emission, due to the lack of a phase-locking incident wave. Here, we demonstrate a metasurface-based design of InGaN/GaN quantum-well structures that generate narrow, unidirectional transmission and emission lobes at arbitrary engineered angles. We further demonstrate 7-fold and 100-fold enhancements of total and air-coupled external quantum efficiencies, respectively. The results present a new strategy for exploiting metasurface functionality in light-emitting devices.",
-  "source": "previous lab website, _publications/2020-09-01-unidirectional-luminescence.md"
- },
- {
-  "fill": true,
-  "title": "Sidelobe suppression in metasurface devices",
-  "match_typ": "patent",
-  "abstract": "A transceiver system may include first and second metasurfaces, such as radio frequency (RF) metasurfaces or optically reflective tunable liquid crystal metasurfaces (LCMs). In one specific example, a transmit LCM may be tuned by a controller to steerably reflect incident optical radiation at a target transmit steering angle. A laser or other optical radiation source may transmit optical radiation to the transmit LCM at a first angle of incidence. The controller may tune the second tunable LCM to steerably receive optical radiation at a target receive steering angle corresponding to the target transmit steering angle. The received optical radiation may be reflected at a second angle of incidence to a detector.",
-  "source": "previous lab website, _patents/2019-01-01-sidelobe-level-reduction.md"
  },
  {
   "fill": true,

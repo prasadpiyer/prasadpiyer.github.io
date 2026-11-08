@@ -32,7 +32,10 @@ Fields per entry: `title`, `auth` (full author list), `venue`, `year`, `typ`
 and optionally `url`, `doi`, `pdf`, `arxiv`, `abstract`.
 
 What the page does with it:
-- groups entries by year (newest first), with filter tabs by type and a "Selected" tab;
+- groups entries by year (newest first), with five filter tabs: Selected, All,
+  Journal Articles (`journal` + `preprint`), Conference Proceedings (`conference` + `talk`) and Patent;
+  reports and the thesis appear only under All (the grouping is the `TABS` list at the top of
+  `assets/publications.js`);
 - shows the full author list and bolds Prasad P Iyer / Prasad Iyer / Prasad Padmanabha Iyer / PP Iyer / P Iyer;
 - links the title to `url`, and adds DOI, PDF and arXiv buttons when those fields exist
   (a PDF link identical to the DOI link is not repeated);
