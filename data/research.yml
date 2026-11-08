@@ -1,6 +1,7 @@
 # Research programs, in the order they appear.
 # image is optional (for example assets/img/research/quantum.jpg); without one a sunset color tile is shown.
 # wide: true shows the image full width above the text (for labeled figures) instead of a square tile.
+# papers: titles from data/publications.json shown as "Key papers" with links (resolved at build time).
 - title: Structured quantum light sources
   text: Quantum light sources whose structure shapes the quantum state they emit. We work with color centers,
     semiconductor quantum dots and photon-pair generation in engineered metasurfaces, where the structure around
@@ -8,6 +9,11 @@
     computing (MBQC).
   image: assets/img/research/structured-quantum-light.jpg
   alt: Single quantum dot in a Huygens metasurface emitting single photons
+  papers:
+    - "Control of quantized spontaneous emission from single GaAs quantum dots embedded in Huygens’ metasurfaces"
+    - Voltage-Tunable Nonlocal Metasurface for Enhanced Outcoupling of Emission from Quantum Dots
+    - Efficient single-photon emission via quantum-confined charge funneling to quantum dots
+    - Simultaneous anti-bunched and super-bunched photons from a GaAs Quantum dot in a dielectric metasurface
 - title: Accelerating physical AI
   text: Interacting materials and light naturally relax toward their lowest-energy states. We harness this
     energy minimization to accelerate computations that limit today's electronic architectures, such as
@@ -15,6 +21,10 @@
     coupled nanomagnets that compute in memory to photonic Ising machines that search for solutions in parallel.
   image: assets/img/research/physical-ai-ising-energy-landscape.jpg
   alt: "Ising machines: an energy landscape whose top and deepest valley correspond to high- and low-energy states of a coupled spin network"
+  papers:
+    - Boltzmann Reinforcement Learning for Noise resilience in Analog Ising Machines
+    - Deep generative learning of magnetic frustration in artificial spin ice from magnetic force microscopy images
+    - "Is computing with light all you need? A perspective on codesign for optical artificial intelligence and scientific computing"
 - title: AI-driven materials science and nanophotonics
   text: Discovering high-dimensional material transformations, captured as process–structure–property
     relationships, is hard for traditional experiments. Our self-driving labs use AI and machine learning to
@@ -24,3 +34,9 @@
     light–matter interactions.
   image: assets/img/research/ai-driven-self-driving-lab.jpg
   alt: "Self-driving lab loop: generative exploration designs experiments, ultrafast optics measures a reconfigurable metasurface, and an equation learner interprets the results"
+  papers:
+    - Self-driving lab discovers principles for steering spontaneous emission beyond conventional Fourier optics
+    - "AutoSciLab: a self-driving laboratory for interpretable scientific discovery"
+    - "LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs"
+    - Learning interpretable surface elasticity properties from bulk properties via neural network equation learners
+    - "Materials Behavior as Mechanism Ensembles: A Probabilistic Framework for Emergent Behaviors"

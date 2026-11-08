@@ -76,7 +76,13 @@
     {% for r in research %}
     <article class="proj{% if r.wide %} wide{% endif %}">
       {% if r.image %}<img class="{{ 'figure' if r.wide else 'thumb' }}" src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy">{% else %}<div class="thumb th{{ loop.index }}" aria-hidden="true"></div>{% endif %}
-      <div><h3>{{ r.title }}</h3><p>{{ r.text }}</p></div>
+      <div><h3>{{ r.title }}</h3><p>{{ r.text }}</p>
+        {% if r.key_papers %}
+        <div class="keypapers"><span class="kp-label">Key papers</span>
+          <ul>{% for k in r.key_papers %}<li>{% if k.url %}<a href="{{ k.url }}">{{ k.title }}</a>{% else %}{{ k.title }}{% endif %} <span class="kp-ven">{{ k.venue }}{% if k.venue and k.year %}, {% endif %}{{ k.year }}</span></li>{% endfor %}</ul>
+        </div>
+        {% endif %}
+      </div>
     </article>
     {% endfor %}
   </div>
@@ -121,7 +127,7 @@
 
     <h3 class="sub" id="openings">Open positions</h3>
     <div class="openings">
-      {% for o in people.openings %}<div class="open{% if o.skills %} wide{% endif %}"><b>{{ o.title }}</b><span>{{ o.text }}</span>{% if o.skills %}<ul class="skills">{% for sk in o.skills %}<li>{{ sk }}</li>{% endfor %}</ul>{% endif %}{% if o.note %}<span class="plus">{{ o.note }}</span>{% endif %}</div>{% endfor %}
+      {% for o in people.openings %}<div class="open{% if o.skills %} wide{% endif %}"><b>{{ o.title }}</b><span>{{ o.text }}</span>{% if o.skills %}<ul class="skills">{% for sk in o.skills %}<li>{{ sk }}</li>{% endfor %}</ul>{% endif %}{% if o.note %}<span class="plus">{{ o.note }}</span>{% endif %}{% if o.start %}<span class="start"><b>Start date:</b> {{ o.start }}</span>{% endif %}{% for l in o.links %}<a class="open-link" href="{{ l.url }}">{{ l.label }} →</a>{% endfor %}</div>{% endfor %}
     </div>
     <p class="apply">To apply, email <span class="sel">{{ site.contact.email }}</span> with your CV and the position you are interested in.</p>
 
@@ -152,6 +158,17 @@
     </div>
   </div>
 </section>
+{% if site.funders %}
+<section class="s gut funders" aria-labelledby="fund-h">
+  <div class="col">
+    <span class="kicker">Support</span>
+    <h2 id="fund-h">Funders and sponsors</h2>
+    <ul class="funder-list">
+      {% for f in site.funders %}<li>{% if f.url %}<a href="{{ f.url }}">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}{% if f.note %}<span>{{ f.note }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
 </main>
 
 <footer class="gut">

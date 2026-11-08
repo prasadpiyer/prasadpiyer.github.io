@@ -23,8 +23,13 @@ openings:
       - Nanofabrication of metasurfaces and artificial spin ice
       - "Quantum optical sources: single-photon sources and photon-pair generation"
     note: Experience with AI/ML methods is a plus, but not required.
+    start: As soon as February 2, 2027
   - title: Two PhD students
     text: Through the CUNY Graduate Center. Send a CV and a short statement of interest.
+    start: As soon as February 2, 2027
+    links:
+      - label: CUNY Graduate Center Physics PhD program
+        url: https://www.gc.cuny.edu/physics
 
 former:
   - name: Dr. Chris Arose

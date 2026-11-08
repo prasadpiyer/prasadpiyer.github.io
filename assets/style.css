@@ -185,3 +185,24 @@ footer .col{display:flex;justify-content:space-between;gap:10px 16px;flex-wrap:w
 /* research program with a full-width labeled figure */
 .proj.wide{grid-template-columns:1fr}
 .proj .figure{width:100%;height:auto;display:block;border-radius:8px;background:#fff;padding:10px;border:1px solid var(--line)}
+
+/* key papers under each research program */
+.keypapers{margin-top:10px;display:grid;gap:4px}
+.kp-label{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.keypapers ul{margin:0;padding-left:1.1em;display:grid;gap:4px;font-size:.9rem;line-height:1.4}
+.keypapers li::marker{color:var(--orange)}
+.keypapers a{color:var(--ink);text-decoration-color:var(--line)}
+.keypapers a:hover{color:var(--accent)}
+.kp-ven{color:var(--muted);font-style:italic;font-size:.85rem}
+
+/* openings extras */
+.open .start{color:var(--ink);font-size:.92rem}
+.open .open-link{font-weight:600;font-size:.92rem;justify-self:start}
+
+/* funders */
+section.funders{padding-top:48px}
+.funder-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px}
+.funder-list li{display:grid;gap:2px;padding:12px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);min-width:0}
+.funder-list a{font-family:var(--f-display);font-weight:700;color:var(--ink);text-decoration:none}
+.funder-list a:hover{color:var(--accent)}
+.funder-list span{font-size:.82rem;color:var(--muted)}

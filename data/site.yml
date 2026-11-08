@@ -24,7 +24,7 @@ contact:
     - 85 St. Nicholas Terrace
     - New York, NY 10031
   map_url: https://www.google.com/maps/search/?api=1&query=CUNY+Advanced+Science+Research+Center
-  email: prasadpiyer@gmail.com
+  email: piyer@gc.cuny.edu
 
 links:
   - label: Google Scholar
@@ -43,3 +43,13 @@ selected_publications:
   - "AutoSciLab: a self-driving laboratory for interpretable scientific discovery"
   - Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces
   - Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces
+
+# Shown at the bottom of the page, below Contact.
+funders:
+  - name: U.S. Department of Energy
+    url: https://www.energy.gov/science/office-science
+    note: Office of Science
+  - name: Sandia National Laboratories
+    url: https://www.sandia.gov
+  - name: Los Alamos National Laboratory
+    url: https://www.lanl.gov

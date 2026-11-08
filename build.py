@@ -50,6 +50,62 @@ def check_publications():
         return 0
 
 
+def _norm(t):
+    t = re.sub(r"\((conference presentation|presentation recording)\)", "", str(t or "").lower())
+    return re.sub(r"[^a-z0-9]", "", t)
+
+
+def load_publications():
+    """publications.json with the "patch" corrections from publications_extra.json applied
+    (the same rule the browser uses), so key papers show corrected venues and links."""
+    try:
+        pubs = json.loads((ROOT / "data" / "publications.json").read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return []
+    try:
+        extras = json.loads((ROOT / "data" / "publications_extra.json").read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        extras = []
+    control = {"patch", "fill", "title", "match_typ", "match_venue", "note", "source"}
+    for x in extras:
+        if not (x.get("patch") or x.get("fill")):
+            continue
+        for p in pubs:
+            if _norm(p.get("title")) != _norm(x.get("title")):
+                continue
+            if x.get("match_typ") and p.get("typ") != x["match_typ"]:
+                continue
+            if x.get("match_venue") and _norm(p.get("venue")) != _norm(x["match_venue"]):
+                continue
+            for k, v in x.items():
+                if k not in control and (x.get("patch") or not str(p.get(k) or "").strip()):
+                    p[k] = v
+    pubs += [x for x in extras if not (x.get("patch") or x.get("fill"))]
+    return pubs
+
+
+def key_papers(titles, pubs):
+    """Resolve the titles listed under `papers:` in research.yml to linked entries."""
+    rank = {"journal": 0, "conference": 1, "preprint": 2}
+    out = []
+    for t in titles or []:
+        hits = sorted((p for p in pubs if _norm(p.get("title")) == _norm(t)),
+                      key=lambda p: rank.get(p.get("typ"), 9))
+        if not hits:
+            print(f"Warning: key paper not found in publications.json: {t[:70]}")
+            continue
+        p = hits[0]
+        doi = str(p.get("doi") or "").strip()
+        url = p.get("url") or (f"https://doi.org/{doi}" if doi else "")
+        venue = re.sub(r"\s+\d+\s*\(.*$", "", str(p.get("venue") or "")).strip()   # drop volume/pages
+        venue = re.sub(r"^arXiv preprint arXiv:.*$", "arXiv preprint", venue)
+        venue = re.sub(r",\s*\d+$", "", venue)                                     # trailing article number
+        venue = re.sub(r"^.*\((NeurIPS) \d{4}\)$", r"\1", venue)                  # "... (NeurIPS 2026)" -> "NeurIPS"
+        out.append({"title": re.sub(r"\s*\((Conference Presentation|Presentation Recording)\)\s*$", "", p["title"]),
+                    "url": url, "venue": venue, "year": p.get("year", "")})
+    return out
+
+
 def main():
     site, people, research = load("site"), load("people"), load("research")
     # newest first; items marked `pinned: true` stay at the top
@@ -71,8 +127,14 @@ def main():
     for n in news:
         n.setdefault("url", "")
         n.setdefault("pinned", False)
+    pubs = load_publications()
     for r in research:
         r.setdefault("image", ""); r.setdefault("alt", ""); r.setdefault("wide", False)
+        r["key_papers"] = key_papers(r.get("papers"), pubs)
+    for o in people.get("openings", []):
+        o.setdefault("start", ""); o.setdefault("links", [])
+    for f in site.setdefault("funders", []):
+        f.setdefault("url", ""); f.setdefault("note", "")
 
     html = env.get_template("index.html.j2").render(
         site=site, people=people, research=research, news=news,
