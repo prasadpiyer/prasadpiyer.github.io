@@ -9,7 +9,7 @@ description: The Light–Matter Information Lab at the CUNY Advanced Science Res
 
 # Headline photo shown beside the headline. Leave empty to show the headline alone.
 # Example: assets/img/asrc-building.jpg (use a photo you have permission to publish).
-hero_image: assets/img/asrc-building.jpg
+hero_image: assets/img/asrc-building-left.jpg
 hero_image_wide: assets/img/asrc-building-wide.jpg   # crop used on phones
 hero_aspect: ""     # optional shape override, e.g. 2/1; default is 4/5 on desktop, 16/10 on phones
 hero_credit: ""   # photo credit, e.g. "Photo: <name>", shown under the image
