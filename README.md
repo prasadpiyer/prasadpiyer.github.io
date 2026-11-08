@@ -1,4 +1,4 @@
-# Light–Matter Information Lab website
+# Light–Matter Intelligence Lab website
 
 A single-page site for the lab at the Photonics Initiative, CUNY Advanced Science Research Center.
 `index.html` is generated from the YAML files in `data/` and is served as-is by GitHub Pages.

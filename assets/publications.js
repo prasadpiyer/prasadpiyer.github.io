@@ -187,7 +187,7 @@
   // ---- BibTeX download, generated from the same data ----
   function bibEsc(s) { return String(s || "").replace(/[{}]/g, "").replace(/&/g, "\\&").replace(/%/g, "\\%"); }
   function downloadBib(all) {
-    var seen = {}, out = ["% Publications of Prasad P. Iyer · Light–Matter Information Lab", ""];
+    var seen = {}, out = ["% Publications of Prasad P. Iyer · Light–Matter Intelligence Lab", ""];
     all.forEach(function (p) {
       var names = String(p.auth || "").split(/\s*,\s*|\s+and\s+/).filter(Boolean);
       var last = names.length ? names[0].split(/\s+/).pop().toLowerCase().replace(/[^a-z]/g, "") : "iyer";

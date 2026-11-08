@@ -1,11 +1,11 @@
 # Site-wide text. Edit, then run `python build.py`.
-name: Light–Matter Information Lab
+name: Light–Matter Intelligence Lab
 short_name: LMI Lab
 pi: Prasad P. Iyer
 affiliation: Photonics Initiative · Advanced Science Research Center · CUNY
 headline: Discovering light–matter interactions driving quantum optical information processing
 lead: We build metasurfaces whose optical response is reconfigured to guide structured transformations of information encoded in light.
-description: The Light–Matter Information Lab at the CUNY Advanced Science Research Center studies metasurfaces, structured quantum light and physical AI.
+description: The Light–Matter Intelligence Lab at the CUNY Advanced Science Research Center studies metasurfaces, structured quantum light and physical AI.
 
 # Headline photo shown beside the headline. Leave empty to show the headline alone.
 # Example: assets/img/asrc-building.jpg (use a photo you have permission to publish).
