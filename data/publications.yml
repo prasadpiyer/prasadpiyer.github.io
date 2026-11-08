@@ -79,7 +79,6 @@
   year: 2026
   kind: paper
   url: https://arxiv.org/abs/2605.24043
-  selected: true
 - title: Simultaneous anti-bunched and super-bunched photons from a GaAs quantum dot in a dielectric metasurface
   authors: S Park, O Mitrofanov, KM Abeywickrama, S Prescott, J Yu, SC Malek et al.
   venue: arXiv preprint arXiv:2603.03186
@@ -113,7 +112,6 @@
   year: 2026
   kind: paper
   url: https://pubs.acs.org/doi/abs/10.1021/acsphotonics.5c02487
-  selected: true
 - title: High speed beam steering with liquid-crystal semiconductor metasurface at visible wavelengths
   authors: C Arose, H Jung, H Yang, Z Nie, Z Shi, C Spaegele, R Landig et al.
   venue: SPIE Advances in Display Technologies XVI
@@ -127,7 +125,6 @@
   year: 2026
   kind: paper
   url: https://pubs.acs.org/journal/nalefd
-  selected: true
 - title: Self-driving lab discovers principles for steering spontaneous emission from metasurfaces
   authors: Prasad P. Iyer
   venue: SPIE Photonics West 2026 - Active Metasurface Devices, San Francisco
@@ -165,7 +162,6 @@
   year: 2025
   kind: paper
   url: https://pubs.acs.org/doi/10.1021/acsnano.5c04424
-  selected: true
 - title: Multicoated tunable optical devices
   authors: GM Akselrod, EE Josberger, PP Iyer
   venue: US Patent Application 19/303,287
@@ -425,6 +421,7 @@
   year: 2020
   kind: paper
   url: https://www.nature.com/articles/s41566-020-0641-x
+  selected: true
 - title: Sidelobe suppression in metasurface devices
   authors: G. M. Akselrod, Prasad P. Iyer, R. D. Uthoff
   venue: US Patent 10,727,601
