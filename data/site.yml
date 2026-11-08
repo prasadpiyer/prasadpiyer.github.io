@@ -1,6 +1,8 @@
 # Site-wide text. Edit, then run `python build.py`.
 name: Light–Matter Intelligence Lab
 short_name: LMI Lab
+url: https://prasadpiyer.github.io/   # public address; change when a custom domain is added
+share_image: assets/img/asrc-building-wide.jpg   # image shown in link previews
 pi: Prasad P. Iyer
 affiliation: Photonics Initiative · Advanced Science Research Center · CUNY
 headline: Discovering light–matter interactions driving quantum optical information processing

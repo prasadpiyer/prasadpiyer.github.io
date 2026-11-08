@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page moved · Light–Matter Intelligence Lab</title>
+<meta name="robots" content="noindex">
+<script>
+  // Old addresses from the previous site go to the matching section of the new one-page site.
+  (function () {
+    var p = location.pathname.toLowerCase();
+    var map = [
+      [/^\/(publications?|publication\/|talks?|talk\/|patents?|cv|cv-json|year-archive)/, "#publications"],
+      [/^\/(lab-members|people|members|lab-users|principal-investigator)/, "#people"],
+      [/^\/(projects?|research|lab-capabilities|lab_capabilities|lab-instruments)/, "#research"],
+      [/^\/(contact|about)/, "#contact"]
+    ];
+    var target = "/";
+    for (var i = 0; i < map.length; i++) if (map[i][0].test(p)) { target = "/" + map[i][1]; break; }
+    location.replace(target);
+  })();
+</script>
+<meta http-equiv="refresh" content="3; url=/">
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+       background:linear-gradient(165deg,#2b2350 0%,#4a2a5c 30%,#8e3a66 55%,#d0603f 78%,#f2b257 100%);color:#fff7ec}
+  main{max-width:34rem;padding:2rem 1.25rem;text-align:center}
+  h1{font-size:1.6rem;margin:0 0 .5rem}
+  a{color:#fff7ec;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <h1>This page has moved</h1>
+  <p>The lab website has a new home. You're being taken to the
+     <a href="/">Light–Matter Intelligence Lab</a> home page.</p>
+</main>
+</body>
+</html>

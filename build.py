@@ -111,7 +111,7 @@ def main():
     # newest first; items marked `pinned: true` stay at the top
     news = sorted(load("news"), key=lambda n: (bool(n.get("pinned")), str(n["date"])), reverse=True)
     scholar = next((l["url"] for l in site["links"] if "Scholar" in l["label"]), "#")
-    site.setdefault("selected_publications", [])
+    site.setdefault("selected_publications", []); site.setdefault("url", ""); site.setdefault("share_image", "")
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=True,
                       undefined=StrictUndefined, trim_blocks=True, lstrip_blocks=True)
@@ -143,6 +143,14 @@ def main():
         build_id=datetime.now().strftime("%Y%m%d%H%M"),
     )
     (ROOT / "index.html").write_text(html, encoding="utf-8")
+    base = str(site.get("url") or "").rstrip("/") + "/"
+    if base != "/":
+        (ROOT / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"  <url><loc>{base}</loc><lastmod>{date.today().isoformat()}</lastmod></url>\n"
+            "</urlset>\n", encoding="utf-8")
+        (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base}sitemap.xml\n", encoding="utf-8")
     n = check_publications()
     print(f"Wrote index.html · {len(news)} news · {n} entries in data/publications.json")
 
