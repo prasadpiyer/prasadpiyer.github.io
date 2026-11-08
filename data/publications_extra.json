@@ -40,6 +40,14 @@
   "source": "Application filed Aug 2025, not yet published; removes a Google Patents search link"
  },
  {
+  "patch": true,
+  "title": "Ultrafast steering with metasurfaces",
+  "match_typ": "conference",
+  "url": "",
+  "doi": "",
+  "source": "Nov 2026 link audit: DOI 10.1117/12.3113652 is not registered (doi.org 404, no Crossref record). Remove this patch once SPIE publishes the proceedings DOI."
+ },
+ {
   "note": "Sandia filings that are not on Google Scholar; these add new rows.",
   "title": "Boltzmann reinforcement for analog Ising networks (BRAIN)",
   "auth": "Aditya Choudhary, Saaketh Desai, Prasad P Iyer",
