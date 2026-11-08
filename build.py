@@ -72,7 +72,7 @@ def main():
         n.setdefault("url", "")
         n.setdefault("pinned", False)
     for r in research:
-        r.setdefault("image", ""); r.setdefault("alt", "")
+        r.setdefault("image", ""); r.setdefault("alt", ""); r.setdefault("wide", False)
 
     html = env.get_template("index.html.j2").render(
         site=site, people=people, research=research, news=news,

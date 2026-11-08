@@ -1,5 +1,6 @@
 # Research programs, in the order they appear.
 # image is optional (for example assets/img/research/quantum.jpg); without one a sunset color tile is shown.
+# wide: true shows the image full width above the text (for labeled figures) instead of a square tile.
 - title: Structured quantum light sources
   text: Quantum light sources whose structure shapes the quantum state they emit. We work with color centers,
     semiconductor quantum dots and photon-pair generation in engineered metasurfaces, where the structure around
@@ -12,8 +13,8 @@
     energy minimization to accelerate computations that limit today's electronic architectures, such as
     optimization and sampling, and build alternative computing hardware from these natural interactions, from
     coupled nanomagnets that compute in memory to photonic Ising machines that search for solutions in parallel.
-  image: assets/img/research/physical-ai.jpg
-  alt: Spatial photonic Ising machine on the optical bench
+  image: assets/img/research/physical-ai-ising-energy-landscape.jpg
+  alt: "Ising machines: an energy landscape whose top and deepest valley correspond to high- and low-energy states of a coupled spin network"
 - title: AI-driven materials science and nanophotonics
   text: Discovering high-dimensional material transformations, captured as process–structure–property
     relationships, is hard for traditional experiments. Our self-driving labs use AI and machine learning to

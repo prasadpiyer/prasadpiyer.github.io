@@ -181,3 +181,7 @@ footer .col{display:flex;justify-content:space-between;gap:10px 16px;flex-wrap:w
   .item{grid-template-columns:1fr;gap:2px}
   nav.top ul{gap:14px;font-size:.88rem}
 }
+
+/* research program with a full-width labeled figure */
+.proj.wide{grid-template-columns:1fr}
+.proj .figure{width:100%;height:auto;display:block;border-radius:8px;background:#fff;padding:10px;border:1px solid var(--line)}
