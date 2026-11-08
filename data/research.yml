@@ -21,5 +21,5 @@
     deformation mechanisms that drive fatigue in nanometals (through MIRAGE, a Sandia-led DOE Office of Science
     project) and discovering molecular or material distributions that can be reconfigured to reveal new
     light–matter interactions.
-  image: assets/img/research/ai-driven-nanophotonics.jpg
-  alt: Ultrafast steering of emission from a metasurface, measured by the self-driving lab
+  image: assets/img/research/ai-driven-self-driving-lab.jpg
+  alt: "Self-driving lab loop: generative exploration designs experiments, ultrafast optics measures a reconfigurable metasurface, and an equation learner interprets the results"
