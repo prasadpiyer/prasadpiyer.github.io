@@ -139,10 +139,14 @@ details.abs p{margin:8px 0 4px;font-size:.92rem;line-height:1.55;color:var(--ink
 .pi .bio{font-size:.97rem}
 .pi .cv{margin-top:10px}
 h3.sub{font-size:1.1rem;margin-block:32px 12px}
-.openings{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.openings{display:grid;grid-template-columns:1fr;gap:12px}
 .open{padding:14px 16px;border-radius:8px;border:1.5px dashed var(--orange);display:grid;gap:4px;align-content:start}
 .open b{font-family:var(--f-display)}
 .open span{color:var(--muted);font-size:.92rem}
+.open.wide{grid-column:1/-1}
+.open .skills{margin:2px 0 0;padding-left:1.15em;display:grid;gap:3px;font-size:.95rem}
+.open .skills li::marker{color:var(--orange)}
+.open .plus{font-style:italic}
 .apply{margin-top:12px;font-size:.95rem;color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:18px}
 .person{display:grid;gap:6px;align-content:start}

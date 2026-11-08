@@ -66,6 +66,8 @@ def main():
             for k in ("photo", "role", "note"):
                 p.setdefault(k, "")
     people["pi"].setdefault("cv_url", "")
+    for o in people.get("openings", []):
+        o.setdefault("skills", []); o.setdefault("note", "")
     for n in news:
         n.setdefault("url", "")
         n.setdefault("pinned", False)

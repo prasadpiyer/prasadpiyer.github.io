@@ -15,10 +15,14 @@ current:
     photo: assets/img/people/vivek-chawla.jpg
 
 openings:
-  - title: "Postdoc: quantum and ultrafast optics"
-    text: Quantum dots, SPDC, pump-probe and single-photon measurements.
-  - title: "Postdoc: nanomagnetics and nanofabrication"
-    text: E-beam lithography, plasmonic nanomagnets, magneto-optics.
+  - title: Two postdoctoral researchers
+    text: "Both positions draw on a shared set of skills. We are looking for expertise in:"
+    skills:
+      - Ultrafast optics
+      - Materials science, including tracking defects during fatigue
+      - Nanofabrication of metasurfaces and artificial spin ice
+      - "Quantum optical sources: single-photon sources and photon-pair generation"
+    note: Experience with AI/ML methods is a plus, but not required.
   - title: Two PhD students
     text: Through the CUNY Graduate Center. Send a CV and a short statement of interest.
 
