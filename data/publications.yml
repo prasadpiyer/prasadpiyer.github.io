@@ -2,146 +2,161 @@
 # Generated from the old site, then kept up to date with tools/import_scholar.py.
 # You can edit entries by hand: set `selected: true` to feature a paper on the page,
 # or add `url:` links. kind is one of: paper, preprint, talk, patent.
-- title: Interpretable neural equation learning for high-dimensional materials data
-  authors: P Jacobson, P Iyer, R Dingreville, S Desai
-  venue: arXiv preprint arXiv:2610.37880
-  date: '2026-10-15'
-  year: 2026
-  kind: preprint
-  url: https://arxiv.org/abs/2610.37880
-- title: Epitaxial displacement-etched GaAsSb quantum dots emitting at telecom wavelengths
-  authors: S Addamane, S Park, QT Campbell, EM Anderson, T Rotter, D Shima et al.
-  venue: arXiv preprint arXiv:2610.24768
-  date: '2026-10-01'
-  year: 2026
-  kind: preprint
-  url: https://arxiv.org/abs/2610.24768
 - title: Uniform hemispherical illumination from a light-emitting concave metalens
-  authors: ED Cadeddu, W Mills, P Pintus, SP DenBaars, S Nakamura, F Quochi et al.
+  authors: Emanuele D. Cadeddu, Wesley Mills, Paolo Pintus, Steve P. DenBaars, Shuji Nakamura, Francesco Quochi, Jon A. Schuller, Prasad P. Iyer
   venue: Metamaterials 2026, 20th International Congress on Artificial Materials for Novel Wave Phenomena
   date: '2026-09-01'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1109/metamaterials70235.2026.11718651
 - title: 'Electric field-induced charge transfer in molecular materials for gigahertz optical modulation: a data-driven and machine learning approach'
-  authors: LM McCaslin, J Arias-Martinez, S Desai, C Arose, P Iyer, N Myllenbeck
+  authors: Laura M. McCaslin, Juan Arias-Martinez, Saaketh Desai, Christopher Arose, Prasad Iyer, Nicholas Myllenbeck
   venue: SPIE Physical Chemistry of Semiconductor Materials and Interfaces XXV
   date: '2026-08-15'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1117/12.3109911
 - title: Spatial photonic Ising machines for tracking material phase transformations
-  authors: A Choudhary, S Desai, T Santiago-Cruz, R Yang, F Léonard et al.
+  authors: Aditya Choudhary, Saaketh Desai, Tomás Santiago-Cruz, Rishi Yang, François Léonard, Remi Dingreville, Prasad Iyer
   venue: SPIE AI and Optical Data Sciences VII
   date: '2026-08-10'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1117/12.3079565
 - title: Ultrafast steering with metasurfaces
-  authors: N Karl, G Subramania, I Brener, P Iyer
+  authors: Nicholas Karl, Ganesh Subramania, Igal Brener, Prasad Iyer
   venue: SPIE Active Photonic Platforms (APP) 2026
   date: '2026-08-01'
   year: 2026
   kind: talk
-- title: 'Materials behavior as mechanism ensembles: a probabilistic framework for emergent behaviors'
-  authors: BL Boyce, MA Wood, K Garikipati, AE Robertson, J Larson, I Srivastava et al.
-  venue: arXiv preprint arXiv:2607.27163
-  date: '2026-07-01'
-  year: 2026
-  kind: preprint
-  url: https://arxiv.org/abs/2607.27163
 - title: Deep generative learning of magnetic frustration in artificial spin ice from magnetic force microscopy images
-  authors: A Neogi, S Mishra, PP Iyer, TM Lu, E Bussmann, S Tretiak, AC Jones et al.
+  authors: Arnab Neogi, Suryakant Mishra, Prasad P. Iyer, Tzu-Ming Lu, Ezra Bussmann, Sergei Tretiak, Andrew C. Jones, Jian-Xin Zhu
   venue: npj Computational Materials
   date: '2026-06-01'
   year: 2026
   kind: paper
-  url: https://arxiv.org/abs/2507.17726
+  url: https://doi.org/10.1038/s41524-026-02124-8
+- title: Boltzmann reinforcement for analog Ising networks (BRAIN)
+  authors: Aditya Choudhary, Saaketh Desai, Prasad P. Iyer
+  venue: US provisional patent application (being filed) · Sandia National Laboratories
+  date: '2026-06-01'
+  year: 2026
+  kind: patent
 - title: Tunable nonlocal metasurface for wavelength-aligned emission from distant quantum dots
-  authors: S Prescott, PP Iyer, S Park, S Malek, J Noh, P Chen, CF Doiron et al.
+  authors: Samuel Prescott, Prasad P. Iyer, Sanghyeok Park, Stephanie Malek, Jiho Noh, Pingping Chen, Chloe F. Doiron, Sadhvikas Addamane, Igal Brener, Oleg Mitrofanov
   venue: 'CLEO 2026: Fundamental Science'
   date: '2026-05-20'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2026.fm4a.6
 - title: Quantum-confined charge carrier funneling for highly efficient single-photon emission from GaAs quantum dots
-  authors: S Park, KM Azizur-Rahman, D Shima, G Balakrishnan, J Yu, H Jung et al.
+  authors: Sanghyeok Park, Khalifa M. Azizur-Rahman, Darryl Shima, Ganesh Balakrishnan, Jaeyeon Yu, Hyunseung Jung, Jasmine J. Mah, Samuel Prescott, Pingping Chen, Sadhvikas Addamane, Douglas Pete, Andrew Mounce, Ting Shan Luk, Prasad P. Iyer, Igal Brener, Oleg Mitrofanov
   venue: 'CLEO 2026: Fundamental Science'
   date: '2026-05-19'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2026.fm2c.2
 - title: Engineering photon statistics from an isolated GaAs quantum dot embedded in a semiconductor metasurface
-  authors: S Park, KM Abeywickrama, J Yu, SC Malek, H Jung, E Renteria et al.
+  authors: Sanghyeok Park, Kusal M. Abeywickrama, Jaeyeon Yu, Stephanie C. Malek, Hyunseung Jung, Emma Renteria, Sadhvikas Addamane, Oleg Mitrofanov, Alisa Javadi, Igal Brener, Prasad P. Iyer
   venue: 'CLEO 2026: Fundamental Science'
   date: '2026-05-18'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2026.fm2c.4
 - title: 'LLM-AutoSciLab: Closed-loop scientific discovery via active experimentation with LLMs'
-  authors: S Kabra, N Abhyankar, S Desai, P Iyer, CK Reddy
+  authors: Sanchit Kabra, Nikhil Abhyankar, Saaketh Desai, Prasad Iyer, Chandan K. Reddy
   venue: Advances in Neural Information Processing Systems (NeurIPS 2026)
   date: '2026-05-15'
   year: 2026
   kind: paper
   url: https://arxiv.org/abs/2605.24043
-- title: Simultaneous anti-bunched and super-bunched photons from a GaAs quantum dot in a dielectric metasurface
-  authors: S Park, O Mitrofanov, KM Abeywickrama, S Prescott, J Yu, SC Malek et al.
-  venue: arXiv preprint arXiv:2603.03186
-  date: '2026-03-01'
-  year: 2026
-  kind: preprint
-  url: https://arxiv.org/abs/2603.03186
-- title: Boltzmann Reinforcement Learning for Noise resilience in Analog Ising Machines
-  authors: Aditya Choudhary, Saaketh Desai, Prasad P Iyer
-  venue: arXiv preprint arXiv:2602.09162
-  date: '2026-02-09'
-  year: 2026
-  kind: preprint
-  url: https://arxiv.org/abs/2602.09162
 - title: Nonlinear terahertz pulse generation and beam structuring with semiconductor metasurfaces
-  authors: O Mitrofanov, S Norman, H Jung, LL Hale, CT Harris, S Addamane et al.
+  authors: Oleg Mitrofanov, Sarah Norman, Hyunseung Jung, Lucy L. Hale, C. Thomas Harris, Sadhvikas Addamane, Chloe F. Doiron, Prasad P. Iyer, Igal Brener
   venue: SPIE Terahertz Photonics IV
   date: '2026-01-28'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1117/12.3100082
 - title: Ultrafast non-reciprocal phase transitions in Kagome spin ice plasmonic metasurfaces
-  authors: S Gupta, LM Martinez, L McClintock, S Mishra, R Khan, T Norden et al.
+  authors: Sakshi Gupta, Luis M. Martinez, Luke McClintock, Suryakant Mishra, Ryan Khan, Tenzin Norden, Remi Dingreville, Andrew C. Jones, Ezra Bussmann, Tzu-Ming Lu, Zubin Jacob, Prashant Padmanabhan, Prasad Iyer
   venue: SPIE Ultrafast Phenomena and Nanophotonics XXX
   date: '2026-01-27'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1117/12.3081420
 - title: Pulse-driven photonic transitions and nonreciprocity in space-time modulated metasurfaces
-  authors: Zeki Hayran, John B Pendry, Prasad P Iyer, Francesco Monticone
+  authors: Zeki Hayran, John B. Pendry, Prasad P. Iyer, Francesco Monticone
   venue: ACS Photonics
   date: '2026-01-26'
   year: 2026
   kind: paper
-  url: https://pubs.acs.org/doi/abs/10.1021/acsphotonics.5c02487
+  url: https://doi.org/10.1021/acsphotonics.5c02487
 - title: High speed beam steering with liquid-crystal semiconductor metasurface at visible wavelengths
-  authors: C Arose, H Jung, H Yang, Z Nie, Z Shi, C Spaegele, R Landig et al.
+  authors: Christopher Arose, Hyunseung Jung, Hyosim Yang, Zhaoyu Nie, Zhimin Shi, Christina Spaegele, Renate Landig, Agus Poerwoprajitno, Darwin Serkland, Dale Huber, Igal Brener, Jim Bonar, Prasad P. Iyer
   venue: SPIE Advances in Display Technologies XVI
   date: '2026-01-26'
   year: 2026
   kind: talk
+  url: https://doi.org/10.1117/12.3081128
 - title: Voltage-Tunable Nonlocal Metasurface for Enhanced Outcoupling of Emission from Quantum Dots
-  authors: Samuel Prescott, Prasad P Iyer, Sanghyeok Park, Stephanie Malek, Jiho Noh, Pingping Chen, Chloe F Doiron, Sadhvikas Addamane, Igal Brener, Oleg Mitrofanov
+  authors: Samuel Prescott, Prasad P. Iyer, Sanghyeok Park, Stephanie Malek, Jiho Noh, Pingping Chen, Chloe F. Doiron, Sadhvikas Addamane, Igal Brener, Oleg Mitrofanov
   venue: Nano Letters
   date: '2026-01-20'
   year: 2026
   kind: paper
-  url: https://pubs.acs.org/journal/nalefd
+  url: https://doi.org/10.1021/acs.nanolett.5c04834
 - title: Self-driving lab discovers principles for steering spontaneous emission from metasurfaces
   authors: Prasad P. Iyer
-  venue: SPIE Photonics West 2026 - Active Metasurface Devices, San Francisco
+  venue: SPIE Photonics West 2026, High Contrast Metastructures XV (invited)
   date: '2026-01-20'
   year: 2026
   kind: talk
   invited: true
-  url: https://spie.org/photonics-west/presentation/Self-driving-lab-discovers-principles-for-steering-spontaneous-emission/13910-13
+  url: https://doi.org/10.1117/12.3081374
 - title: Learning interpretable surface elasticity properties from bulk properties via neural network equation learners
   authors: Saaketh Desai, Prasad Iyer, Remi Dingreville
   venue: International Journal of Mechanical Sciences, 111218
   date: '2026-01-09'
   year: 2026
   kind: paper
-  url: https://www.sciencedirect.com/science/article/pii/S0020740325001596
+  url: https://doi.org/10.1016/j.ijmecsci.2026.111218
+- title: Interpretable neural equation learning for high-dimensional materials data
+  authors: Philip Jacobson, Prasad Iyer, Remi Dingreville, Saaketh Desai
+  venue: ''
+  date: '2026-01-01'
+  year: 2026
+  kind: paper
+  url: https://arxiv.org/abs/2610.37880
+- title: Epitaxial displacement-etched GaAsSb quantum dots emitting at telecom wavelengths
+  authors: Sadhvikas Addamane, Sanghyeok Park, Quinn T. Campbell, Evan M. Anderson, Thomas Rotter, Darryl Shima, Julia Deitz, Paul Kotula, Ganesh Balakrishnan, Oleg Mitrofanov, Igal Brener, Prasad P. Iyer
+  venue: ''
+  date: '2026-01-01'
+  year: 2026
+  kind: paper
+  url: https://arxiv.org/abs/2610.24768
+- title: 'Materials behavior as mechanism ensembles: a probabilistic framework for emergent behaviors'
+  authors: Brad L. Boyce, Mitchell A. Wood, Krishna Garikipati, Andreas E. Robertson, Jeffrey Larson, Ishan Srivastava, Bert Debusschere, Saaketh Desai, Prasad Iyer, Pieterjan Robbe, Mathew Cherukara, Todd Munson, Ming Du, Trupti Mohanty, David J. Gardner, Laurent Capolungo, Benjamin A. Jasperson, Jingye Tan, Rémi Dingreville
+  venue: ''
+  date: '2026-01-01'
+  year: 2026
+  kind: paper
+  url: https://arxiv.org/abs/2607.27163
+- title: Simultaneous anti-bunched and super-bunched photons from a GaAs quantum dot in a dielectric metasurface
+  authors: Sanghyeok Park, Oleg Mitrofanov, Kusal M. Abeywickrama, Samuel Prescott, Jaeyeon Yu, Stephanie C. Malek, Hyunseung Jung, Emma Renteria, Sadhvikas Addamane, Alisa Javadi, Igal Brener, Prasad P. Iyer
+  venue: ''
+  date: '2026-01-01'
+  year: 2026
+  kind: paper
+  url: https://arxiv.org/abs/2603.03186
+- title: Boltzmann Reinforcement Learning for Noise resilience in Analog Ising Machines
+  authors: Aditya Choudhary, Saaketh Desai, Prasad Iyer
+  venue: ''
+  date: '2026-01-01'
+  year: 2026
+  kind: paper
+  url: https://arxiv.org/abs/2602.09162
 - title: Self-driving lab discovers principles for steering spontaneous emission beyond conventional Fourier optics
-  authors: S. Desai, S. Addamane, J.Y. Tsao, I. Brener, R. Dingreville, P.P. Iyer
+  authors: Saaketh Desai, Sadhvikas Addamane, Jeffrey Y. Tsao, Igal Brener, Remi Dingreville, Prasad P. Iyer
   venue: Nature Communications 17 (1), 204
   date: '2025-12-15'
   year: 2025
@@ -149,19 +164,19 @@
   url: https://www.nature.com/articles/s41467-025-66916-0
   selected: true
 - title: 'Advancing microelectronics through nanoscale science: A perspective on needs and opportunities from the nanoscale science research centers'
-  authors: Adelaide Bradicich, Christopher R Allemang, Sadhvikas Addamane, Stephen D House, Aiping Chen, Jinkyoung Yoo, Ezra Bussmann, Christopher M Smyth, Petro Maksymovych, Marti Checa, Sabine Neumayer, Ondrej Dyck, Jianguo Wen, Luca Basso, Pauli Kehayias, Andy M Mounce, Chloe F Doiron, Michael Thompson Pettes, Nan Li, Luke Yates, Amun Jarzembski, C Thomas Harris, Chang-Yong Nam, Michael Titze, Lisa Hackett, Akshay Wali, Anirudha V Sumant, Prasad Iyer, Wei Pan, Chris Jozwiak, Ricardo Ruiz, Remi Dingreville, Jeffrey S Nelson, Tzu-Ming Lu
+  authors: Adelaide Bradicich, Christopher R. Allemang, Sadhvikas Addamane, Stephen D. House, Aiping Chen, Jinkyoung Yoo, Ezra Bussmann, Christopher M. Smyth, Petro Maksymovych, Marti Checa, Sabine Neumayer, Ondrej Dyck, Jianguo Wen, Luca Basso, Pauli Kehayias, Andy M. Mounce, Chloe F. Doiron, Michael Thompson Pettes, Nan Li, Luke Yates, Amun Jarzembski, C. Thomas Harris, Chang-Yong Nam, Michael Titze, Lisa Hackett, Akshay Wali, Anirudha V. Sumant, Prasad Iyer, Wei Pan, Chris Jozwiak, Ricardo Ruiz, Remi Dingreville, Jeffrey S. Nelson, Tzu-Ming Lu
   venue: Applied Physics Reviews 12 (4)
   date: '2025-12-01'
   year: 2025
   kind: paper
-  url: https://pubs.aip.org/aip/apr/article/12/4/040901/3333691
+  url: https://doi.org/10.1063/5.0283106
 - title: High-Q, Size-Independent, and Reconfigurable Optical Antennas Embedded in Zero-Index Cavities
   authors: Prasad P. Iyer, Mihir Pendharkar, Anchal Agarwal, Humberto Foronda, Micheal Iza, Umesh K. Mishra, Shuji Nakamura, Steven DenBaars, Stacia Keller, Chris Palmstrøm, Jon A. Schuller
   venue: ACS Nano
   date: '2025-10-07'
   year: 2025
   kind: paper
-  url: https://pubs.acs.org/doi/10.1021/acsnano.5c04424
+  url: https://doi.org/10.1021/acsnano.5c04424
 - title: Multicoated tunable optical devices
   authors: Gleb M. Akselrod, Lie Zhao, Erik E. Josberger, Prasad P. Iyer
   venue: 'US Patent 12,392,967 (continuation: US Application 19/303,287)'
@@ -169,26 +184,27 @@
   year: 2025
   kind: patent
   url: https://patents.google.com/patent/US12392967B2
-- title: Is Computing with Light All You Need? A Perspective on
-  authors: Prasad P. Iyer, Gaurang R. Bhatt, Saaketh Desai, Elliot J. Fuller, Corinne M. Teeter,
+- title: Is Computing with Light All You Need? A Perspective on Codesign for Optical Artificial Intelligence and Scientific Computing
+  authors: Prasad P. Iyer, Gaurang R. Bhatt, Saaketh Desai, Elliot J. Fuller, Corinne M. Teeter, François Léonard, Craig M. Vineyard
   venue: Advanced Intelligent Systems
   date: '2025-08-08'
   year: 2025
   kind: paper
   url: https://doi.org/10.1002/aisy.202500371
 - title: Efficient single-photon emission via quantum-confined charge funneling to quantum dots
-  authors: Sanghyeok Park, K. M. Azizur-Rahman, D. Shima, G. Balakrishnan, J. Yu, H. Jung, Prasad P. Iyer, I. Brener, O. Mitrofanov
+  authors: Sanghyeok Park, Khalifa M. Azizur-Rahman, Darryl Shima, Ganesh Balakrishnan, Jaeyeon Yu, Hyunseung Jung, Jasmine J. Mah, Samuel Prescott, Pingping Chen, Sadhvikas Addamane, Douglas Pete, Andrew Mounce, Ting Shan Luk, Prasad P. Iyer, Igal Brener, Oleg Mitrofanov
   venue: Communications Materials
   date: '2025-07-22'
   year: 2025
   kind: paper
-  url: https://www.nature.com/articles/s43246-025-00756-x
+  url: https://doi.org/10.1038/s43246-025-01017-5
 - title: Enhancing photon outcoupling from metasurface-embedded single quantum emitters
-  authors: S Prescott, PP Iyer, S Addamane, H Jung, J Yu, I Brener, O Mitrofanov
+  authors: Samuel Prescott, Prasad P. Iyer, Sadhvikas Addamane, Hyunseung Jung, Jaeyeon Yu, Igal Brener, Oleg Mitrofanov
   venue: European Quantum Electronics Conference (EQEC) 2025
   date: '2025-06-25'
   year: 2025
   kind: talk
+  url: https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111413
 - title: Orchestrating Spontaneous Emission With Metasurfaces- Recent Advances in Engineering Thermal, Luminescent, and Quantum Emissions
   authors: Hyosim Yang, Wesley Mills, Sathwik Bharadwaj, Saaketh Desai, Tomás Santiago-Cruz, Samuel Prescott, Oleg Mitrofanov, Igal Brener, Jon Schuller, Zubin Jacob, Prasad P. Iyer
   venue: Advanced Optical Materials (Invited)
@@ -197,13 +213,14 @@
   kind: paper
   url: https://doi.org/10.1002/adom.202402755
 - title: Autonomous machine-learning framework for interpretable scientific discovery in ultrafast nanophotonics
-  authors: S Desai, S Addamane, J Tsao, L Swiler, R Dingreville, I Brener, PP Iyer
+  authors: Saaketh Desai, Sadhvikas Addamane, Jeffrey Tsao, Laura Swiler, Remi Dingreville, Igal Brener, Prasad P. Iyer
   venue: CLEO 2025
   date: '2025-05-05'
   year: 2025
   kind: talk
+  url: https://doi.org/10.1364/cleo_si.2025.ss150_8
 - title: 'AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery'
-  authors: S Desai, S Addamane, JY Tsao, I Brener, LP Swiler, R Dingreville, Prasad P. Iyer
+  authors: Saaketh Desai, Sadhvikas Addamane, Jeffrey Y. Tsao, Igal Brener, Laura P. Swiler, Remi Dingreville, Prasad P. Iyer
   venue: Proceedings of the AAAI Conference on Artificial Intelligence 39 (1), 146-154
   date: '2025-04-11'
   year: 2025
@@ -216,73 +233,78 @@
   date: '2025-04-01'
   year: 2025
   kind: patent
-- title: Mie metasurfaces for enhancing photon outcoupling from single embedded quantum
-  authors: Samuel Prescott , Prasad P. Iyer , Sadhvikas Addamane , Hyunseung Jung , Ting S. Luk , Igal Brener and Oleg Mitrofanov
+- title: Mie metasurfaces for enhancing photon outcoupling from single embedded quantum emitters
+  authors: Samuel Prescott, Prasad P. Iyer, Sadhvikas Addamane, Hyunseung Jung, Ting S. Luk, Igal Brener, Oleg Mitrofanov
   venue: Nanophotonics 14 (11), 1917-1925
   date: '2025-01-01'
   year: 2025
   kind: paper
-  url: https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2024-0300/html
+  url: https://doi.org/10.1515/nanoph-2024-0300
 - title: Dielectric Metasurface for Broadband Excitonic State Control in GaAs Quantum Dots
-  authors: Sanghyeok Park, Kalani M Abeywickrama, Jingyang Yu, Hyunseung Jung, Edgar Renteria, Sadhvikas Addamane, Prasad P. Iyer, Igal Brener, Oleg Mitrofanov
+  authors: Sanghyeok Park, Kusal M. Abeywickrama, Jaeyeon Yu, Hyunseung Jung, Emma Renteria, Sadhvikas Addamane, Oleg Mitrofanov, Alisa Javadi, Igal Brener, Prasad P. Iyer
   venue: Laser Science, LM5F.3
   date: '2025-01-01'
   year: 2025
   kind: talk
+  url: https://doi.org/10.1364/ls.2025.lm5f.3
 - title: Enhancement of non-classical radiation from quantum dots embedded within semiconductor Huygens' metasurfaces
-  authors: Prasad P Iyer, Samuel Prescott, Sadhvikas Addamane, Hyunseung Jung, Jacob Henshaw, Andrew Mounce, Ting S Luk, Oleg Mitrofanov, and Igal Brener
+  authors: Prasad P. Iyer, Samuel Prescott, Sadhvikas Addamane, Hyunseung Jung, Jacob Henshaw, Andrew Mounce, Ting S. Luk, Oleg Mitrofanov, Igal Brener
   venue: 'CLEO: Fundamental Science'
   date: '2024-05-10'
   year: 2024
   kind: talk
   url: https://opg.optica.org/abstract.cfm?uri=CLEO_FS-2024-FM1F.1
 - title: Self-driving lab discovers high-efficiency directional incoherent emission from reconfigurable semiconductor metasurfaces
-  authors: S Desai, S Addamane, R Dingreville, I Brener, Prasad P. Iyer
+  authors: Saaketh Desai, Sadhvikas Addamane, Remi Dingreville, Igal Brener, Prasad P. Iyer
   venue: Conference on Lasers and Electro-Optics (CLEO)
   date: '2024-05-07'
   year: 2024
   kind: talk
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhDYN_YAAAAJ&citation_for_view=lhDYN_YAAAAJ:G1UMdFYMoxkC
+  url: https://doi.org/10.1364/cleo_fs.2024.ff1j.5
 - title: Control of quantized spontaneous emission from single GaAs quantum dots embedded in Huygens' metasurfaces
-  authors: Prasad P. Iyer, S. Prescott, S. Addamane, H. Jung, E. Renteria, J. Henshaw, A. Mounce, T. S. Luk, O. Mitrofanov, I. Brener
+  authors: Prasad P. Iyer, Samuel Prescott, Sadhvikas Addamane, Hyunseung Jung, Emma Renteria, Jacob Henshaw, Andrew Mounce, Ting S. Luk, Oleg Mitrofanov, Igal Brener
   venue: Nano Letters
   date: '2024-04-15'
   year: 2024
   kind: paper
-  url: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.3c04846
+  url: https://doi.org/10.1021/acs.nanolett.3c04846
 - title: Tunable optical devices with extended-depth tunable dielectric cavities
-  authors: Gleb M. Akselrod, Erik E. Josberger, Laura M. P. Mancera, Lie Zhao, Prasad P. Iyer
+  authors: Gleb M. Akselrod, Erik Edward Josberger, Laura Maria Pulido Mancera, Linda Gail Conway, Prasad Padmanabha Iyer
   venue: 'US Patent 11,914,266 (continuation: US Application 18/586,991)'
   date: '2024-02-27'
   year: 2024
   kind: patent
-  url: https://patents.google.com/patent/US11914266B2
+  url: https://patents.google.com/patent/US11914266B1
 - title: 'Controlling spontaneous emission from semiconductor metasurfaces: from reconfigurability to single photon sources'
-  authors: PP Iyer
+  authors: Prasad P. Iyer
   venue: SPIE High Contrast Metastructures XIII, PC128970W
   date: '2024-01-30'
   year: 2024
   kind: talk
+  url: https://doi.org/10.1117/12.3001922
 - title: 'AI for Technoscientific Discovery: A Human-Inspired Architecture'
-  authors: J.Y. Tsao , R.G. Abbott, D.C. Crowder, S. Desai, R.P.M. Dingreville, J.E. Fowler,
+  authors: J. Y. Tsao, R. G. Abbott, D. C. Crowder, S. Desai, R. P. M. Dingreville, J. E. Fowler, A. Garland, P. P. Iyer, J. Murdock, S. T. Steinmetz, K. A. Yarritu, C. M. Johnson, D. J. Stracuzzi
   venue: Journal of Creativity
   date: '2024-01-01'
   year: 2024
   kind: paper
-- title: Time Domain Phase Engineering of Metasurfaces Enables Passive Ultrafast Photonic
+  url: https://doi.org/10.1016/j.yjoc.2024.100077
+- title: Time Domain Phase Engineering of Metasurfaces Enables Passive Ultrafast Photonic Streaking
   authors: N. Karl, P. Iyer
   venue: 2024 Conference on Lasers and Electro Optics CLEO 2024
   date: '2024-01-01'
   year: 2024
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2024.ftu4r.7
 - title: Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces
-  authors: L.M. Martinez, P. Padmanabhan, R. Khan, R. Dingreville, E. Bussmann, T.-M.
+  authors: Luis M. Martinez, Ryan Khan, Remi Dingreville, Ezra Bussmann, Tzu-Ming Lu, Prashant Padmanabhan, Prasad P. Iyer
   venue: 2024 Conference on Lasers and Electro Optics CLEO 2024
   date: '2024-01-01'
   year: 2024
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2024.fm3o.5
 - title: Machine learning discovers parsimonious equations governing incoherent emission steering from semiconductor metasurfaces
-  authors: S Desai, R Dingreville, Prasad P. Iyer
+  authors: Saaketh Desai, Remi Dingreville, Prasad P. Iyer
   venue: 'CLEO: Fundamental Science'
   date: '2024-01-01'
   year: 2024
@@ -304,7 +326,7 @@
   url: https://www.nature.com/articles/s41566-023-01172-6
   selected: true
 - title: Lidar systems based on tunable optical metasurfaces
-  authors: Gleb M. Akselrod, Prasad P. Iyer, Ross D. Uthoff
+  authors: Gleb M. Akselrod, Prasad Padmanabha Iyer, Ross D. Uthoff
   venue: US Patents 11,092,675 (2021) and 11,644,546 (2023)
   date: '2023-05-09'
   year: 2023
@@ -312,12 +334,12 @@
   url: https://patents.google.com/patent/US11092675B2
 - title: Reconfigurable light-emitting holographic metasurfaces
   authors: Prasad P. Iyer, Igal Brener, Michael B. Sinclair, Nicholas J. Karl
-  venue: US Patent Application 18/103,595 · Sandia National Laboratories
+  venue: US Patent Application 18/394,682 (pending) · Sandia National Laboratories
   date: '2023-01-31'
   year: 2023
   kind: patent
 - title: Learning Incoherent Light Emission Steering From Metasurfaces Using Generative Models
-  authors: Prasad P. Iyer*, Saaketh Desai*, Sadhvikas Addamane, Remi Dingreville, Igal Brener
+  authors: Prasad P. Iyer, Saaketh Desai, Sadhvikas Addamane, Remi Dingreville, Igal Brener
   venue: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2023
   date: '2023-01-15'
   year: 2023
@@ -329,74 +351,79 @@
   date: '2023-01-01'
   year: 2023
   kind: talk
+  url: https://doi.org/10.1364/cleo_si.2023.sth4m.1
 - title: Photoconductive Metasurfaces for Near-Field Terahertz Sources and Detectors
-  authors: L. Hale, J. Seddon, O. Mitrofanov, H. Jung, R. Sarma, S.D. Gennaro, J. Briscoe,
+  authors: Lucy Hale, Hyunseung Jung, James Seddon, Raktim Sarma, Sylvain D. Gennaro, Jayson Briscoe, C. Thomas Harris, Ting Shan Luk, Prasad Iyer, Sadhvikas J. Addamane, John L. Reno, Igal Brener, Oleg Mitrofanov
   venue: Proceedings of SPIE the International Society for Optical Engineering
   date: '2023-01-01'
   year: 2023
   kind: talk
-- title: Ultrafast reconfigurability of circular dichroism from bound-states-in-the-continuum
-  authors: P.P. Iyer, C.F. Doiron, W.K. Mills, C. Boyd, T.S. Luk, P. Padmanabhan, A.
+  url: https://doi.org/10.1117/12.2681721
+- title: Ultrafast reconfigurability of circular dichroism from bound-states-in-the-continuum metasurfaces
+  authors: Prasad P. Iyer, Luis M. Martinez, Chloe F. Doiron, Wesley K. Mills, Christina Boyd, Ting S. Luk, Michael B. Sinclair, Prashanth Padmanabhan, Alex Cerjan, Igal Brener
   venue: CLEO Fundamental Science CLEO Fs 2023
   date: '2023-01-01'
   year: 2023
   kind: talk
+  url: https://doi.org/10.1364/cleo_fs.2023.fth4d.6
 - title: Terahertz pulse generation with binary phase control in nonlinear InAs metasurface
-  authors: Hyunseung Jung, L. L. Hale, Sylvain D. Gennaro, J. Briscoe, Prasad P. Iyer, C. F. Doiron, C. T. Harris, Igal Brener
+  authors: Hyunseung Jung, Lucy L. Hale, Sylvain D. Gennaro, Jayson Briscoe, Prasad P. Iyer, Chloe F. Doiron, C. Thomas Harris, Ting Shan Luk, Sadhvikas J. Addamane, John L. Reno, Igal Brener, Oleg Mitrofanov
   venue: Nano Letters 22 (22), 9077-9083
   date: '2022-11-01'
   year: 2022
   kind: paper
-  url: https://pubs.acs.org/doi/10.1021/acs.nanolett.2c03456
+  url: https://doi.org/10.1021/acs.nanolett.2c03456
 - title: Tunable optical device configurations and packaging
-  authors: Gleb M. Akselrod, Erik E. Josberger, Mark C. Weidman, Prasad P. Iyer
+  authors: Gleb M. Akselrod, Erik Edward Josberger, Mark C. Weidman, Prasad Padmanabha Iyer
   venue: US Patent 11,487,183
   date: '2022-11-01'
   year: 2022
   kind: patent
-  url: https://patents.google.com/patent/US11487183B2
+  url: https://patents.google.com/patent/US11487183B1
 - title: Chirality control with dielectric metasurfaces
-  authors: WK Mills, P Iyer, I Brener
+  authors: Wesley K. Mills, Prasad Iyer, Igal Brener
   venue: APS Four Corners Section Meeting 2022
   date: '2022-10-01'
   year: 2022
   kind: talk
+  url: https://meetings.aps.org/Meeting/4CS22/Session/B03.5
 - title: Liquid crystal metasurfaces with cross-backplane optical reflectors
-  authors: Gleb M. Akselrod, Erik E. Josberger, Mark C. Weidman, Prasad P. Iyer
+  authors: Gleb M. Akselrod, Erik Edward Josberger, Mark C. Weidman, Prasad Padmanabha Iyer
   venue: US Patent 11,429,008
   date: '2022-08-30'
   year: 2022
   kind: patent
-  url: https://patents.google.com/patent/US11429008B2
+  url: https://patents.google.com/patent/US11429008B1
 - title: Cascaded optical nonlinearities in dielectric metasurfaces
-  authors: Sylvain D. Gennaro, C. F. Doiron, Nicholas Karl, Prasad P. Iyer, D. K. Serkland, Michael B. Sinclair, Igal Brener
+  authors: Sylvain D. Gennaro, Chloe F. Doiron, Nicholas Karl, Prasad P. Iyer, Darwin K. Serkland, Michael B. Sinclair, Igal Brener
   venue: ACS Photonics 9 (3), 1026-1032
   date: '2022-03-01'
   year: 2022
   kind: paper
-  url: https://pubs.acs.org/doi/10.1021/acsphotonics.1c01937
+  url: https://doi.org/10.1021/acsphotonics.1c01937
 - title: Cascaded Second Order Optical Nonlinearities in a Dielectric Metasurface
-  authors: S.D. Gennaro, C. Doiron, N. Karl, P.P. Iyer, M.B. Sinclair, I. Brener
-  venue: Optics Infobase Conference Papers
+  authors: Sylvain D. Gennaro, Chloe Doiron, Nicholas Karl, Prasad P. Iyer, Michael B. Sinclair, Igal Brener
+  venue: 'CLEO 2022: QELS Fundamental Science, FF4N.1'
   date: '2022-01-01'
   year: 2022
   kind: talk
-  url: https://doi.org/10.1364/fio.2021.jth5a.134
+  url: https://doi.org/10.1364/cleo_qels.2022.ff4n.1
 - title: Ultrafast beam steering of photoluminescence from dielectric metasurfaces
-  authors: P.P. Iyer, N. Karl, S.D. Gennaro, S. Addamane, I. Brener, M.B. Sinclair
+  authors: Prasad P. Iyer, Nicholas Karl, Sylvain D. Gennaro, Sadhvikas Addamane, Michael B. Sinclair, Igal Brener
   venue: Optics Infobase Conference Papers
   date: '2022-01-01'
   year: 2022
   kind: talk
   url: https://doi.org/10.1364/cleo_at.2022.jtu5q.6
 - title: Luminescent metalenses for focusing spontaneous emission
-  authors: Y Mohtashami, R DeCrescent, L Heki, P Iyer, N Butakov, M Wong et al.
+  authors: Y. Mohtashami, R. DeCrescent, L. Heki, P. Iyer, N. Butakov, M. Wong, A. Alhassan, W. Mitchell, S. Nakamura, S. DenBaars, J. Schuller
   venue: Metamaterials 2021, 15th International Congress on Artificial Materials for Novel Wave Phenomena
   date: '2021-09-01'
   year: 2021
   kind: talk
+  url: https://doi.org/10.1109/metamaterials52332.2021.9577175
 - title: Light-emitting metalenses and meta-axicons for focusing and beaming of spontaneous emission
-  authors: Y. Mohtashami, R. A. DeCrescent, L. K. Heki, Prasad P. Iyer, N. A. Butakov, M. S. Wong, J. A. Schuller
+  authors: Yahya Mohtashami, Ryan A. DeCrescent, Larry K. Heki, Prasad P. Iyer, Nikita A. Butakov, Matthew S. Wong, Abdullah Alhassan, William J. Mitchell, Shuji Nakamura, Steven P. DenBaars, Jon A. Schuller
   venue: Nature Communications 12 (1), 3591
   date: '2021-06-01'
   year: 2021
@@ -408,8 +435,9 @@
   date: '2021-01-15'
   year: 2021
   kind: talk
+  url: https://community.zemax.com/people-pointers-9/opticstalk-beam-steering-approaches-for-automotive-consumer-lidars-27
 - title: Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces
-  authors: Prasad P. Iyer, R. A. DeCrescent, Y. Mohtashami, G. Lheureux, N. A. Butakov, J. A. Schuller
+  authors: Prasad P. Iyer, Ryan A. DeCrescent, Yahya Mohtashami, Guillaume Lheureux, Nikita A. Butakov, Abdullah Alhassan, Claude Weisbuch, Shuji Nakamura, Steven P. DenBaars, Jon A. Schuller
   venue: Nature Photonics 14 (9), 543-548
   date: '2020-09-01'
   year: 2020
@@ -417,108 +445,115 @@
   url: https://www.nature.com/articles/s41566-020-0641-x
   selected: true
 - title: Sidelobe suppression in metasurface devices
-  authors: Gleb M. Akselrod, Prasad P. Iyer
+  authors: Gleb M. Akselrod, Prasad Padmanabha Iyer
   venue: US Patent 10,727,601
   date: '2020-07-28'
   year: 2020
   kind: patent
-  url: https://patents.google.com/patent/US10727601B2
+  url: https://patents.google.com/patent/US10727601B1
 - title: Widely Tunable Optical and Thermal Properties of Dirac Semimetal Cd3As2
-  authors: H. T. Chorsi, S. Yue, Prasad P. Iyer, M. Goyal, T. Schumann, S. Stemmer, B. Liao, J. A. Schuller
+  authors: Hamid T. Chorsi, Shengying Yue, Prasad P. Iyer, Manik Goyal, Timo Schumann, Susanne Stemmer, Bolin Liao, Jon A. Schuller
   venue: Advanced Optical Materials 8 (8), 1901192
   date: '2020-04-01'
   year: 2020
   kind: paper
-  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/adom.201901192
-- title: 'Light-emitting metasurfaces: A metalens approach for focusing spontaneous'
-  authors: Y. Mohtashami, P.P. Iyer, N.A. Butakov, S. Nakamura, S.P. DenBaars, J.A.
+  url: https://doi.org/10.1002/adom.201901192
+- title: 'Light-Emitting Metasurfaces: A Metalens Approach for Focusing Spontaneous Emission'
+  authors: Yahya Mohtashami, Ryan A. DeCrescent, Prasad P. Iyer, Nikita A. Butakov, William J. Mitchell, Abdullah Alhassan, Shuji Nakamura, Steven P. DenBaars, Jon A. Schuller
   venue: Optics Infobase Conference Papers
   date: '2020-01-01'
   year: 2020
   kind: talk
+  url: https://doi.org/10.1364/cleo_qels.2020.ftu4q.4
 - title: Tunable and reconfigurable high-index semiconductor meta-optics
-  authors: T. Lewi, N.A. Butakov, P.P. Iyer, H. Chorsi, J.A. Schuller, J. Trastoy, J.
+  authors: Tomer Lewi, Nikita A. Butakov, Prasad P. Iyer, Hayden A. Evans, Hamid Chorsi, Juan Trastoy, Javier Del Valle Granda, Ilya Valmianski, Christian Urban, Yoav Kalcheim, Ivan K. Schuller, Jon A. Schuller
   venue: Proceedings of SPIE the International Society for Optical Engineering
   date: '2020-01-01'
   year: 2020
   kind: talk
+  url: https://doi.org/10.1117/12.2545075
 - title: Unidirectional luminescence from InGaN/GaN quantum-well metasurfaces
-  authors: R.A. DeCrescent, P.P. Iyer, Y. Mohtashami, N.A. Butakov, S. Nakamura, S.P.
+  authors: Ryan A. DeCrescent, Prasad P. Iyer, Yahya Mohtashami, Guillaume Lheureux, Nikita A. Butakov, Abdullah Alhassan, Claude Weisbuch, Shuji Nakamura, Steven P. DenBaars, Jon A. Schuller
   venue: Optics Infobase Conference Papers
   date: '2020-01-01'
   year: 2020
   kind: talk
+  url: https://doi.org/10.1364/cleo_qels.2020.ftu4q.6
 - title: 'Topological Dirac semi-metals: a dynamic platform for tunable optical metasurfaces'
-  authors: Hamid Chorsi, Prasad Iyer, Manik Goyal, Timo Schumann, Susanne Stemmer, Jon
+  authors: Hamid T. Chorsi, Prasad P. Iyer, Manik Goyal, Timo Schumann, Susanne Stemmer, Jon A. Schuller
   venue: Optical Components and Materials XVI
   date: '2019-03-01'
   year: 2019
   kind: talk
   url: https://doi.org/10.1117/12.2510408
 - title: III-V Heterojunction Platform for Electrically Reconfigurable Dielectric Metasurfaces
-  authors: Prasad P. Iyer, M. Pendharkar, C. J. Palmstrøm, J. A. Schuller
+  authors: Prasad Padmanabha Iyer, Mihir Pendharkar, Chris J. Palmstrom, Jon A. Schuller
   venue: ACS Photonics
   date: '2019-02-21'
   year: 2019
   kind: paper
-  url: https://pubs.acs.org/doi/10.1021/acsphotonics.9b00178
+  url: https://doi.org/10.1021/acsphotonics.9b00178
 - title: Gate-tunable metafilm absorber based on indium silicon oxide
-  authors: H. Zhao, H.T. Chorsi, P.P. Iyer, J.A. Schuller, J. Klamkin, R. Zhang, W.A.
+  authors: Hongwei Zhao, Ran Zhang, Hamid T. Chorsi, Wesley A. Britton, Yuyao Chen, Prasad P. Iyer, Jon A. Schuller, Luca Dal Negro, Jonathan Klamkin
   venue: Nanophotonics
   date: '2019-01-01'
   year: 2019
   kind: paper
+  url: https://doi.org/10.1515/nanoph-2019-0190
 - title: Thermally Reconfigurable Meta-Optics
-  authors: T. Lewi, N.A. Butakov, P.P. Iyer, D. Higgs, H. Chorsi, J.A. Schuller, H.A.
+  authors: Tomer Lewi, Nikita A. Butakov, Hayden A. Evans, Mark W. Knight, Prasad P. Iyer, David Higgs, Hamid Chorsi, Juan Trastoy, Javier Del Valle Granda, Ilya Valmianski, Christian Urban, Yoav Kalcheim, Paul Y. Wang, Philip WC Hon, Ivan K. Schuller, Jon A. Schuller
   venue: IEEE Photonics Journal
   date: '2019-01-01'
   year: 2019
   kind: paper
+  url: https://doi.org/10.1109/JPHOT.2019.2916161
 - title: Reconfigurable semiconductor Mie-resonant meta-optics
-  authors: T. Lewi, N.A. Butakov, P.P. Iyer, D. Higgs, H. Chorsi, J.A. Schuller, J.
+  authors: Tomer Lewi, Nikita A. Butakov, Prasad P. Iyer, Hayden A. Evans, David Higgs, Hamid Chorsi, Juan Trastoy, Javier Del Valle Granda, Ilya Valmianski, Christian Urban, Yoav Kalcheim, Paul Y. Wang, Ivan K. Schuller, Jon A. Schuller
   venue: Proceedings of SPIE the International Society for Optical Engineering
   date: '2019-01-01'
   year: 2019
   kind: talk
+  url: https://doi.org/10.1117/12.2528259
 - title: Tunable Metasurface based on Silicon Doped Indium Oxide
-  authors: H. Zhao, H.T. Chorsi, P.P. Iyer, J.A. Schuller, J. Klamkin, R. Zhang, W.
+  authors: Hongwei Zhao, Ran Zhang, Hamid T. Chorsi, Wesley Britton, Yuyao Chen, Prasad P. Iyer, Jon A. Schuller, Luca Dal Negro, Jonathan Klamkin
   venue: Optics Infobase Conference Papers
   date: '2019-01-01'
   year: 2019
   kind: talk
+  url: https://doi.org/10.1364/noma.2019.noth3b.6
 - title: Uniform Thermo-Optic Tunability of Dielectric Metalenses
-  authors: Prasad Iyer, Ryan DeCrescent, Tomer Lewi, Nicholas Antonellis, Jon Schuller
+  authors: Prasad P. Iyer, Ryan A. DeCrescent, Tomer Lewi, Nicholas Antonellis, Jon A. Schuller
   venue: Physical Review Applied
   date: '2018-10-01'
   year: 2018
   kind: paper
   url: https://doi.org/10.1103/PhysRevApplied.10.044029
-- title: Broadband Electrically Tunable Dielectric Resonators Using Metal\u2013Insulator\
-  authors: Nikita Butakov, Mark Knight, Tomer Lewi, Prasad Iyer, David Higgs, Hamid
+- title: Broadband Electrically Tunable Dielectric Resonators Using Metal–Insulator Transitions
+  authors: Nikita A. Butakov, Mark W. Knight, Tomer Lewi, Prasad P. Iyer, David Higgs, Hamid T. Chorsi, Juan Trastoy, Javier Del Valle Granda, Ilya Valmianski, Christian Urban, Yoav Kalcheim, Paul Y. Wang, Philip WC Hon, Ivan K. Schuller, Jon A. Schuller
   venue: ACS Photonics
   date: '2018-09-01'
   year: 2018
   kind: paper
   url: https://doi.org/10.1021/acsphotonics.8b00699
-- title: Electrically Switchable Infrared Nanophotonic Devices with VO&lt;inf&gt;2&lt;/inf&gt;
-  authors: Nikita Butakov, Mark Knight, Tomer Lewi, Prasad Iyer, Hamid Chorsi, Javier
+- title: Electrically Switchable Infrared Nanophotonic Devices with VO₂
+  authors: Nikita A. Butakov, Mark Knight, Tomer Lewi, Prasad P. Iyer, Hamid Chorsi, Javier Del Valle Granda, Yoav Kalchheim, Phillip Hon, Ivan K. Schuller, Jon A. Schuller
   venue: 2018 76th Device Research Conference (DRC)
   date: '2018-06-01'
   year: 2018
   kind: talk
   url: https://doi.org/10.1109/drc.2018.8442148
 - title: Reconfigurable optical metasurfaces
-  authors: PP Iyer
+  authors: Prasad Padmanabha Iyer
   venue: PhD dissertation, University of California, Santa Barbara
   date: '2018-06-01'
   year: 2018
   kind: paper
 - title: Device platform for electrically reconfigurable dielectric metasurfaces
-  authors: P.P. Iyer, M. Pendharkar, C.J. Palmstr?m, J.A. Schuller
-  venue: arXiv preprint arXiv:1903.10280
+  authors: Prasad P. Iyer, Mihir Pendharkar, Chris J. Palmstrøm, Jon A. Schuller
+  venue: ''
   date: '2018-01-01'
   year: 2018
-  kind: preprint
+  kind: paper
   url: https://arxiv.org/abs/1903.10280
 - title: Ultrawide thermal free-carrier tuning of dielectric antennas coupled to epsilon-near-zero substrates
   authors: Prasad P. Iyer, Mihir Pendharkar, N. A. Butakov, A. A. Mikhailovsky, Jon A. Schuller
@@ -526,9 +561,9 @@
   date: '2017-09-01'
   year: 2017
   kind: paper
-  url: https://www.nature.com/articles/s41467-017-00498-8
-- title: Reconfigurable Mie resonators embedded in a tunable ENZ cavity (Conference
-  authors: Prasad Iyer, Chris Palmstr{\o}m, Mihir Pendharkar, Jon Schuller
+  url: https://doi.org/10.1038/s41467-017-00615-3
+- title: Reconfigurable Mie resonators embedded in a tunable ENZ cavity
+  authors: Prasad P. Iyer, Mihir Pendharkar, Chris J. Palmstrom, Jon A. Schuller
   venue: Metamaterials, Metadevices, and Metasystems 2017
   date: '2017-09-01'
   year: 2017
@@ -540,8 +575,9 @@
   date: '2017-01-01'
   year: 2017
   kind: preprint
-- title: Widely tunable infrared semiconductor Mie resonators(Conference Presentation)
-  authors: Tomer Lewi, Prasad Iyer, Nikita Butakov, Alexander Mikhailovsky, Jon Schuller
+  url: https://arxiv.org/abs/1702.01232
+- title: Widely tunable infrared semiconductor Mie resonators
+  authors: Tomer Lewi, Prasad P. Iyer, Nikita A. Butakov, Alexander A. Mikhailovsky, Jon A. Schuller
   venue: Metamaterials, Metadevices, and Metasystems 2016
   date: '2016-11-01'
   year: 2016
@@ -553,46 +589,46 @@
   date: '2016-08-01'
   year: 2016
   kind: paper
-  url: https://onlinelibrary.wiley.com/doi/10.1002/adom.201600345
+  url: https://doi.org/10.1002/adom.201600297
 - title: Beam engineering for selective and enhanced coupling to multipolar resonances
-  authors: Tanya Das, Prasad P. Iyer, Jon A. Schuller
+  authors: Tanya Das, Prasad P. Iyer, Ryan A. DeCrescent, Jon A. Schuller
   venue: Physical Review B
   date: '2015-12-21'
   year: 2015
   kind: paper
-  url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.241110
+  url: https://doi.org/10.1103/PhysRevB.92.241110
 - title: Widely tunable infrared antennas using free carrier refraction
-  authors: T. Lewi, Prasad P. Iyer, N. A. Butakov, A. A. Mikhailovsky, J. A. Schuller
+  authors: Tomer Lewi, Prasad P. Iyer, Nikita A. Butakov, Alexander A. Mikhailovsky, Jon A. Schuller
   venue: Nano Letters 15 (12), 8188-8193
   date: '2015-12-01'
   year: 2015
   kind: paper
-  url: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5b03679
-- title: Dynamically reconfigurable metasurfaces (Presentation Recording)
-  authors: Prasad Iyer, Nikita Butakov, Jon Schuller
+  url: https://doi.org/10.1021/acs.nanolett.5b03679
+- title: Dynamically reconfigurable metasurfaces
+  authors: Prasad P. Iyer, Nikita A. Butakov, Jon A. Schuller
   venue: Metamaterials, Metadevices, and Metasystems 2015
   date: '2015-10-01'
   year: 2015
   kind: talk
   url: https://doi.org/10.1117/12.2187811
-- title: Properties of infrared doped semiconductor Mie resonators (Presentation Recording)
-  authors: Tomer Lewi, Prasad Iyer, Nikita Butakov, Jon Schuller
+- title: Properties of infrared doped semiconductor Mie resonators
+  authors: Tomer Lewi, Prasad P. Iyer, Nikita A. Butakov, Jon A. Schuller
   venue: Metamaterials, Metadevices, and Metasystems 2015
   date: '2015-10-01'
   year: 2015
   kind: talk
   url: https://doi.org/10.1117/12.2187292
 - title: Reconfigurable semiconductor phased-array metasurfaces
-  authors: Prasad P. Iyer, N. A. Butakov, J. A. Schuller
+  authors: Prasad P. Iyer, Nikita A. Butakov, Jon A. Schuller
   venue: ACS Photonics 2 (8), 1077-1084
   date: '2015-08-01'
   year: 2015
   kind: paper
-  url: https://pubs.acs.org/doi/abs/10.1021/acsphotonics.5b00291
+  url: https://doi.org/10.1021/acsphotonics.5b00132
 - title: A brief review of Badger–Bauer rule and its validation from a first-principles approach
-  authors: R. S. Bhatta, Prasad P. Iyer, A. Dhinojwala, M. Tsige
+  authors: Ram S. Bhatta, Prasad P. Iyer, Ali Dhinojwala, Mesfin Tsige
   venue: Modern Physics Letters B 28 (29), 1430014
   date: '2014-06-01'
   year: 2014
   kind: paper
-  url: https://www.worldscientific.com/doi/abs/10.1142/S0217984914300147
+  url: https://doi.org/10.1142/S0217984914300142

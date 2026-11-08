@@ -32,6 +32,11 @@ python build.py
 ```
 
 New papers are added, preprints are upgraded when the published version appears, and anything you edited by hand is kept.
+Author lists cut short with "et al." are filled in automatically; add `--refresh-authors` to replace every author list with the export's full names.
+Sandia/Los Alamos technical reports (`@techreport`) are skipped.
+
+`python build.py` also writes `assets/publications.bib` from `data/publications.yml`; the page links to it as
+"Download all as BibTeX", so the download always matches what the site shows.
 Set `selected: true` on a paper in `data/publications.yml` to feature it under "Selected publications".
 
 ## Images

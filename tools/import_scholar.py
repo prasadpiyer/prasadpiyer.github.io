@@ -78,7 +78,12 @@ def from_bib(path):
         title = clean(f.get("title", ""))
         if not title:
             continue
-        venue = clean(f.get("journal") or f.get("booktitle") or f.get("publisher") or f.get("note") or "")
+        if entry.type == "techreport":
+            continue  # skip Sandia / Los Alamos technical reports
+        venue = clean(f.get("journal") or f.get("booktitle") or f.get("howpublished")
+                      or f.get("publisher") or f.get("note") or "")
+        if entry.type == "phdthesis":
+            venue = "PhD dissertation, " + clean(f.get("school", ""))
         year = f.get("year", "")
         e = {
             "title": title,
@@ -111,12 +116,18 @@ def find(existing, new):
     best, best_score = None, 0.0
     for e in existing:
         score = 1.0 if norm(e["title"]) == key else SequenceMatcher(None, norm(e["title"]), key).ratio()
+        if group(e.get("kind")) == group(new["kind"]):
+            score += 0.01  # prefer a same-kind match when a talk and a paper share a title
         if score > best_score:
             best, best_score = e, score
     return best if best_score >= 0.88 else None
 
 
-def merge(existing, incoming):
+def n_authors(s):
+    return len([a for a in (s or "").split(",") if a.strip()])
+
+
+def merge(existing, incoming, refresh_authors=False):
     added, updated = [], []
     for new in incoming:
         old = find(existing, new)
@@ -127,6 +138,13 @@ def merge(existing, incoming):
         if group(old.get("kind")) != group(new["kind"]):
             continue  # same title as a talk/patent we already list; leave it alone
         changed = False
+        # Replace an author list that was cut short ("et al.") or, on request, any list,
+        # when the export has at least as many names.
+        if new.get("authors") and new["authors"] != old.get("authors") and (
+                refresh_authors or "et al" in (old.get("authors") or "")) and \
+                n_authors(new["authors"]) >= n_authors((old.get("authors") or "").replace(" et al.", "")):
+            old["authors"] = new["authors"]
+            changed = True
         if old.get("kind") == "preprint" and new["kind"] == "paper":
             old["kind"], old["venue"] = "paper", new["venue"]
             if new.get("year"):
@@ -146,12 +164,14 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("bibfile", type=Path)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--refresh-authors", action="store_true",
+                    help="replace author lists with the export's full names")
     args = ap.parse_args()
 
     text = DATA.read_text(encoding="utf-8")
     header = "".join(l for l in text.splitlines(keepends=True) if l.startswith("#"))
     existing = yaml.safe_load(text) or []
-    added, updated = merge(existing, from_bib(args.bibfile))
+    added, updated = merge(existing, from_bib(args.bibfile), args.refresh_authors)
 
     for e in added:
         print(f"+ {e['kind']:8} {e.get('year') or '----'}  {e['title'][:90]}")

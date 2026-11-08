@@ -16,7 +16,51 @@ from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
-PI_NAMES = re.compile(r"(Prasad\s+(?:P\.?\s+|Padmanabha\s+)?Iyer|P\.\s*P\.\s*Iyer|Iyer,\s*P(?:rasad)?\.?\s*P?\.?)")
+PI_NAMES = re.compile(r"(Prasad\s+(?:P\.?\s+|Padmanabha\s+)?Iyer|P\.\s*P\.\s*Iyer|\bPP\s+Iyer|\bP\.\s+Iyer|Iyer,\s*P(?:rasad)?\.?\s*P?\.?)")
+FULL_PAPER_VENUES = ("aaai", "neurips", "neural information processing", "wacv", "computer vision")
+
+
+def bib_escape(s):
+    return str(s).replace("&", r"\&").replace("%", r"\%").replace("{", "").replace("}", "")
+
+
+def to_bibtex(pubs):
+    """Write the site's own list as BibTeX, so the download always matches the page."""
+    seen, out = set(), ["% Light–Matter Information Lab · publications of Prasad P. Iyer",
+                        f"% Generated from the lab website on {date.today().isoformat()}", ""]
+    for p in sorted(pubs, key=lambda p: str(p.get("date") or ""), reverse=True):
+        authors = [a.strip() for a in (p.get("authors") or "").split(",") if a.strip()]
+        last = re.sub(r"[^a-z]", "", (authors[0].split()[-1] if authors else "iyer").lower())
+        word = next((w for w in re.findall(r"[a-z]+", p["title"].lower()) if len(w) > 3), "work")
+        key = f"{last}{p.get('year') or ''}{word}"
+        while key in seen:
+            key += "b"
+        seen.add(key)
+        venue, kind, v = p.get("venue") or "", p.get("kind"), (p.get("venue") or "").lower()
+        fields = [("title", p["title"]), ("author", " and ".join(authors)), ("year", p.get("year") or "")]
+        if kind == "patent":
+            etype = "misc"; fields.append(("howpublished", venue))
+        elif kind == "talk":
+            etype = "inproceedings"; fields.append(("booktitle", venue))
+        elif kind == "preprint":
+            etype = "misc"; fields.append(("howpublished", venue))
+            m = re.search(r"arxiv\.org/abs/([\w.\-/]+)", p.get("url") or "")
+            if m:
+                fields += [("eprint", m.group(1)), ("archivePrefix", "arXiv")]
+        elif "dissertation" in v:
+            etype = "phdthesis"; fields.append(("school", venue.split(",", 1)[-1].strip()))
+        elif any(h in v for h in FULL_PAPER_VENUES):
+            etype = "inproceedings"; fields.append(("booktitle", venue))
+        else:
+            etype = "article"; fields.append(("journal", venue))
+        url = p.get("url") or ""
+        if url.startswith("https://doi.org/"):
+            fields.append(("doi", url[len("https://doi.org/"):]))
+        if url:
+            fields.append(("url", url))
+        body = ",\n".join(f"  {k} = {{{bib_escape(val)}}}" for k, val in fields if val != "")
+        out.append(f"@{etype}{{{key},\n{body}\n}}\n")
+    return "\n".join(out)
 
 
 def load(name):
@@ -82,6 +126,7 @@ def main():
         build_id=datetime.now().strftime("%Y%m%d%H%M"),
     )
     (ROOT / "index.html").write_text(html, encoding="utf-8")
+    (ROOT / "assets" / "publications.bib").write_text(to_bibtex(pubs), encoding="utf-8")
     print(f"Wrote index.html · {len(news)} news · {len(papers)} papers · {len(talks)} talks · {len(patents)} patents")
 
 

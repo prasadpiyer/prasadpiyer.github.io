@@ -5,51 +5,52 @@
   text: The Light–Matter Information Lab will open in January 2027 at the Photonics Initiative of the CUNY Advanced Science Research Center in New York.
 - date: 2026-11
   tag: Paper
-  text: "LLM-AutoSciLab: closed-loop scientific discovery via active experimentation with LLMs is accepted at NeurIPS 2026."
+  text: 'LLM-AutoSciLab: closed-loop scientific discovery via active experimentation with LLMs is accepted at NeurIPS 2026.'
   url: https://arxiv.org/abs/2605.24043
 - date: 2026-02
   tag: Preprint
-  text: "Boltzmann reinforcement learning for noise resilience in analog Ising machines is on arXiv."
+  text: Boltzmann reinforcement learning for noise resilience in analog Ising machines is on arXiv.
   url: https://arxiv.org/abs/2602.09162
 - date: 2026-01
   tag: Paper
-  text: "Pulse-driven photonic transitions and nonreciprocity in space-time modulated metasurfaces is published in ACS Photonics."
-  url: https://pubs.acs.org/doi/abs/10.1021/acsphotonics.5c02487
+  text: Pulse-driven photonic transitions and nonreciprocity in space-time modulated metasurfaces is published in ACS Photonics.
+  url: https://doi.org/10.1021/acsphotonics.5c02487
 - date: 2026-01
   tag: Talk
   text: Invited talk at SPIE Photonics West, San Francisco, on how a self-driving lab discovers principles for steering spontaneous emission.
-  url: https://spie.org/photonics-west/presentation/Self-driving-lab-discovers-principles-for-steering-spontaneous-emission/13910-13
+  url: https://doi.org/10.1117/12.3081374
 - date: 2026-01
   tag: Paper
-  text: "Voltage-tunable nonlocal metasurface for enhanced outcoupling of emission from quantum dots is published in Nano Letters."
+  text: Voltage-tunable nonlocal metasurface for enhanced outcoupling of emission from quantum dots is published in Nano Letters.
+  url: https://doi.org/10.1021/acs.nanolett.5c04834
 - date: 2025-12
   tag: Paper
-  text: "Self-driving lab discovers principles for steering spontaneous emission is published in Nature Communications."
+  text: Self-driving lab discovers principles for steering spontaneous emission is published in Nature Communications.
   url: https://www.nature.com/articles/s41467-025-66916-0
 - date: 2025-10
   tag: Paper
-  text: "High-Q optical antennas embedded in epsilon-near-zero cavities are published in ACS Nano."
-  url: https://pubs.acs.org/doi/10.1021/acsnano.5c04424
+  text: High-Q optical antennas embedded in epsilon-near-zero cavities are published in ACS Nano.
+  url: https://doi.org/10.1021/acsnano.5c04424
 - date: 2025-08
   tag: Paper
-  text: "Perspective on codesign for optical AI and scientific computing is published in Advanced Intelligent Systems."
+  text: Perspective on codesign for optical AI and scientific computing is published in Advanced Intelligent Systems.
   url: https://doi.org/10.1002/aisy.202500371
 - date: 2025-08
   tag: Preprint
-  text: "Deep generative learning of magnetic frustration in artificial spin ice is on arXiv."
+  text: Deep generative learning of magnetic frustration in artificial spin ice is on arXiv.
   url: https://arxiv.org/abs/2507.17726
 - date: 2025-04
   tag: Paper
-  text: "AutoSciLab, a self-driving laboratory for interpretable scientific discovery, appears at AAAI 2025."
+  text: AutoSciLab, a self-driving laboratory for interpretable scientific discovery, appears at AAAI 2025.
   url: https://ojs.aaai.org/index.php/AAAI/article/view/31990
 - date: 2024-10
   tag: Paper
-  text: "Control of quantized spontaneous emission from single GaAs quantum dots in Huygens' metasurfaces is published in Nano Letters."
-  url: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.3c04846
+  text: Control of quantized spontaneous emission from single GaAs quantum dots in Huygens' metasurfaces is published in Nano Letters.
+  url: https://doi.org/10.1021/acs.nanolett.3c04846
 - date: 2024-05
   tag: Talk
-  text: "Two invited talks at CLEO 2024: ultrafast photonic streaking and high-efficiency emission discovered by a self-driving lab."
+  text: 'Two invited talks at CLEO 2024: ultrafast photonic streaking and high-efficiency emission discovered by a self-driving lab.'
 - date: 2023-07
   tag: Paper
-  text: "Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces is a cover article in Nature Photonics."
+  text: Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces is a cover article in Nature Photonics.
   url: https://www.nature.com/articles/s41566-023-01172-6
