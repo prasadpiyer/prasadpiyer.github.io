@@ -40,7 +40,8 @@ former:
     note: Photonic Ising machines · now in India
     photo: assets/img/people/aditya-choudhary.jpg
 
-collaborators:
+# Hidden for now. Rename back to "collaborators:" and rebuild to show this section again.
+collaborators_hidden:
   - name: Rémi Dingreville
     note: Sandia National Laboratories · MIRAGE lead
     photo: assets/img/people/remi-dingreville.jpg

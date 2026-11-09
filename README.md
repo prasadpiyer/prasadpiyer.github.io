@@ -10,7 +10,7 @@ A single-page site for the lab at the Photonics Initiative, CUNY Advanced Scienc
 | Headline, intro, address, links, hiring line, headline photo, featured papers | `data/site.yml` | yes |
 | Latest news and activities | `data/news.yml` (newest first) | yes |
 | Research programs | `data/research.yml` | yes |
-| PI, members, openings, former postdocs, collaborators | `data/people.yml` | yes |
+| PI, members, openings, former postdocs, collaborators (hidden: rename `collaborators_hidden:` to `collaborators:` to show) | `data/people.yml` | yes |
 | **Publications, conference papers, patents, reports, thesis, talks** | **`data/publications.json`** | **no** |
 | Corrections and entries Scholar doesn't have | `data/publications_extra.json` | no |
 
