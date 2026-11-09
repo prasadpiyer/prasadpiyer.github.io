@@ -186,5 +186,9 @@
   </div>
 </footer>
 <script src="assets/publications.js?v={{ build_id }}" defer></script>
+{% if site.goatcounter %}
+<script src="assets/track.js?v={{ build_id }}" defer></script>
+<script data-goatcounter="{{ site.goatcounter }}" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}
 </body>
 </html>

@@ -111,7 +111,7 @@ def main():
     # newest first; items marked `pinned: true` stay at the top
     news = sorted(load("news"), key=lambda n: (bool(n.get("pinned")), str(n["date"])), reverse=True)
     scholar = next((l["url"] for l in site["links"] if "Scholar" in l["label"]), "#")
-    site.setdefault("selected_publications", []); site.setdefault("url", ""); site.setdefault("share_image", "")
+    site.setdefault("selected_publications", []); site.setdefault("url", ""); site.setdefault("share_image", ""); site.setdefault("goatcounter", "")
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=True,
                       undefined=StrictUndefined, trim_blocks=True, lstrip_blocks=True)
