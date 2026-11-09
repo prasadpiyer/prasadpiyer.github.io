@@ -5,5 +5,5 @@
 {% if p.photo %}<img class="{{ cls }}" src="{{ p.photo }}" alt="{{ p.name }}" loading="lazy">{% else %}<div class="{{ cls }} initials" aria-hidden="true">{{ p.name | initials }}</div>{% endif %}
 {%- endmacro -%}
 {%- macro person(p) -%}
-<div class="person">{{ avatar(p, "ph") }}<b>{{ p.name }}</b>{% if p.role %}<span>{{ p.role }}</span>{% endif %}{% if p.note %}<span>{{ p.note }}</span>{% endif %}</div>
+<div class="person">{{ avatar(p, "ph") }}<b>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>{% if p.role %}<span>{{ p.role }}</span>{% endif %}{% if p.note %}<span>{{ p.note }}</span>{% endif %}</div>
 {%- endmacro -%}

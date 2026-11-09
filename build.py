@@ -119,7 +119,7 @@ def main():
     # optional keys may be missing in the YAML; StrictUndefined would reject them
     for group in (people.get("current", []), people.get("former", []), people.get("collaborators", [])):
         for p in group:
-            for k in ("photo", "role", "note"):
+            for k in ("photo", "role", "note", "url"):
                 p.setdefault(k, "")
     people["pi"].setdefault("cv_url", "")
     for o in people.get("openings", []):

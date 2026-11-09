@@ -39,6 +39,7 @@
       var kind = a.classList.contains("chip") ? a.textContent.trim().toLowerCase() : "title";
       return count("paper-" + kind, title);
     }
+    if (a.closest(".person")) return count("person-link", a.textContent.trim());
     if (a.closest(".contact") && /^https?:/.test(href)) return count("profile-" + a.textContent.trim().toLowerCase().replace(/\s+/g, "-"));
   }, true);
 
